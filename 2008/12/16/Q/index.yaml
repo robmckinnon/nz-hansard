@@ -1,0 +1,289 @@
+--- 
+- name: 2008/12/16/Q/001_Ministers-Confidence.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000031-1-Ministers-Confidence.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/7/5/1/49HansQ_20081216_00000031-1-Ministers-Confidence.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "1. Ministers\xE2\x80\x94Confidence"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/002_Government-Spending-Commitments-Funding.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000116-2-Government-Spending-Commitments-Funding.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/4/2/1/49HansQ_20081216_00000116-2-Government-Spending-Commitments-Funding.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "2. Government Spending Commitments\xE2\x80\x94Funding"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/003_Employment-Relations-Amendment-Act-Teachers.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000198-3-Employment-Relations-Amendment-Act-Teachers.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/d/c/2/49HansQ_20081216_00000198-3-Employment-Relations-Amendment-Act-Teachers.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "3. Employment Relations Amendment Act\xE2\x80\x94Teachers"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/004_Accident-Compensation-Increased-Costs.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000267-4-Accident-Compensation-Increased-Costs.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/6/7/7/49HansQ_20081216_00000267-4-Accident-Compensation-Increased-Costs.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "4. Accident Compensation\xE2\x80\x94Increased Costs"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/005_Climate-Change-ACT-Confidence-and-Supply.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000345-5-Climate-Change-ACT-Confidence-and-Supply.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/9/7/d/49HansQ_20081216_00000345-5-Climate-Change-ACT-Confidence-and-Supply.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "5. Climate Change\xE2\x80\x94ACT Confidence and Supply Agreement"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/006_Emissions-Trading-Scheme-Amending-Legislation.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000408-6-Emissions-Trading-Scheme-Amending-Legislation.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/e/e/f/49HansQ_20081216_00000408-6-Emissions-Trading-Scheme-Amending-Legislation.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "6. Emissions Trading Scheme\xE2\x80\x94Amending Legislation"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/007_Housing-Stock-Reports.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000485-7-Housing-Stock-Reports.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/6/c/9/49HansQ_20081216_00000485-7-Housing-Stock-Reports.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "7. Housing Stock\xE2\x80\x94Reports"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/008_Government-Legislation-Referrals-to-Select.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000532-8-Government-Legislation-Referrals-to-Select.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/1/a/9/49HansQ_20081216_00000532-8-Government-Legislation-Referrals-to-Select.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "8. Government Legislation\xE2\x80\x94Referrals to Select Committees"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/009_Electoral-Finance-Act-Repeal.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000585-9-Electoral-Finance-Act-Repeal.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/3/a/a/49HansQ_20081216_00000585-9-Electoral-Finance-Act-Repeal.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "9. Electoral Finance Act\xE2\x80\x94Repeal"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/010_Agriculture-Speech-from-the-Throne.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000656-10-Agriculture-Speech-from-the-Throne.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 10
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/a/c/9/49HansQ_20081216_00000656-10-Agriculture-Speech-from-the-Throne.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "10. Agriculture\xE2\x80\x94Speech from the Throne"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/011_Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000733-11-Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 11
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/d/a/3/49HansQ_20081216_00000733-11-Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "11. Te PuniK\xC5\x8Dkiri\xE2\x80\x94Focus on M\xC4\x81ori Potential"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/012_Incandescent-Light-Bulbs-Ban.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000832-12-Incandescent-Light-Bulbs-Ban.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 12
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/5/c/8/49HansQ_20081216_00000832-12-Incandescent-Light-Bulbs-Ban.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: true
+  parliament_name: "12. Incandescent Light Bulbs\xE2\x80\x94Ban"
+  download_date: 2008-12-16
+- name: 2008/12/16/Q/013_Ministers-Confidence.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000030-1-Ministers-Confidence.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 13
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/8/a/8/49HansQ_20081216_00000030-1-Ministers-Confidence.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "1. Ministers\xE2\x80\x94Confidence"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/014_Government-Spending-Commitments-Funding.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000115-2-Government-Spending-Commitments-Funding.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 14
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/f/3/4/49HansQ_20081216_00000115-2-Government-Spending-Commitments-Funding.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "2. Government Spending Commitments\xE2\x80\x94Funding"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/015_Employment-Relations-Amendment-Act-Teachers.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000197-3-Employment-Relations-Amendment-Act-Teachers.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 15
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/2/8/7/49HansQ_20081216_00000197-3-Employment-Relations-Amendment-Act-Teachers.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "3. Employment Relations Amendment Act\xE2\x80\x94Teachers"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/016_Accident-Compensation-Increased-Costs.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000266-4-Accident-Compensation-Increased-Costs.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 16
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/2/8/d/49HansQ_20081216_00000266-4-Accident-Compensation-Increased-Costs.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "4. Accident Compensation\xE2\x80\x94Increased Costs"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/017_Climate-Change-ACT-Confidence-and-Supply.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000344-5-Climate-Change-ACT-Confidence-and-Supply.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 17
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/f/2/1/49HansQ_20081216_00000344-5-Climate-Change-ACT-Confidence-and-Supply.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "5. Climate Change\xE2\x80\x94ACT Confidence and Supply Agreement"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/018_Emissions-Trading-Scheme-Amending-Legislation.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000406-6-Emissions-Trading-Scheme-Amending-Legislation.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 18
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/7/b/b/49HansQ_20081216_00000406-6-Emissions-Trading-Scheme-Amending-Legislation.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "6. Emissions Trading Scheme\xE2\x80\x94Amending Legislation"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/019_Housing-Stock-Reports.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000482-7-Housing-Stock-Reports.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 19
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/4/1/9/49HansQ_20081216_00000482-7-Housing-Stock-Reports.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "7. Housing Stock\xE2\x80\x94Reports"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/020_Government-Legislation-Referrals-to-Select.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000529-8-Government-Legislation-Referrals-to-Select.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 20
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/3/2/b/49HansQ_20081216_00000529-8-Government-Legislation-Referrals-to-Select.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "8. Government Legislation\xE2\x80\x94Referrals to Select Committees"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/021_Electoral-Finance-Act-Repeal.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000581-9-Electoral-Finance-Act-Repeal.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 21
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/d/5/6/49HansQ_20081216_00000581-9-Electoral-Finance-Act-Repeal.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "9. Electoral Finance Act\xE2\x80\x94Repeal"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/022_Agriculture-Speech-from-the-Throne.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000652-10-Agriculture-Speech-from-the-Throne.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 22
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/9/2/8/49HansQ_20081216_00000652-10-Agriculture-Speech-from-the-Throne.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "10. Agriculture\xE2\x80\x94Speech from the Throne"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/023_Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000729-11-Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 23
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/b/8/c/49HansQ_20081216_00000729-11-Te-PuniK-kiri-Focus-on-M-ori-Potential.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "11. Te PuniK\xC5\x8Dkiri\xE2\x80\x94Focus on M\xC4\x81ori Potential"
+  download_date: 2008-12-23
+- name: 2008/12/16/Q/024_Incandescent-Light-Bulbs-Ban.htm
+  file_name: 2008/12/16/uncorrected/49HansQ_20081216_00000810-12-Incandescent-Light-Bulbs-Ban.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 24
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/0/3/1/49HansQ_20081216_00000810-12-Incandescent-Light-Bulbs-Ban.htm
+  debate_date: 2008-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "12. Incandescent Light Bulbs\xE2\x80\x94Ban"
+  download_date: 2008-12-23
