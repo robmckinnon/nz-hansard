@@ -1,0 +1,145 @@
+--- 
+- name: 2009/02/11/Q/001_Ministers-Confidence.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000036-1-Ministers-Confidence.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/3/b/3/49HansQ_20090211_00000036-1-Ministers-Confidence.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "1. Ministers\xE2\x80\x94Confidence"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/002_Economic-Challenges-Government-Actions.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000091-2-Economic-Challenges-Government-Actions.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/d/1/5/49HansQ_20090211_00000091-2-Economic-Challenges-Government-Actions.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "2. Economic Challenges\xE2\x80\x94Government Actions"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/003_Research-and-Development-Funding-and-KiwiSaver.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000159-3-Research-and-Development-Funding-and-KiwiSaver.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/4/1/8/49HansQ_20090211_00000159-3-Research-and-Development-Funding-and-KiwiSaver.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "3. Research and Development Funding and KiwiSaver Reductions\xE2\x80\x94Treasury Advice"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/004_Infrastructure-Package-Green-collar-Jobs.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000209-4-Infrastructure-Package-Green-collar-Jobs.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/c/9/9/49HansQ_20090211_00000209-4-Infrastructure-Package-Green-collar-Jobs.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "4. Infrastructure Package\xE2\x80\x94Green-collar Jobs"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/005_Corrections-Department-Confidence.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000307-5-Corrections-Department-Confidence.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/5/a/a/49HansQ_20090211_00000307-5-Corrections-Department-Confidence.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "5. Corrections, Department\xE2\x80\x94Confidence"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/006_Schools-Buildings-Projects.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000385-6-Schools-Buildings-Projects.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/3/f/4/49HansQ_20090211_00000385-6-Schools-Buildings-Projects.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "6. Schools\xE2\x80\x94Buildings Projects"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/007_Minimum-Wage-Increase-Real-Income-Gain.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000464-7-Minimum-Wage-Increase-Real-Income-Gain.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/a/6/d/49HansQ_20090211_00000464-7-Minimum-Wage-Increase-Real-Income-Gain.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "7. Minimum Wage Increase\xE2\x80\x94Real Income Gain"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/008_Treaty-of-Waitangi-Settlements-Progress.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000506-8-Treaty-of-Waitangi-Settlements-Progress.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/7/5/6/49HansQ_20090211_00000506-8-Treaty-of-Waitangi-Settlements-Progress.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "8. Treaty of Waitangi Settlements\xE2\x80\x94Progress"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/009_Otago-District-Health-Board-Dismissal.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000561-9-Otago-District-Health-Board-Dismissal.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/b/e/7/49HansQ_20090211_00000561-9-Otago-District-Health-Board-Dismissal.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "9. Otago District Health Board\xE2\x80\x94Dismissal of Chair"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/010_State-Highway-Projects-Acceleration.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000614-10-State-Highway-Projects-Acceleration.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 10
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/8/b/4/49HansQ_20090211_00000614-10-State-Highway-Projects-Acceleration.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "10. State Highway Projects\xE2\x80\x94Acceleration"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/011_Minimum-Wage-Review-Submission.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000677-11-Minimum-Wage-Review-Submission.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 11
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/f/a/c/49HansQ_20090211_00000677-11-Minimum-Wage-Review-Submission.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "11. Minimum Wage Review\xE2\x80\x94Submission"
+  download_date: 2009-02-12
+- name: 2009/02/11/Q/012_Housing-New-Zealand-Corporation-Investment.htm
+  file_name: 2009/02/11/uncorrected/49HansQ_20090211_00000777-12-Housing-New-Zealand-Corporation-Investment.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 12
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/QOA/d/d/7/49HansQ_20090211_00000777-12-Housing-New-Zealand-Corporation-Investment.htm
+  debate_date: 2009-02-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "12. Housing New Zealand Corporation\xE2\x80\x94Investment Benefits"
+  download_date: 2009-02-12
