@@ -1,8 +1,8 @@
 --- 
 - name: 2008/12/17/D/001_Energy-Fuels-Levies-and-References-Biofuel.htm
-  file_name: 2008/12/17/advance/49HansD_20081217_00000001-Energy-Fuels-Levies-and-References-Biofuel.htm
+  file_name: 2008/12/17/final/49HansD_20081217_00000001-Energy-Fuels-Levies-and-References-Biofuel.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/c/7/49HansD_20081217_00000001-Energy-Fuels-Levies-and-References-Biofuel.htm
   debate_date: 2008-12-17
@@ -10,11 +10,11 @@
   persisted_date: 
   persisted: false
   parliament_name: "Energy (Fuels, Levies, and References) Biofuel Obligation Repeal Bill \xE2\x80\x94 Second Reading, In Committee, Third Reading"
-  download_date: 2009-02-10
+  download_date: 2009-02-24
 - name: 2008/12/17/D/002_Electricity-Renewable-Preference-Repeal.htm
-  file_name: 2008/12/17/advance/49HansD_20081217_00001023-Electricity-Renewable-Preference-Repeal.htm
+  file_name: 2008/12/17/final/49HansD_20081217_00001023-Electricity-Renewable-Preference-Repeal.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/e/9/49HansD_20081217_00001023-Electricity-Renewable-Preference-Repeal.htm
   debate_date: 2008-12-17
@@ -22,11 +22,11 @@
   persisted_date: 
   persisted: false
   parliament_name: "Electricity (Renewable Preference) Repeal Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-02-10
+  download_date: 2009-02-24
 - name: 2008/12/17/D/003_Maiden-Statements.htm
-  file_name: 2008/12/17/advance/49HansD_20081217_00001100-Maiden-Statements.htm
+  file_name: 2008/12/17/final/49HansD_20081217_00001100-Maiden-Statements.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/3/6/49HansD_20081217_00001100-Maiden-Statements.htm
   debate_date: 2008-12-17
@@ -34,11 +34,11 @@
   persisted_date: 
   persisted: false
   parliament_name: Maiden Statements
-  download_date: 2009-02-10
+  download_date: 2009-02-24
 - name: 2008/12/17/D/004_Electricity-Renewable-Preference-Repeal.htm
-  file_name: 2008/12/17/advance/49HansD_20081217_00001178-Electricity-Renewable-Preference-Repeal.htm
+  file_name: 2008/12/17/final/49HansD_20081217_00001178-Electricity-Renewable-Preference-Repeal.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/8/0/49HansD_20081217_00001178-Electricity-Renewable-Preference-Repeal.htm
   debate_date: 2008-12-17
@@ -46,4 +46,4 @@
   persisted_date: 
   persisted: false
   parliament_name: "Electricity (Renewable Preference) Repeal Bill \xE2\x80\x94 First Reading, Second Reading, In Committee, Third Reading"
-  download_date: 2009-02-10
+  download_date: 2009-02-24

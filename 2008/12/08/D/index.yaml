@@ -1,37 +1,37 @@
 --- 
 - name: 2008/12/08/D/001_Commission-Opening-of-Parliament.htm
-  file_name: 2008/12/08/advance/49HansD_20081208_00000001-Commission-Opening-of-Parliament.htm
+  file_name: 2008/12/08/final/49HansD_20081208_00000001-Commission-Opening-of-Parliament.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/b/2/49HansD_20081208_00000001-Commission-Opening-of-Parliament.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/c/9/49HansD_20081208_00000001-Commission-Opening-of-Parliament.htm
   debate_date: 2008-12-08
   downloaded: true
   persisted_date: 
-  persisted: true
+  persisted: false
   parliament_name: Commission Opening of Parliament
-  download_date: 2008-12-15
+  download_date: 2009-02-24
 - name: 2008/12/08/D/002_Members-Sworn.htm
-  file_name: 2008/12/08/advance/49HansD_20081208_00000010-Members-Sworn.htm
+  file_name: 2008/12/08/final/49HansD_20081208_00000010-Members-Sworn.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/c/c/49HansD_20081208_00000010-Members-Sworn.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/c/4/49HansD_20081208_00000010-Members-Sworn.htm
   debate_date: 2008-12-08
   downloaded: true
   persisted_date: 
-  persisted: true
+  persisted: false
   parliament_name: Members Sworn
-  download_date: 2008-12-15
+  download_date: 2009-02-24
 - name: 2008/12/08/D/003_Election-of-Speaker.htm
-  file_name: 2008/12/08/advance/49HansD_20081208_00000015-Election-of-Speaker.htm
+  file_name: 2008/12/08/final/49HansD_20081208_00000015-Election-of-Speaker.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/8/8/49HansD_20081208_00000015-Election-of-Speaker.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/6/a/49HansD_20081208_00000015-Election-of-Speaker.htm
   debate_date: 2008-12-08
   downloaded: true
   persisted_date: 
-  persisted: true
+  persisted: false
   parliament_name: Election of Speaker
-  download_date: 2008-12-15
+  download_date: 2009-02-24
