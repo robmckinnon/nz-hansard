@@ -1,97 +1,61 @@
 --- 
-- name: 2008/12/16/D/001_Members-Sworn.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000001-Members-Sworn.htm
+- name: 2008/12/16/D/001_Urgency.htm
+  file_name: 2008/12/16/final/49HansD_20081216_00000864-Urgency.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/f/f/49HansD_20081216_00000001-Members-Sworn.htm
-  debate_date: 2008-12-16
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: Members Sworn
-  download_date: 2009-02-10
-- name: 2008/12/16/D/002_Voting-Correction-Education-National-Standards.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000007-Voting-Correction-Education-National-Standards.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 2
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/c/9/49HansD_20081216_00000007-Voting-Correction-Education-National-Standards.htm
-  debate_date: 2008-12-16
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Voting \xE2\x80\x94 Correction\xE2\x80\x94Education (National Standards) Amendment Bill"
-  download_date: 2009-02-10
-- name: 2008/12/16/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000019-Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/a/2/49HansD_20081216_00000019-Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  debate_date: 2008-12-16
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-02-10
-- name: 2008/12/16/D/004_Urgency.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000795-Urgency.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/c/4/49HansD_20081216_00000795-Urgency.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/1/f/49HansD_20081216_00000864-Urgency.htm
   debate_date: 2008-12-16
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Urgency
-  download_date: 2009-02-10
-- name: 2008/12/16/D/005_Energy-Fuels-Levies-and-References-Biofuel.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000832-Energy-Fuels-Levies-and-References-Biofuel.htm
+  download_date: 2009-02-24
+- name: 2008/12/16/D/002_Energy-Fuels-Levies-and-References-Biofuel.htm
+  file_name: 2008/12/16/final/49HansD_20081216_00000905-Energy-Fuels-Levies-and-References-Biofuel.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 5
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/8/f/49HansD_20081216_00000832-Energy-Fuels-Levies-and-References-Biofuel.htm
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/c/1/49HansD_20081216_00000905-Energy-Fuels-Levies-and-References-Biofuel.htm
   debate_date: 2008-12-16
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Energy (Fuels, Levies, and References) Biofuel Obligation Repeal Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-02-10
-- name: 2008/12/16/D/006_Maiden-Statements.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000851-Maiden-Statements.htm
+  download_date: 2009-02-24
+- name: 2008/12/16/D/003_Maiden-Statements.htm
+  file_name: 2008/12/16/final/49HansD_20081216_00000924-Maiden-Statements.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 6
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/9/8/49HansD_20081216_00000851-Maiden-Statements.htm
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/d/1/49HansD_20081216_00000924-Maiden-Statements.htm
   debate_date: 2008-12-16
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Maiden Statements
-  download_date: 2009-02-10
-- name: 2008/12/16/D/007_Sittings-of-the-House.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000942-Sittings-of-the-House.htm
+  download_date: 2009-02-24
+- name: 2008/12/16/D/004_Sittings-of-the-House.htm
+  file_name: 2008/12/16/final/49HansD_20081216_00001019-Sittings-of-the-House.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 7
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/a/6/49HansD_20081216_00000942-Sittings-of-the-House.htm
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/2/a/49HansD_20081216_00001019-Sittings-of-the-House.htm
   debate_date: 2008-12-16
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Sittings of the House
-  download_date: 2009-02-10
-- name: 2008/12/16/D/008_Energy-Fuels-Levies-and-References-Biofuel.htm
-  file_name: 2008/12/16/advance/49HansD_20081216_00000953-Energy-Fuels-Levies-and-References-Biofuel.htm
+  download_date: 2009-02-24
+- name: 2008/12/16/D/005_Energy-Fuels-Levies-and-References-Biofuel.htm
+  file_name: 2008/12/16/final/49HansD_20081216_00001030-Energy-Fuels-Levies-and-References-Biofuel.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 8
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/1/4/49HansD_20081216_00000953-Energy-Fuels-Levies-and-References-Biofuel.htm
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/5/d/49HansD_20081216_00001030-Energy-Fuels-Levies-and-References-Biofuel.htm
   debate_date: 2008-12-16
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Energy (Fuels, Levies, and References) Biofuel Obligation Repeal Bill \xE2\x80\x94 First Reading, Second Reading"
-  download_date: 2009-02-10
+  download_date: 2009-02-24
