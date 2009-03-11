@@ -1,0 +1,73 @@
+--- 
+- name: 2009/03/04/D/001_Sittings-of-the-House.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00000001-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/e/0/49HansD_20090304_00000001-Sittings-of-the-House.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Sittings of the House
+  download_date: 2009-03-11
+- name: 2009/03/04/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/d/e/49HansD_20090304_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2009-03-11
+- name: 2009/03/04/D/003_General-Debate.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00000757-General-Debate.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/e/4/49HansD_20090304_00000757-General-Debate.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: General Debate
+  download_date: 2009-03-11
+- name: 2009/03/04/D/004_Wanganui-District-Council-Prohibition-of.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00000911-Wanganui-District-Council-Prohibition-of.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/6/3/49HansD_20090304_00000911-Wanganui-District-Council-Prohibition-of.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Wanganui District Council (Prohibition of Gang Insignia) Bill \xE2\x80\x94 Second Reading"
+  download_date: 2009-03-11
+- name: 2009/03/04/D/005_Franklin-District-Council-Contribution-to.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00001030-Franklin-District-Council-Contribution-to.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/0/a/49HansD_20090304_00001030-Franklin-District-Council-Contribution-to.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Franklin District Council (Contribution to Funding of Museums) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2009-03-11
+- name: 2009/03/04/D/006_Minimum-Wage-and-Remuneration-Amendment.htm
+  file_name: 2009/03/04/advance/49HansD_20090304_00001186-Minimum-Wage-and-Remuneration-Amendment.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/d/3/49HansD_20090304_00001186-Minimum-Wage-and-Remuneration-Amendment.htm
+  debate_date: 2009-03-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Minimum Wage and Remuneration Amendment Bill \xE2\x80\x94 In Committee"
+  download_date: 2009-03-11
