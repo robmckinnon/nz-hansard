@@ -1,0 +1,61 @@
+--- 
+- name: 2009/03/12/D/001_Business-Statement.htm
+  file_name: 2009/03/12/advance/49HansD_20090312_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/4/c/49HansD_20090312_00000001-Business-Statement.htm
+  debate_date: 2009-03-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2009-03-18
+- name: 2009/03/12/D/002_Speaker-s-Rulings-Questions-for-Oral-Answer.htm
+  file_name: 2009/03/12/advance/49HansD_20090312_00000025-Speaker-s-Rulings-Questions-for-Oral-Answer.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/2/f/49HansD_20090312_00000025-Speaker-s-Rulings-Questions-for-Oral-Answer.htm
+  debate_date: 2009-03-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Speaker\xE2\x80\x99s Rulings \xE2\x80\x94 Questions for Oral Answer\xE2\x80\x94Ministerial Responsibility"
+  download_date: 2009-03-18
+- name: 2009/03/12/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/03/12/advance/49HansD_20090312_00000069-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/b/4/49HansD_20090312_00000069-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2009-03-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2009-03-18
+- name: 2009/03/12/D/004_Taxation-Business-Tax-Measures-Bill-Second.htm
+  file_name: 2009/03/12/advance/49HansD_20090312_00000758-Taxation-Business-Tax-Measures-Bill-Second.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/e/e/49HansD_20090312_00000758-Taxation-Business-Tax-Measures-Bill-Second.htm
+  debate_date: 2009-03-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Taxation (Business Tax Measures) Bill \xE2\x80\x94 Second Reading"
+  download_date: 2009-03-18
+- name: 2009/03/12/D/005_Insolvency-Amendment-Bill-First-Reading.htm
+  file_name: 2009/03/12/advance/49HansD_20090312_00000941-Insolvency-Amendment-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/8/7/49HansD_20090312_00000941-Insolvency-Amendment-Bill-First-Reading.htm
+  debate_date: 2009-03-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Insolvency Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2009-03-18
