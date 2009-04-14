@@ -1,8 +1,8 @@
 --- 
 - name: 2009/02/11/D/001_Business-of-the-House.htm
-  file_name: 2009/02/11/advance/49HansD_20090211_00000001-Business-of-the-House.htm
+  file_name: 2009/02/11/final/49HansD_20090211_00000001-Business-of-the-House.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/7/0/49HansD_20090211_00000001-Business-of-the-House.htm
   debate_date: 2009-02-11
@@ -10,11 +10,11 @@
   persisted_date: 
   persisted: false
   parliament_name: Business of the House
-  download_date: 2009-02-18
+  download_date: 2009-04-14
 - name: 2009/02/11/D/002_Amended-answers-to-Oral-Questions-Question.htm
-  file_name: 2009/02/11/advance/49HansD_20090211_00000011-Amended-answers-to-Oral-Questions-Question.htm
+  file_name: 2009/02/11/final/49HansD_20090211_00000011-Amended-answers-to-Oral-Questions-Question.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/0/8/49HansD_20090211_00000011-Amended-answers-to-Oral-Questions-Question.htm
   debate_date: 2009-02-11
@@ -22,11 +22,11 @@
   persisted_date: 
   persisted: false
   parliament_name: "Amended answers to Oral Questions \xE2\x80\x94 Question No. 8 to Minister, 10 February"
-  download_date: 2009-02-18
+  download_date: 2009-04-14
 - name: 2009/02/11/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2009/02/11/advance/49HansD_20090211_00000026-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/02/11/final/49HansD_20090211_00000026-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/1/1/49HansD_20090211_00000026-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   debate_date: 2009-02-11
@@ -34,16 +34,16 @@
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-02-18
+  download_date: 2009-04-14
 - name: 2009/02/11/D/004_Address-in-Reply.htm
-  file_name: 2009/02/11/advance/49HansD_20090211_00000746-Address-in-Reply.htm
+  file_name: 2009/02/11/final/49HansD_20090211_00000793-Address-in-Reply.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/8/0/49HansD_20090211_00000746-Address-in-Reply.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/6/2/49HansD_20090211_00000793-Address-in-Reply.htm
   debate_date: 2009-02-11
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Address in Reply
-  download_date: 2009-02-18
+  download_date: 2009-04-14
