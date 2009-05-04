@@ -1,0 +1,49 @@
+--- 
+- name: 2009/04/30/D/001_Business-Statement.htm
+  file_name: 2009/04/30/advance/49HansD_20090430_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/0/b/49HansD_20090430_00000001-Business-Statement.htm
+  debate_date: 2009-04-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2009-05-04
+- name: 2009/04/30/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/04/30/advance/49HansD_20090430_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/a/8/49HansD_20090430_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2009-04-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers, Questions to Members"
+  download_date: 2009-05-04
+- name: 2009/04/30/D/003_Protected-Disclosures-Amendment-Bill-Third.htm
+  file_name: 2009/04/30/advance/49HansD_20090430_00000655-Protected-Disclosures-Amendment-Bill-Third.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/4/a/49HansD_20090430_00000655-Protected-Disclosures-Amendment-Bill-Third.htm
+  debate_date: 2009-04-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Protected Disclosures Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2009-05-04
+- name: 2009/04/30/D/004_Student-Loan-Scheme-Repayment-Bonus-Amendment.htm
+  file_name: 2009/04/30/advance/49HansD_20090430_00000879-Student-Loan-Scheme-Repayment-Bonus-Amendment.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/7/5/49HansD_20090430_00000879-Student-Loan-Scheme-Repayment-Bonus-Amendment.htm
+  debate_date: 2009-04-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Student Loan Scheme (Repayment Bonus) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2009-05-04
