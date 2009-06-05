@@ -1,8 +1,8 @@
 --- 
 - name: 2009/04/08/D/001_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/d/c/49HansD_20090408_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   debate_date: 2009-04-08
@@ -10,124 +10,112 @@
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers, Questions to Members"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/002_Urgent-Debates-Royal-Commission-of-Inquiry.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000820-Urgent-Debates-Royal-Commission-of-Inquiry.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/002_Urgent-Debates-Royal-Commission-on-Auckland.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00000994-Urgent-Debates-Royal-Commission-on-Auckland.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/b/8/49HansD_20090408_00000820-Urgent-Debates-Royal-Commission-of-Inquiry.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/d/e/49HansD_20090408_00000994-Urgent-Debates-Royal-Commission-on-Auckland.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "Urgent Debates \xE2\x80\x94 Royal Commission of Inquiry into Auckland Governance\xE2\x80\x94Government Response"
-  download_date: 2009-04-16
+  parliament_name: "Urgent Debates \xE2\x80\x94 Royal Commission on Auckland Governance\xE2\x80\x94Government Response"
+  download_date: 2009-06-05
 - name: 2009/04/08/D/003_Tabling-of-Documents-ACC-Minister-Statements.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000845-Tabling-of-Documents-ACC-Minister-Statements.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001034-Tabling-of-Documents-ACC-Minister-Statements.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/1/e/49HansD_20090408_00000845-Tabling-of-Documents-ACC-Minister-Statements.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/3/7/49HansD_20090408_00001034-Tabling-of-Documents-ACC-Minister-Statements.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "Tabling of Documents \xE2\x80\x94 ACC, Minister\xE2\x80\x94Statements"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/004_Urgent-Debates-Royal-Commission-of-Inquiry.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000858-Urgent-Debates-Royal-Commission-of-Inquiry.htm
+  parliament_name: "Tabling of Documents \xE2\x80\x94 ACC, Minister\xE2\x80\x94Statements; Urgent Debates \xE2\x80\x94 Royal Commission on Auckland Governance\xE2\x80\x94Government Response"
+  download_date: 2009-06-05
+- name: 2009/04/08/D/004_Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001104-Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/5/7/49HansD_20090408_00000858-Urgent-Debates-Royal-Commission-of-Inquiry.htm
-  debate_date: 2009-04-08
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Urgent Debates \xE2\x80\x94 Royal Commission of Inquiry into Auckland Governance\xE2\x80\x94Government Response"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/005_Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000936-Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 5
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/f/1/49HansD_20090408_00000936-Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/2/7/49HansD_20090408_00001104-Visitors-M-ori-King-Te-Arikinui-Tuheitia.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Visitors \xE2\x80\x94 M\xC4\x81ori King\xE2\x80\x94Te Arikinui Tuheitia"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/006_Valedictory-Statement.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000948-Valedictory-Statement.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/005_Valedictory-Statement.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001116-Valedictory-Statement.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 6
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/7/7/49HansD_20090408_00000948-Valedictory-Statement.htm
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/8/a/49HansD_20090408_00001116-Valedictory-Statement.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Valedictory Statement
-  download_date: 2009-04-16
-- name: 2009/04/08/D/007_Sittings-of-the-House.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000960-Sittings-of-the-House.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/006_Sittings-of-the-House.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001128-Sittings-of-the-House.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 7
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/0/6/49HansD_20090408_00000960-Sittings-of-the-House.htm
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/e/7/49HansD_20090408_00001128-Sittings-of-the-House.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: Sittings of the House
-  download_date: 2009-04-16
-- name: 2009/04/08/D/008_Urgent-Debates-Royal-Commission-of-Inquiry.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000971-Urgent-Debates-Royal-Commission-of-Inquiry.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/007_Urgent-Debates-Royal-Commission-on-Auckland.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001139-Urgent-Debates-Royal-Commission-on-Auckland.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 8
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/3/5/49HansD_20090408_00000971-Urgent-Debates-Royal-Commission-of-Inquiry.htm
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/4/d/49HansD_20090408_00001139-Urgent-Debates-Royal-Commission-on-Auckland.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "Urgent Debates \xE2\x80\x94 Royal Commission of Inquiry into Auckland Governance\xE2\x80\x94Government Response"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/009_General-Debate.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00000990-General-Debate.htm
+  parliament_name: "Urgent Debates \xE2\x80\x94 Royal Commission on Auckland Governance\xE2\x80\x94Government Response"
+  download_date: 2009-06-05
+- name: 2009/04/08/D/008_General-Debate.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001158-General-Debate.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 9
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/5/f/49HansD_20090408_00000990-General-Debate.htm
+  publication_status: F
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/e/b/49HansD_20090408_00001158-General-Debate.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: General Debate
-  download_date: 2009-04-16
-- name: 2009/04/08/D/010_Wanganui-District-Council-Prohibition-of.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00001092-Wanganui-District-Council-Prohibition-of.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/009_Wanganui-District-Council-Prohibition-of.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001264-Wanganui-District-Council-Prohibition-of.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 10
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/e/2/49HansD_20090408_00001092-Wanganui-District-Council-Prohibition-of.htm
+  publication_status: F
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/8/f/49HansD_20090408_00001264-Wanganui-District-Council-Prohibition-of.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Wanganui District Council (Prohibition of Gang Insignia) Bill \xE2\x80\x94 In Committee"
-  download_date: 2009-04-16
-- name: 2009/04/08/D/011_Eden-Park-Trust-Amendment-Bill-First-Reading.htm
-  file_name: 2009/04/08/advance/49HansD_20090408_00001277-Eden-Park-Trust-Amendment-Bill-First-Reading.htm
+  download_date: 2009-06-05
+- name: 2009/04/08/D/010_Eden-Park-Trust-Amendment-Bill-First-Reading.htm
+  file_name: 2009/04/08/final/49HansD_20090408_00001449-Eden-Park-Trust-Amendment-Bill-First-Reading.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 11
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/4/b/49HansD_20090408_00001277-Eden-Park-Trust-Amendment-Bill-First-Reading.htm
+  publication_status: F
+  index_on_date: 10
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/4/9/49HansD_20090408_00001449-Eden-Park-Trust-Amendment-Bill-First-Reading.htm
   debate_date: 2009-04-08
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Eden Park Trust Amendment Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-04-16
+  download_date: 2009-06-05

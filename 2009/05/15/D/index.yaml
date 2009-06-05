@@ -1,0 +1,37 @@
+--- 
+- name: 2009/05/15/D/001_Business-of-the-House.htm
+  file_name: 2009/05/15/advance/49HansD_20090515_00000001-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/5/d/49HansD_20090515_00000001-Business-of-the-House.htm
+  debate_date: 2009-05-15
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2009-06-05
+- name: 2009/05/15/D/002_Speaker-s-Rulings-Member-of-a-Local-Authority.htm
+  file_name: 2009/05/15/advance/49HansD_20090515_00000011-Speaker-s-Rulings-Member-of-a-Local-Authority.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/1/b/49HansD_20090515_00000011-Speaker-s-Rulings-Member-of-a-Local-Authority.htm
+  debate_date: 2009-05-15
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Speaker\xE2\x80\x99s Rulings \xE2\x80\x94 Member of a Local Authority\xE2\x80\x94Declaration of Pecuniary Interest"
+  download_date: 2009-06-05
+- name: 2009/05/15/D/003_Local-Government-Auckland-Reorganisation.htm
+  file_name: 2009/05/15/advance/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/c/7/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm
+  debate_date: 2009-05-15
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Local Government (Auckland Reorganisation) Bill \xE2\x80\x94 In Committee"
+  download_date: 2009-06-05
