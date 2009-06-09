@@ -10,7 +10,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/002_Points-of-Order-Waterview-Connection-Statement.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00000733-Points-of-Order-Waterview-Connection-Statement.htm
   oral_answer: false
@@ -22,7 +22,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Points of Order \xE2\x80\x94 Waterview Connection\xE2\x80\x94Statement by Minister of Transport"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/003_Questions-for-Oral-Answer-Questions-to-Members.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00000786-Questions-for-Oral-Answer-Questions-to-Members.htm
   oral_answer: false
@@ -34,7 +34,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Members"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/004_Urgent-Debates-Declined-Waterview-Connection.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00000929-Urgent-Debates-Declined-Waterview-Connection.htm
   oral_answer: false
@@ -46,7 +46,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Urgent Debates Declined \xE2\x80\x94 Waterview Connection\xE2\x80\x94Announcement of Preferred Option"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/005_General-Debate.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00000975-General-Debate.htm
   oral_answer: false
@@ -58,7 +58,7 @@
   persisted_date: 
   persisted: false
   parliament_name: General Debate
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/006_Points-of-Order-Waterview-Connection-Announcement.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00000987-Points-of-Order-Waterview-Connection-Announcement.htm
   oral_answer: false
@@ -70,7 +70,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Points of Order \xE2\x80\x94 Waterview Connection\xE2\x80\x94Announcement of Preferred Option"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/007_General-Debate.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001042-General-Debate.htm
   oral_answer: false
@@ -82,7 +82,7 @@
   persisted_date: 
   persisted: false
   parliament_name: General Debate
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/008_Points-of-Order-Waterview-Connection-Urgent.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001055-Points-of-Order-Waterview-Connection-Urgent.htm
   oral_answer: false
@@ -94,7 +94,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Points of Order \xE2\x80\x94 Waterview Connection\xE2\x80\x94Urgent Question Declined"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/009_General-Debate.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001075-General-Debate.htm
   oral_answer: false
@@ -106,7 +106,7 @@
   persisted_date: 
   persisted: false
   parliament_name: General Debate
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/010_Urgency.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001305-Urgency.htm
   oral_answer: false
@@ -118,7 +118,7 @@
   persisted_date: 
   persisted: false
   parliament_name: Urgency
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/011_Business-of-Select-Committees-Appointments.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001318-Business-of-Select-Committees-Appointments.htm
   oral_answer: false
@@ -130,7 +130,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "Business of Select Committees \xE2\x80\x94 Appointments"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
 - name: 2009/05/13/D/012_Local-Government-Auckland-Reorganisation.htm
   file_name: 2009/05/13/advance/49HansD_20090513_00001571-Local-Government-Auckland-Reorganisation.htm
   oral_answer: false
@@ -142,4 +142,16 @@
   persisted_date: 
   persisted: false
   parliament_name: "Local Government (Auckland Reorganisation) Bill \xE2\x80\x94 First Reading, Second Reading"
-  download_date: 2009-06-05
+  download_date: 2009-06-09
+- name: 2009/05/13/D/013_Local-Government-Auckland-Reorganisation.htm
+  file_name: 2009/05/13/advance/49HansD_20090513_00001572-Local-Government-Auckland-Reorganisation.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 13
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/a/3/49HansD_20090513_00001572-Local-Government-Auckland-Reorganisation.htm
+  debate_date: 2009-05-13
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Local Government (Auckland Reorganisation) Bill \xE2\x80\x94 First Reading, Second Reading"
+  download_date: 2009-06-09
