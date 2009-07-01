@@ -1,85 +1,85 @@
 --- 
-- name: 2009/04/28/D/001_Resignations-Rt-Hon-Helen-Clark-Member-for.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000001-Resignations-Rt-Hon-Helen-Clark-Member-for.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 1
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/6/e/49HansD_20090428_00000001-Resignations-Rt-Hon-Helen-Clark-Member-for.htm
-  debate_date: 2009-04-28
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Resignations \xE2\x80\x94 Rt Hon Helen Clark, Member for Mt Albert"
-  download_date: 2009-05-01
-- name: 2009/04/28/D/002_Points-of-Order-Sri-Lanka-Leave-to-Move.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000013-Points-of-Order-Sri-Lanka-Leave-to-Move.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 2
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/c/3/49HansD_20090428_00000013-Points-of-Order-Sri-Lanka-Leave-to-Move.htm
-  debate_date: 2009-04-28
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Points of Order \xE2\x80\x94 Sri Lanka\xE2\x80\x94Leave to Move Motion Without Notice"
-  download_date: 2009-05-01
 - name: 2009/04/28/D/003_Ministerial-Statements-Swine-Flu-New-Zealand.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000025-Ministerial-Statements-Swine-Flu-New-Zealand.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000026-Ministerial-Statements-Swine-Flu-New-Zealand.htm
   oral_answer: false
-  publication_status: A
-  index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/d/7/49HansD_20090428_00000025-Ministerial-Statements-Swine-Flu-New-Zealand.htm
+  publication_status: F
+  index_on_date: 3 
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/3/d/49HansD_20090428_00000026-Ministerial-Statements-Swine-Flu-New-Zealand.htm
   debate_date: 2009-04-28
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Ministerial Statements \xE2\x80\x94 Swine Flu\xE2\x80\x94New Zealand Response"
-  download_date: 2009-05-01
+  download_date: 2009-07-01
 - name: 2009/04/28/D/004_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000080-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000081-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/0/b/49HansD_20090428_00000080-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/2/8/49HansD_20090428_00000081-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   debate_date: 2009-04-28
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-05-01
+  download_date: 2009-07-01
 - name: 2009/04/28/D/005_ASEAN-Australia-New-Zealand-Free-Trade-Area.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000722-ASEAN-Australia-New-Zealand-Free-Trade-Area.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000765-ASEAN-Australia-New-Zealand-Free-Trade-Area.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 5
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/8/d/49HansD_20090428_00000722-ASEAN-Australia-New-Zealand-Free-Trade-Area.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/f/1/49HansD_20090428_00000765-ASEAN-Australia-New-Zealand-Free-Trade-Area.htm
   debate_date: 2009-04-28
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "ASEAN-Australia-New Zealand Free Trade Area Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-05-01
+  download_date: 2009-07-01
 - name: 2009/04/28/D/006_Education-Amendment-Bill-First-Reading.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00000838-Education-Amendment-Bill-First-Reading.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000881-Education-Amendment-Bill-First-Reading.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 6
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/8/f/49HansD_20090428_00000838-Education-Amendment-Bill-First-Reading.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/c/7/49HansD_20090428_00000881-Education-Amendment-Bill-First-Reading.htm
   debate_date: 2009-04-28
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Education Amendment Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-05-01
+  download_date: 2009-07-01
 - name: 2009/04/28/D/007_Private-Security-Personnel-and-Private-Investigators.htm
-  file_name: 2009/04/28/advance/49HansD_20090428_00001002-Private-Security-Personnel-and-Private-Investigators.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00001047-Private-Security-Personnel-and-Private-Investigators.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 7
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/e/b/49HansD_20090428_00001002-Private-Security-Personnel-and-Private-Investigators.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/c/f/49HansD_20090428_00001047-Private-Security-Personnel-and-Private-Investigators.htm
   debate_date: 2009-04-28
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Private Security Personnel and Private Investigators Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-05-01
+  download_date: 2009-07-01
+- name: 2009/04/28/D/001_Resignations-Rt-Hon-Helen-Clark-Member-for.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000001-Resignations-Rt-Hon-Helen-Clark-Member-for.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/4/7/49HansD_20090428_00000001-Resignations-Rt-Hon-Helen-Clark-Member-for.htm
+  debate_date: 2009-04-28
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Resignations \xE2\x80\x94 Rt Hon Helen Clark, Member for Mt Albert
+  download_date: 2009-07-01
+- name: 2009/04/28/D/002_Points-of-Order-Sri-Lanka-Leave-to-Move.htm
+  file_name: 2009/04/28/final/49HansD_20090428_00000013-Points-of-Order-Sri-Lanka-Leave-to-Move.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/b/0/49HansD_20090428_00000013-Points-of-Order-Sri-Lanka-Leave-to-Move.htm
+  debate_date: 2009-04-28
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Points of Order \xE2\x80\x94 Sri Lanka\xE2\x80\x94Leave to Move Motion Without Notice
+  download_date: 2009-07-01
