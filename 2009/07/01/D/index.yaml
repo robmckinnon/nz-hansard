@@ -107,27 +107,3 @@
   persisted: false
   parliament_name: Sittings of the House
   download_date: 2009-07-13
-- name: 2009/07/01/D/010_Liquor-Advertising-Television-and-Radio.htm
-  file_name: 2009/07/01/advance/49HansD_20090701_00001265-Liquor-Advertising-Television-and-Radio.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 10
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/2/4/49HansD_20090701_00001265-Liquor-Advertising-Television-and-Radio.htm
-  debate_date: 2009-07-01
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: "Liquor Advertising (Television and Radio) Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-07-13
-- name: 2009/07/01/D/011_Sittings-of-the-House.htm
-  file_name: 2009/07/01/advance/49HansD_20090701_00001329-Sittings-of-the-House.htm
-  oral_answer: false
-  publication_status: A
-  index_on_date: 11
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/e/b/49HansD_20090701_00001329-Sittings-of-the-House.htm
-  debate_date: 2009-07-01
-  downloaded: true
-  persisted_date: 
-  persisted: false
-  parliament_name: Sittings of the House
-  download_date: 2009-07-13
