@@ -10,7 +10,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "1. Economy\xE2\x80\x94Reports"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/002_Treaty-of-Waitangi-Settlements-Progress.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000002-2-Treaty-of-Waitangi-Settlements-Progress.htm
   oral_answer: true
@@ -22,7 +22,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "2. Treaty of Waitangi Settlements\xE2\x80\x94Progress"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/003_Corrections-Contract-Management-of-Prisons.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000003-3-Corrections-Contract-Management-of-Prisons.htm
   oral_answer: true
@@ -34,7 +34,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "3. Corrections (Contract Management of Prisons) Amendment Bill\xE2\x80\x94Reports on Submissions"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/004_Economy-Reports.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000004-4-Economy-Reports.htm
   oral_answer: true
@@ -46,7 +46,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "4. Economy\xE2\x80\x94Reports"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/005_Beneficiaries-Release-of-Personal-Information.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000005-5-Beneficiaries-Release-of-Personal-Information.htm
   oral_answer: true
@@ -58,7 +58,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "5. Beneficiaries\xE2\x80\x94Release of Personal Information"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/006_Government-Expenditure-Increase-Effect.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000006-6-Government-Expenditure-Increase-Effect.htm
   oral_answer: true
@@ -70,7 +70,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "6. Government Expenditure, Increase\xE2\x80\x94Effect on Productivity"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/007_Ministers-Confidence.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000007-7-Ministers-Confidence.htm
   oral_answer: true
@@ -82,7 +82,7 @@
   persisted_date: 
   persisted: false
   parliament_name: "7. Ministers\xE2\x80\x94Confidence"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
 - name: 2009/07/30/Q/008_Declaration-on-the-Rights-of-Indigenous.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000008-8-Declaration-on-the-Rights-of-Indigenous.htm
   oral_answer: true
@@ -94,40 +94,52 @@
   persisted_date: 
   persisted: false
   parliament_name: "8. Declaration on the Rights of Indigenous Peoples\xE2\x80\x94Recognition of M\xC4\x81ori Rights"
-  download_date: 2009-07-30
-- name: 2009/07/30/Q/009_K-p-Bridge-Replacement-Progress.htm
-  file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000010-10-K-p-Bridge-Replacement-Progress.htm
+  download_date: 2009-08-03
+- name: 2009/07/30/Q/009_Health-Improvement-M-ori-Tamariki-and.htm
+  file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000009-9-Health-Improvement-M-ori-Tamariki-and.htm
   oral_answer: true
   publication_status: U
   index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Business/QOA/d/1/3/49HansQ_20090730_00000009-9-Health-Improvement-M-ori-Tamariki-and.htm
+  debate_date: 2009-07-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "9. Health, Improvement\xE2\x80\x94M\xC4\x81ori Tamariki and Wh\xC4\x81nau"
+  download_date: 2009-08-03
+- name: 2009/07/30/Q/010_K-p-Bridge-Replacement-Progress.htm
+  file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000010-10-K-p-Bridge-Replacement-Progress.htm
+  oral_answer: true
+  publication_status: U
+  index_on_date: 10
   parliament_url: http://www.parliament.nz/en-NZ/PB/Business/QOA/1/b/4/49HansQ_20090730_00000010-10-K-p-Bridge-Replacement-Progress.htm
   debate_date: 2009-07-30
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "10. K\xC5\x8Dp\xC5\xAB Bridge Replacement\xE2\x80\x94Progress"
-  download_date: 2009-07-30
-- name: 2009/07/30/Q/010_Workforce-Productivity-Information-and.htm
+  download_date: 2009-08-03
+- name: 2009/07/30/Q/011_Workforce-Productivity-Information-and.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000011-11-Workforce-Productivity-Information-and.htm
   oral_answer: true
   publication_status: U
-  index_on_date: 10
+  index_on_date: 11
   parliament_url: http://www.parliament.nz/en-NZ/PB/Business/QOA/f/8/7/49HansQ_20090730_00000011-11-Workforce-Productivity-Information-and.htm
   debate_date: 2009-07-30
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "11. Workforce Productivity\xE2\x80\x94Information and Technology Industry"
-  download_date: 2009-07-30
-- name: 2009/07/30/Q/011_Medicines-Funding.htm
+  download_date: 2009-08-03
+- name: 2009/07/30/Q/012_Medicines-Funding.htm
   file_name: 2009/07/30/uncorrected/49HansQ_20090730_00000012-12-Medicines-Funding.htm
   oral_answer: true
   publication_status: U
-  index_on_date: 11
+  index_on_date: 12
   parliament_url: http://www.parliament.nz/en-NZ/PB/Business/QOA/f/e/1/49HansQ_20090730_00000012-12-Medicines-Funding.htm
   debate_date: 2009-07-30
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "12. Medicines\xE2\x80\x94Funding"
-  download_date: 2009-07-30
+  download_date: 2009-08-03
