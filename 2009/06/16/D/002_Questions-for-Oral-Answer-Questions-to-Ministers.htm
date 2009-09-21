@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -58,6 +58,8 @@
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -92,27 +94,27 @@
 		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
 		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/4/e/0/49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/4/4/a/49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/f/a/1/49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/8/8/b/49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2ff%2fa%2f1%2f49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7bCCB0EFD1-192B-4D12-98D2-6A203463E2A6%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b5BC29774-A7B7-4665-90C4-D4A98E542D75%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f8%2f8%2fb%2f49HansD_20090616_00000013-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/7/4/b/49HansD_20090616-Volume-655-Week-15-Tuesday-16-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 16 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/0/b/1/49HansD_20090616-Volume-655-Week-15-Tuesday-16-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 16 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4271]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Banking Sector—Lending Practices</h4>
@@ -230,7 +232,7 @@
           <strong>Hon David Cunliffe</strong>: Has the Minister seen reports of comments by Reserve Bank governor Dr Alan Bollard that “I do think it’s time when banks have to look, as they ride through this recession, just how much pain will be borne by their shareholders and how much will be borne by the New Zealand economy.”; and does the Minister agree with the Finance and Expenditure Committee that an appropriate response by banks to the recession should include passing on reductions to the official cash rate, maintaining liquidity and ensuring it is available on as equal terms to businesses in New Zealand as it is to those in Australia, and recognising current economic conditions?</p>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: Yes, I agree with all those comments. The one comment I disagree with is the inference by the Opposition spokesperson that emergency powers in the Reserve Bank Act ought to be used to try to make the banks lower their interest rates. That would be a bizarre response to the current situation.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. The Standing Orders provide protection from members against misrepresentation. Perhaps the Minister could be invited to clarify which comments he is referring to.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will take his seat. The member can use further supplementary questions if he wants to challenge aspects of the Minister’s answer, but he cannot use the point of order process to debate the Minister’s answer. There is no provision in the Standing Orders for that.</p>
@@ -294,7 +296,8 @@
         <p class="Interjection">
           <strong>Hon Trevor Mallard</strong>: Well—</p>
         <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: I am on my feet. I recommend a deep breath. The honourable Leader of the Opposition is going to ask a supplementary question.</p>
+          <strong>Mr SPEAKER</strong>:
+ <strong>Mr SPEAKER</strong>: I am on my feet. I recommend a deep breath. The honourable Leader of the Opposition is going to ask a supplementary question.</p>
         <p class="Interjection">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I think it would be good to reflect in this case on the fact that the Prime Minister did invite a response, and the response was one that was very clear—</p>
         <p class="Interjection">
@@ -313,27 +316,33 @@
           <strong>Hon Phil Goff</strong>: Why did he agree with the decisions in the Cabinet paper of 17 April, that local government functions are to be restricted to the areas of water, refuse, and transport and that there is to be no public consultation document on these things; how is that compatible with the decision he has just made to have Auckland ratepayers spend $80 million on a party centre on Queen’s Wharf?</p>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: Because that is the very Cabinet paper that agrees to review the functions of local government; no decisions have been made yet.</p>
-        <p class="Interjection">
-          <strong>Hon Phil Goff</strong>: I seek leave to table two papers. The first is the Cabinet paper that refers to a decision to restrict the functions of local government and also for there to be no public discussion document on doing so.</p>
+        <ul class="">
+          <li>
+            <strong>Hon Phil Goff</strong>: I seek leave to table two papers. The first is the Cabinet paper that refers to a decision to restrict the functions of local government and also for there to be no public discussion document on doing so.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is no objection.</p>
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
-        <p class="Interjection">
-          <strong>Hon Phil Goff</strong>: The second document is a press release dated 7 September 2006 in the name of John Key where he wanted Aucklanders to decide whether the current local government—</p>
+        <ul class="">
+          <li>
+            <strong>Hon Phil Goff</strong>: The second document is a press release dated 7 September 2006 in the name of John Key where he wanted Aucklanders to decide whether the current local government—</li>
+        </ul>
         <a name="page_4275"></a>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table a press statement. Is there any objection to that document being tabled? There is no objection.</p>
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. At the end of the Prime Minister’s answer he was quoting from an official document. I wonder whether he would be good enough to table that for the House. I know that it has already been tabled but it would be good if it could be tabled in the House.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The Prime Minister will resume his seat. Even the Prime Minister must be called, to contribute in this House. I also call to order the Leader of the House, who was loudly interjecting when the Hon Darren Hughes was raising a point of order. I know that this is the first day back after an adjournment, but I urge members to have a little order. Leave was sought to table a document that the member claimed the Prime Minister was quoting from. I ask the honourable Prime Minister whether he was quoting from a document.</p>
-        <p class="ContinueSpeech">
-          <strong>Hon JOHN KEY</strong>: I was, and I seek leave to table the Cabinet document that is on the website of the Department of Internal Affairs, so Mr Hughes and the rest of the Labour caucus can know what is going on.</p>
+        <ul class="">
+          <li>
+            <strong>Hon JOHN KEY</strong>: I was, and I seek leave to table the Cabinet document that is on the website of the Department of Internal Affairs, so Mr Hughes and the rest of the Labour caucus can know what is going on.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is no objection.</p>
         <ul class="">
@@ -436,7 +445,7 @@
           <strong>Hon Clayton Cosgrove</strong>: —the question is about parole; why do you not listen—to get to the scene of the crime if an offender on parole does transgress?</p>
         <p class="SupAnswer">
           <strong>Hon JUDITH COLLINS</strong>: I think the member should put a question to the Minister of Police.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Clayton Cosgrove</strong>: I raise a point of order, Mr Speaker. The question that I put to the Minister was: “How will the management of offenders on parole be improved …”. It went on to ask about whether the cuts in the police vehicle budget would have an impact, given that police will find it more difficult to pursue offenders who are on parole if they transgress. The primary question was about the management of offenders who are on parole. The Minister cannot just slip her way out of this one. If she has cut the police budget by 10 percent—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Members must not use the point of order process to make a political attack. It is totally out of order. The member wants me to support him in his point of order. How does he think it helps his argument when he abuses the point of order process? It does not help. I might also add that when the member responded to an interjection while asking his question, he included the Speaker in his response to the interjection. So there are a couple of sins that the member has committed. The Minister is the sole judge of whether she has ministerial responsibility for an issue. Unless it is an absolutely fundamental issue, the Speaker cannot be the judge of whether ministerial responsibility lies with the Minister. The Minister has said that the matter is one that should be properly addressed to the Minister of Police. As Speaker, I need to accept that assessment by the Minister.</p>
@@ -497,10 +506,11 @@
           <strong>Dr Kennedy Graham</strong>: Which member States’ self-defence rights are being exercised under article 51 of the UN charter through Operation Enduring Freedom in Afghanistan, 8 years after Security Council resolution 1368?</p>
         <p class="SupAnswer">
           <strong>Hon MURRAY McCULLY</strong>: If the member wants a detailed response to a detailed question of that sort, he will need to give me notice. I will then be able to give him such a response.</p>
-        <p class="Interjection">
-          <strong>Metiria Turei</strong>: I raise a point of order, Mr Speaker. There was a question expressly about this issue on the list of questions for oral answer. The Minister has had some hours to research, and clearly has investigated the issues with great detailed knowledge. He cannot now stand up and claim he does not know enough about the issue because it is too complicated for him. Or is that his answer? He does not know.</p>
-        <p class="Interjection">
-          <strong>Hon Gerry Brownlee</strong>: Mr Speaker, I turn your attention to Speaker’s ruling 163/3. I think that if you read it you will see that the difficulty here is that the member has asked a question that invites the sort of answer he got today. It was perfectly reasonable and perfectly within the Standing Orders as ruled by Speaker Hunt in 2004.</p>
+        <p class="Intervention">
+          <strong>Metiria
+ Turei</strong>: I raise a point of order, Mr Speaker. There was a question expressly about this issue on the list of questions for oral answer. The Minister has had some hours to research, and clearly has investigated the issues with great detailed knowledge. He cannot now stand up and claim he does not know enough about the issue because it is too complicated for him. Or is that his answer? He does not know.</p>
+        <p class="Intervention">
+          <strong>Hon Gerry Brownlee</strong>: Mr Speaker, I turn your attention to Speaker’s ruling 163/3. I think that if you read it you will see that the difficulty here is that the member has asked a question that invites the sort of answer he got today. It was perfectly reasonable and perfectly within the Standing Orders, as ruled by Speaker Hunt in 2004.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I do not need any further assistance on this matter. The Minister gave a perfectly reasonable answer. This international law is quite a complex area. The Minister has been careful to make sure he does not give the House incorrect information. He has quite reasonably said that if a specific question is put down, then he will provide the information. I do not believe that that is unacceptable to the House; I think it is a perfectly reasonable response to the House.</p>
         <p class="Interjection">
@@ -567,9 +577,11 @@
           <strong>Hon Maryan Street</strong>: What has the Minister to say to the possible 230—to be a little more precise—adult and community education tutors in the Hamilton region alone who are likely to lose their jobs, and how do these job losses fit with the Government’s commitment to job creation in order to stimulate the economic recovery?</p>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: The Government is continuing to spend $124 million on adult and community education. But we have made it clear that in these times, when there is large growth in unemployment and the Government faces constraint on its spending, our top priority will be people who have lost their jobs or who will lose them, to ensure that they have the skills to become participants in the economy again.</p>
-        <p class="Interjection">
-          <strong>Hon Maryan Street</strong>: I seek leave to table the PricewaterhouseCoopers adult and community education report entitled
- <em>Economic Evaluation of Adult and Community Education Outcomes</em><strong></strong>, dated June 2008.</p>
+        <ul class="">
+          <li>
+            <strong>Hon Maryan Street</strong>: I seek leave to table the PricewaterhouseCoopers adult and community education report entitled
+ <em>Adult and Community Education: Economic Evaluation of Adult and Community Education Outcomes</em><strong></strong>, dated June 2008.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is none.</p>
         <ul class="">
@@ -688,13 +700,14 @@
           <strong>Hon Pete Hodgson</strong>: When he said yesterday that “I saw information I felt I needed to act on. I acted.”, what was that information?</p>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: I will not go into specifics. For a start, Dr Worth is now a member of the public; he is not a member of the executive, he is not a member of Parliament, and he is not a member of the National caucus. All I can say is that if I see information of that nature, then I will act, and I would act again if I saw that kind of information again.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Pete Hodgson</strong>: I raise a point of order, Mr Speaker. It was inevitable that at some point I would need to raise a point of order under Standing Order 377(1), which states: “An answer that seeks to address the question asked must be given if it can be given consistently with the public interest.” My submission to you, Mr Speaker, is that the last answer—we will stick with just the last answer—did not seek to address the question asked.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: It is an interesting point that the member has raised. However, as Speaker, I cannot be the judge of the public interest in a matter like this. I have to rely on a Minister’s view of whether providing more information is in the public interest. I cannot be the judge of that. From what I heard the Prime Minister give in his answer, his assessment of the public interest is that it is not his intention to say any more about the matter, and he gave the reasons why. I will hear the member further, though.</p>
-        <p class="Interjection">
-          <strong>Hon Pete Hodgson</strong>: I am happy to accept that ruling. I raise a point of order, Mr Speaker. It is a new point of order. Given that this is a matter that certainly took the attention of the media yesterday, that has certainly taken the attention of the media over
- recent days, and that certainly is in the interest of members of the House, I wonder whether the Prime Minister is entitled to come to a view as to what is in the public interest and what is not, when it is blatantly obvious to many people that this matter is in the public interest.</p>
+        <p class="Intervention">
+          <strong>Hon Pete Hodgson</strong>: I am happy to accept that ruling.</p>
+        <p class="Intervention">I raise a point of order, Mr Speaker. It is a new point of order. Given that this is a matter that certainly took the attention of the media yesterday, that has certainly taken
+ the attention of the media over recent days, and that certainly is in the interest of members of the House, I wonder whether the Prime Minister is entitled to come to a view as to what is in the public interest and what is not, when it is blatantly obvious to many people that this matter is in the public interest.</p>
         <a name="page_4286"></a>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I accept the genuineness of the member’s point of order. These are, obviously, difficult issues. I have to repeat that, as Speaker, I cannot make that judgment; only a Minister can make the judgment as to whether providing certain information is or is not in the public interest. I therefore have to accept the Prime Minister’s assessment that, now that Dr Worth has retired as a Minister, which is the principal issue—and he has retired as a member of Parliament, too—there are matters of privacy at stake. I cannot second-guess the Prime Minister’s judgment on this matter, and I therefore have to let the Prime Minister’s answer stand.</p>
@@ -745,7 +758,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

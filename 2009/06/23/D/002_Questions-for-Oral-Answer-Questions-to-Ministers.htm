@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme></a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/0/7/b/49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/c/f/e/49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/1/4/2/49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/c/a/4/49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f1%2f4%2f2%2f49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b5AAF5062-A4C6-417F-8024-2D24C0899A69%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b7142DE64-E2ED-4236-94E3-5973DE8A3281%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fc%2fa%2f4%2f49HansD_20090623_00000056-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/0/f/9/49HansD_20090623-Volume-655-Week-16-Tuesday-23-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 23 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/9/0/d/49HansD_20090623-Volume-655-Week-16-Tuesday-23-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 23 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4493]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Jobs—Statements</h4>
@@ -260,7 +262,7 @@
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: No, the Prime Minister has given us sufficient information. I warn the Hon Trevor Mallard he cannot interject in that manner across the House. In fact, I will ask him to withdraw that statement.</p>
         <a name="page_4496"></a>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I withdraw. I raise a point of order, Mr Speaker. What remedy do we have when a Prime Minister makes a comment about an upgrade that he knows is untrue.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member knows that he can use supplementary questions to attack the Prime Minister’s answers to questions. They have been available since the first question. There are many more supplementary questions available to the honourable member.</p>
@@ -581,7 +583,7 @@
           <strong>Hon Pete Hodgson</strong>: I raise a point of order, Mr Speaker. In summary, I submit to you that it is not the Prime Minister’s choice whether he advises us—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Is this a point of order?</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Pete Hodgson</strong>: Yes, it is. It is a point of order under Standing Order 377(1). My submission is that the Prime Minister does not have the discretion to decide whether he wishes to address the question. Standing Order 377(1) is a two-part Standing Order. The second part talks about the public interest and how that point might be invoked to not address a question. Otherwise, the Minister must seek to address the question. Mr Speaker, I put it to you with humility that you are obliged—[<em>Interruption</em><strong></strong>]</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: This is a point of order; it is a serious one.</p>
@@ -593,9 +595,9 @@
         <a name="page_4507"></a>
         <p class="Interjection">
           <strong>Hon Pete Hodgson</strong>: I raise a point of order, Mr Speaker. Speaking to your ruling, if I may raise another point of order under Standing Order 377(1), I submit to you that because the question is only about whether the Minister has information, for him to not answer it is disorderly. If, let us say, the Prime Minister has no information, then he has already told the House that he is withholding information under the second part of Standing Order 377(1), and has, in fact, contradicted himself in the course of a week. If, on the other hand, he has information that he is not of a mind to impart—and no one can require that of him; it is his choice alone—then it would seem to me that he is obliged to tell the House that he has information so that we can put to one side the possibility that he does not.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: Not only is Mr Hodgson challenging the ruling that you just made, but also he is seeking to undo the ruling by Speaker Hunt, Speaker’s ruling 157/8, which says: “A member cannot demand a ‘yes’ or ‘no’ answer to a question.” As the question was put to you by Mr Hodgson just then, he is effectively asking for a yes or no answer. The fact that he did not put on the end of his question: “…yes or no?” is irrelevant. That is the nature of the question. The Prime Minister has answered as adequately as is possible under the circumstances. Parliament should allow that to be the case. Numerous Speakers’ rulings in here, which I do not want to necessarily refer to, make it very clear that although members may not be satisfied with an answer to a question, that does not necessarily mean that the answer itself has in any way breached the Standing Orders. I support the ruling that you have just given. It makes it clear that if the Prime Minister determines that carrying on with this exchange in the way that Mr Hodgson wants is against the public interest, then that determination should be accepted by the House.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: Speaking to the point of order, Mr Speaker.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: This is the last one I will listen to.</p>
@@ -606,7 +608,7 @@
         <p class="Interjection">
           <strong>Hon Gerry Brownlee</strong>: That was a very eloquently delivered piece of complete irrelevance from the Hon Trevor Mallard. It is interesting to note that on the same page of the
  <em>Speakers’ Rulings</em><strong></strong>, once again Speaker Hunt notes: “Question time is a political exchange. The adequacy of the performance of members, whether in Government or in Opposition, is judged on a political basis.” This nature of exchange is exactly that, and, as I have said, I do not think the point raised by Mr Mallard is relevant. Your ruling should stand.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Peter Dunne</strong>: Speaking to the point of order, Mr Speaker.</p>
         <a name="page_4508"></a>
         <p class="Interjection">
@@ -655,19 +657,19 @@
         <ul class="">
           <li>Hon Trevor Mallard withdrew from the Chamber.</li>
         </ul>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. I appreciate that we have to take this issue carefully. I think the issue was that Mr Mallard was trying to communicate to you that he had not used the phrase that the Prime Minister had accused him of making. Mr Mallard said he was happy to withdraw if he had breached parliamentary procedure by using an unparliamentary term, but Mr Mallard did not say the very word that the Prime Minister said he had used. I heard what Mr Mallard said; I am happy to repeat it for you, if that is of use to you. To eject a member and threaten him with being named, when you had directed him to withdraw and apologise for something that he had not said, and when you did not ask him to clarify what he had said, does seem like Mr Mallard has paid a very high penalty.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The matter is very simple. Today during question time I have listened to the Hon Trevor Mallard interjecting inappropriately on a number of occasions. I have pulled him up on a couple of occasions. The problem at the end was that when I asked him to withdraw and apologise for it because offence had been taken, he started to dispute with the Speaker. I will not tolerate that. The manner in which he did it was the problem; it was not that he had interjected. He could have withdrawn and apologised for that. It is not a difficult thing. The dignity of the House was totally destroyed by the way that the member behaved, and I will not tolerate that in the House.</p>
         <p class="a">The honourable member will just have to learn to control his anger. It would have been perfectly within my right as the Speaker to have him called back into the House and have him named. I have not done that, because I do not want to do that, but the member will have to learn to behave with a little more decorum. He is a senior member. He has the authority from the Labour Party, it seems, to raise points of order on behalf of the party. The shadow Leader of the House appears to allow him to do that on a number of occasions. If he is going to do that, he has to respect the House and respect the dignity of the House, and not behave in the way that he did just now. He will be out for the rest of this day, and he will learn to behave in a manner befitting the dignity of this House.</p>
         <p class="a">I did not make that decision lightly. Members will note that I resisted the temptation. In my time in the House, I have seen members named for that kind of behaviour as they left the Chamber. I did not want to do that, because I realised that the member had lost the plot for a moment and he was angry. That is the end of the matter. But I want all members, on all sides of the House, to realise that it does not matter about me as the Speaker; it is the treatment of this House. This House will be treated with its proper dignity.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon John Key</strong>: I raise a point of order, Mr Speaker. Let me make it quite clear. On numerous occasions Mr Mallard yelled out at me: “Your nose is growing. Your nose is growing.” I think everyone understands what Mr Mallard meant by that. I took offence at it. The reason I took offence is that Mr Hodgson may not like the fact that I have not
  answered questions in the way that he would want, but I have not done so because I am a liar or have misled New Zealand in any way; I have done so because I do not believe that it is in the public interest to answer those questions in the way that he would want. That is a vastly different proposition. I recognise Opposition members’ dissatisfaction with that, and they are entitled to be dissatisfied, but I am also entitled to answer questions in the way that I perceive to be in the public interest. There was no ambiguity about the implications of the statements that Mr Mallard made. Members will know that I have been in this House for 7 years and I have virtually never asked members to apologise, but I will not put up with Mr Mallard implying very clearly that I am a liar. I am not.</p>
         <a name="page_4510"></a>
         <p class="Interjection">
           <strong>Hon Darren Hughes</strong>: I think what the Prime Minister has just offered the House goes directly to the point I have made to you. The Prime Minister took a point of order and accused Mr Mallard of calling him a particular word. Mr Speaker, it was that which made you get to your feet and reprimand Mr Mallard. As you rightly said, he had said that word earlier in question time and without hesitation withdrew it. But the Prime Minister, who brought the issue to your attention by way of a point of order, used a different word from what he has now admitted in his second point of order was actually said.</p>
-        <p class="a">The other point I would make is that you have given a long dissertation about your views on Mr Mallard, using your authority as Chair, in a way that I do not think we have ever seen; it was quite a detailed explanation given by somebody in the Chair. Mr Mallard has been penalised, in this case, for something that the Prime Minister himself, who was the person who complained, now admits was a false accusation about what Mr Mallard had said in the first—</p>
+        <p class="Interjection">The other point I would make is that you have given a long dissertation about your views on Mr Mallard, using your authority as Chair, in a way that I do not think we have ever seen; it was quite a detailed explanation given by somebody in the Chair. Mr Mallard has been penalised, in this case, for something that the Prime Minister himself, who was the person who complained, now admits was a false accusation about what Mr Mallard had said in the first—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Order!</p>
         <p class="Interjection">
@@ -719,7 +721,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

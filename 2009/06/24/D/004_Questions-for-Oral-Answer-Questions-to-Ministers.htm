@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme></a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/6/5/8/49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/f/c/4/49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/1/e/0/49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/a/1/a/49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f1%2fe%2f0%2f49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7bC27352D4-6E20-4F3F-9726-F7C1723EB6C6%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b16FC0DB5-89C2-4F38-990F-FD762A101505%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fa%2f1%2fa%2f49HansD_20090624_00000041-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/2/0/8/49HansD_20090624-Volume-655-Week-16-Wednesday-24-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 24 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/f/1/7/49HansD_20090624-Volume-655-Week-16-Wednesday-24-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 24 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4569]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Economy—Performance Compared with Other Countries</h4>
@@ -255,9 +257,11 @@
         <p class="SupQuestion">
           <strong>Hon Phil Goff</strong>: Is the Prime Minister’s “third time lucky” approach to the 9-day working fortnight just evidence of his Government’s ad hoc approach to the soaring rate of unemployment, and evidence of the fact that the Government has no plan at all to keep Kiwis in work?</p>
         <a name="page_4572"></a>
-        <p class="SupAnswer">
+      </div>
+      <div class="Speech">
+        <p class="Speech">
           <strong>Hon JOHN KEY</strong>: If we want to see an ad hoc approach to this debate, we should look across at the Leader of the Opposition, who is rapidly turning into the “Phil-who-cried-wolf”. Let me tell members why.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. I wonder whether you can anticipate what my point of order might be with regard to—</p>
         <p class="Interjection">
           <strong>Hon Gerry Brownlee</strong>: Let’s have a contest.</p>
@@ -273,7 +277,7 @@
           <strong>Mr SPEAKER</strong>: I would like the Prime Minister to withdraw it, yes.</p>
         <p class="ContinueSpeech">
           <strong>Hon JOHN KEY</strong>: Certainly, I withdraw it. I should have said the “Philip-Goff-who-cried-wolf”. The reason why I said that is that the Leader of the Opposition has been running around telling people that, in fact, there have been 2,800—</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. [<em>Interruption</em><strong></strong>] I am just waiting for it to be quiet, so I can have my point of order heard in silence. I do not mind how long it takes.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I am waiting for the member to make his point of order.</p>
@@ -283,93 +287,95 @@
           <strong>Mr SPEAKER</strong>: The member will resume his seat. I asked the Prime Minister to withdraw his comment, because I did not hear it. I asked him to withdraw the comment; I did not ask him to apologise. He withdrew his statement, and I am satisfied by that.</p>
         <p class="Interjection">
           <strong>Hon Darren Hughes</strong>: That is not what I was saying. My point of order referred to the fact that once members have withdrawn a comment they are not meant to relitigate or refer to what you have asked them to do. No sooner had the Prime Minister withdrawn his comment than he straight away qualified what he had said by saying “I should have said”, and then he repeated the other phrase in a slightly modified form. In fact, the member concerned is not known as Philip Goff in the Chamber, so the Prime Minister compounded the original transgression. The second point is that previously when members have not withdrawn fully and left it at that, you have asked them to leave the Chamber. That was not the case on this occasion—not that I think he should leave the Chamber.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Rodney Hide</strong>: Darren Hughes was quite right on his first point of order, and you correctly asked the Prime Minister to withdraw his comment. But it is getting a bit prissy for this Parliament to suggest that members cannot say “Phil-Goff-who-cried-wolf”. If that is going to be ruled out of order, my goodness, what can we say, and just how sensitive is the Leader of the Opposition?</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I thank the honourable members. I accept the point from the Hon Darren Hughes, and I say to the Prime Minister that the name the honourable Leader of the Opposition goes by is the Hon Phil Goff, and that name should be used. Has the Prime Minister finished his answer? The Prime Minister was interrupted by a point of order.</p>
         <a name="page_4573"></a>
         <p class="ContinueSpeech">
           <strong>Hon JOHN KEY</strong>: If anyone is guilty of making ad hoc statements, it is the Leader of the Opposition. He has been running around saying that in the building sector 2,800 apprentices have been laid off. He is right, but that was for the 14 months to March this year, and for 9 of those 14 months Labour was in Government.</p>
-        <p class="SupQuestion">
-          <strong>Metiria Turei</strong>: Has the Prime Minister seen the report
- <em>Smart Transportation Economic Stimulation</em><strong></strong>, which shows that for every dollar he spends on new motorways he could create 40 percent more jobs if he spends it on bus infrastructure, bus and train services, walking and cycling infrastructure, and road maintenance, and is that not exactly the kind of spending that his Government likes, that commuters, particularly in Auckland, want, and that is good spending that our environment needs?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: Two things seem to be lost on the member: first, we are spending $1.6 billion more on public transport, including the electrification of trains in Auckland; and, second, pretty much every day the Opposition bags me for building a cycleway.</p>
-        <p class="SupQuestion">
-          <strong>Hon Sir Roger Douglas</strong>: Could the Prime Minister please explain to the Leader of the Opposition that the creation of thousands of well-paying jobs requires an increase in productivity back to the 3 percent rate of the 1984-99 period, instead of the paltry 1 percent rate achieved under Labour?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: The member makes an excellent point. On the advice I have, the 2 percent differential over 15 years would increase the average income by 35 percent. That is why the National and ACT parties have sought through their confidence and supply agreement to try to narrow that gap. We will be working very hard with the members of ACT to try to achieve that outcome.</p>
-        <p class="SupQuestion">
-          <strong>Hon Phil Goff</strong>: Is it crying wolf to point out to the Prime Minister that since his Job Summit 16,000 Kiwis have lost their jobs, that since his Budget 4,000 New Zealanders have lost their jobs, and that all the Prime Minister’s department could do yesterday was have officials scramble around to find 32 additional jobs that have been saved by the 9-day working fortnight, which is less than 10 percent of the jobs lost each day?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: I have three very quick points. The first is that we have always argued that in the worst recession since 1930 unemployment would rise, and it is rising in every country. Second, the only reason we would be going out there to get more information is to put some accuracy into the debate. It may be of interest to the Leader of the Opposition to learn that tomorrow the Tertiary Education Commission will be releasing its latest statistics on apprenticeships. The member may be interested to know that far from shrinking, the number of apprenticeships grew by 4 percent in the first quarter. There are now 133,000 industry training graduates receiving support from the Government. That is a record level. Third, one thing we know for sure is that if we had followed the Phil Goff plan of seeing New Zealand’s credit rating downgraded, which would have happened if Labour was running the country, thousands and thousands of New Zealanders would have lost their jobs.</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: The Prime Minister is not responsible for the policy of the Leader of the Opposition.</p>
-        <p class="SupQuestion">
-          <strong>Jo Goodhew</strong>: How does New Zealand’s unemployment rate compare with that of other OECD countries?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: New Zealand has one of the lowest unemployment rates in the OECD, despite all countries experiencing the same global recession. The unemployment rate in New Zealand is currently 5 percent; in comparison, in Australia it is 5.7 percent, in the United Kingdom it is 7.2 percent, in the eurozone area as a whole it is 9.2 percent; and in the United States it is 9.4 percent. This shows that we are doing a good job in New Zealand of holding down the growth in unemployment, despite this being the worst recession since 1930.</p>
-        <a name="page_4574"></a>
-        <p class="SupQuestion">
-          <strong>Hon Phil Goff</strong>: How many jobs will the Prime Minister’s cycleway proposal create in the next year, over which time, according to Treasury and the New Zealand Institute of Economic Research, 60,000 to 70,000 extra New Zealanders will lose their jobs?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: I do not know the answer to the number of jobs at this point—</p>
-        <p class="Interjection">
-          <strong>Hon Members</strong>: Why not?</p>
-        <p class="ContinueSpeech">
-          <strong>Hon JOHN KEY</strong>: Well, what I can say is that in years to come New Zealanders will look back at the cycleway and realise what a great addition it was to New Zealand’s tourism. What is more, if Opposition members do not believe in the cycleway, I challenge them to rip it up if they ever become the Government one day.</p>
-        <p class="SupQuestion">
-          <strong>Jo Goodhew</strong>: Has the Prime Minister seen reports of other periods when unemployment was rising?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: Funnily enough, I have. I have seen reports that between April 1987 and August 1989 employment as measured by the household labour force survey—</p>
-        <p class="Interjection">
-          <strong>Hon Sir Roger Douglas</strong>: Leave Roger alone!</p>
-        <p class="ContinueSpeech">
-          <strong>Hon JOHN KEY</strong>: Opposition members do not want to hear this, but let me repeat that between April 1987 and August 1989 unemployment as measured by the household labour force survey rose from 70,000 to 119,000. Also, between 1987 and 1989 the number of people receiving the unemployment benefit almost doubled, rising from 64,000 to 124,000. That was the exact period when the Minister of Employment in New Zealand was the Hon Phil Goff.</p>
-        <p class="SupQuestion">
-          <strong>Metiria Turei</strong>: Does the Prime Minister stand by his statement yesterday that roads are a form of public transport; if so, does he not accept that if commuters who want to leave their cars at home have access to adequate bus and train services, their cars will not be on those roads and there will be enough room on the existing roads for those who need to use them?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: In answer to the latter part of the question, no, I do not accept that there would be enough roads if we did not build any more. Secondly, I say if the member goes and has a look at, say, the busway in Auckland, she will see that that road is used as a very effective form of public transport.</p>
-        <p class="SupQuestion">
-          <strong>Hon Phil Goff</strong>: Why has the Prime Minister been doing nothing while one in five young New Zealanders has gone straight from school to the dole queue—20 percent of all teenage New Zealanders?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: Far from doing nothing, we have actually delivered a Budget that saw a credit rating upgrade in New Zealand, as opposed to the downgrade that Labour would have delivered. Secondly, one of the fastest ways for a bit more infrastructure to be built in New Zealand would be for the Resource Management Act to be reformed. I challenge the Labour Opposition to vote for the reform that is to go through this House in a few weeks. One of the fastest ways to make sure that industry in New Zealand can get a foot up and continue to operate in New Zealand would be to have a balanced emissions trading scheme. I challenge the Opposition to vote for that. One of the fastest ways to see youngsters get an opportunity was the introduction of the 90-day probationary employment period. I am very sorry that the Opposition did not vote for that. I could go on for hours, because this has been a very busy Government.</p>
-        <p class="SupQuestion">
-          <strong>John Boscawen</strong>: Far from doing nothing, as the Leader of the Opposition just alleged, does the Prime Minister agree that crucial to achieving higher paying jobs in New Zealand is higher productivity growth, and that this will be provided for by the soon-to-be-announced 2025 commission?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: The member is absolutely right. To quote the Opposition, the reason that help is on its way is that over the last decade productivity collapsed under
- the previous Labour Government to one of the lowest levels that we have seen. That is why we have a new Government; that is why we are focused on raising productivity.</p>
-        <a name="page_4575"></a>
-        <p class="SupQuestion">
-          <strong>Jo Goodhew</strong>: Has the Prime Minister seen reports of other employment summits?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: Funnily enough, I have. I saw a report on an employment conference organised by a former Minister of Employment, Phil Goff, in February 1989. This is really interesting reading, actually. Mr Goff said at the time that the public should not expect any major new employment schemes to emerge from the conference, and that no amount of further education or participation in retraining schemes could guarantee employment for New Zealand’s jobless. The conference was, as described by the
- <em>National Business Review</em><strong></strong>, “a total flop”. The only concrete thing to come out of Mr Goff’s all-day talkfest on unemployment was the creation of another Cabinet committee. By the time Mr Goff was voted out in 1990, the unemployment rate had risen by 150 percent. [<em>Interruption</em><strong></strong>] I know the Leader of the Opposition is negative on these things, because he does not know how to run one. But ours was quite good.</p>
-        <p class="SupQuestion">
-          <strong>Hon Phil Goff</strong>: Given the very limited uptake of the 9-day working fortnight, why did the Prime Minister decide to sack 1,400 decent, hard-working public servants, instead of making the 9-day working fortnight available to people in the public sector and having one standard for all citizens?</p>
-        <p class="SupAnswer">
-          <strong>Hon JOHN KEY</strong>: Firstly, I challenge that number from the Leader of the Opposition. Secondly, we know that the Leader of the Opposition shoots first and then asks for a bit more detail later on. We will go away and look at that; it is not the advice that I have had. I know this is lost on the Opposition, but this is the worst recession since 1930. The Minister of Finance will have an economy that will produce $50 billion less revenue over the next 3 years. The Government has to tighten its belt and get on top of the issues. We are doing that in a responsible way, and I think New Zealanders support us in that.</p>
-        <p class="Interjection">
-          <strong>Hon Phil Goff</strong>: I seek leave of the House to table a document. It is the Department of Labour’s weekly report to its Ministers indicating that its employers are now working on “Mark III” of the 9-day working fortnight. It is still trying to get it right.</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is no objection.</p>
-        <ul class="">
-          <li>Document, by leave, laid on the Table of the House.</li>
-        </ul>
-        <p class="Interjection">
-          <strong>Metiria Turei</strong>: I seek leave of the House to table a document entitled
- <em>Smart Transportation Economic Stimulation</em><strong></strong>. It shows how expanding urban highways exacerbates future transport problems and threatens future economic productivity—</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Could the member please indicate what the document is?</p>
-        <p class="Interjection">
-          <strong>Metiria Turei</strong>: I am just about to get to that.</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Well, I ask the member to please come to it very quickly.</p>
-        <p class="Interjection">
-          <strong>Metiria Turei</strong>: It is a report from the Victoria Transport Policy Institute, dated 21 April 2009.</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? [<em>Interruption</em><strong></strong>] Did I hear objection? I will put it to members again. Is there objection to that document being tabled? [<em>Interruption</em><strong></strong>] Did I hear yes again? There is objection.</p>
       </div>
+      <p class="SupQuestion">
+        <strong>Metiria Turei</strong>: Has the Prime Minister seen the report
+ <em>Smart Transportation Economic Stimulation</em><strong></strong>, which shows that for every dollar he spends on new motorways he could create 40 percent more jobs if he spends it on bus infrastructure, bus and train services, walking and cycling infrastructure, and road maintenance, and is that not exactly the kind of spending that his Government likes, that commuters, particularly in Auckland, want, and that is good spending that our environment needs?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: Two things seem to be lost on the member: first, we are spending $1.6 billion more on public transport, including the electrification of trains in Auckland; and, second, pretty much every day the Opposition bags me for building a cycleway.</p>
+      <p class="SupQuestion">
+        <strong>Hon Sir Roger Douglas</strong>: Could the Prime Minister please explain to the Leader of the Opposition that the creation of thousands of well-paying jobs requires an increase in productivity back to the 3 percent rate of the 1984-99 period, instead of the paltry 1 percent rate achieved under Labour?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: The member makes an excellent point. On the advice I have, the 2 percent differential over 15 years would increase the average income by 35 percent. That is why the National and ACT parties have sought through their confidence and supply agreement to try to narrow that gap. We will be working very hard with the members of ACT to try to achieve that outcome.</p>
+      <p class="SupQuestion">
+        <strong>Hon Phil Goff</strong>: Is it crying wolf to point out to the Prime Minister that since his Job Summit 16,000 Kiwis have lost their jobs, that since his Budget 4,000 New Zealanders have lost their jobs, and that all the Prime Minister’s department could do yesterday was have officials scramble around to find 32 additional jobs that have been saved by the 9-day working fortnight, which is less than 10 percent of the jobs lost each day?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: I have three very quick points. The first is that we have always argued that in the worst recession since 1930 unemployment would rise, and it is rising in every country. Second, the only reason we would be going out there to get more information is to put some accuracy into the debate. It may be of interest to the Leader of the Opposition to learn that tomorrow the Tertiary Education Commission will be releasing its latest statistics on apprenticeships. The member may be interested to know that far from shrinking, the number of apprenticeships grew by 4 percent in the first quarter. There are now 133,000 industry training graduates receiving support from the Government. That is a record level. Third, one thing we know for sure is that if we had followed the Phil Goff plan of seeing New Zealand’s credit rating downgraded, which would have happened if Labour was running the country, thousands and thousands of New Zealanders would have lost their jobs.</p>
+      <p class="Interjection">
+        <strong>Mr SPEAKER</strong>: The Prime Minister is not responsible for the policy of the Leader of the Opposition.</p>
+      <p class="SupQuestion">
+        <strong>Jo Goodhew</strong>: How does New Zealand’s unemployment rate compare with that of other OECD countries?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: New Zealand has one of the lowest unemployment rates in the OECD, despite all countries experiencing the same global recession. The unemployment rate in New Zealand is currently 5 percent; in comparison, in Australia it is 5.7 percent, in the United Kingdom it is 7.2 percent, in the eurozone area as a whole it is 9.2 percent; and in the United States it is 9.4 percent. This shows that we are doing a good job in New Zealand of holding down the growth in unemployment, despite this being the worst recession since 1930.</p>
+      <a name="page_4574"></a>
+      <p class="SupQuestion">
+        <strong>Hon Phil Goff</strong>: How many jobs will the Prime Minister’s cycleway proposal create in the next year, over which time, according to Treasury and the New Zealand Institute of Economic Research, 60,000 to 70,000 extra New Zealanders will lose their jobs?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: I do not know the answer to the number of jobs at this point—</p>
+      <p class="Interjection">
+        <strong>Hon Members</strong>: Why not?</p>
+      <p class="ContinueSpeech">
+        <strong>Hon JOHN KEY</strong>: Well, what I can say is that in years to come New Zealanders will look back at the cycleway and realise what a great addition it was to New Zealand’s tourism. What is more, if Opposition members do not believe in the cycleway, I challenge them to rip it up if they ever become the Government one day.</p>
+      <p class="SupQuestion">
+        <strong>Jo Goodhew</strong>: Has the Prime Minister seen reports of other periods when unemployment was rising?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: Funnily enough, I have. I have seen reports that between April 1987 and August 1989 employment as measured by the household labour force survey—</p>
+      <p class="Interjection">
+        <strong>Hon Sir Roger Douglas</strong>: Leave Roger alone!</p>
+      <p class="ContinueSpeech">
+        <strong>Hon JOHN KEY</strong>: Opposition members do not want to hear this, but let me repeat that between April 1987 and August 1989 unemployment as measured by the household labour force survey rose from 70,000 to 119,000. Also, between 1987 and 1989 the number of people receiving the unemployment benefit almost doubled, rising from 64,000 to 124,000. That was the exact period when the Minister of Employment in New Zealand was the Hon Phil Goff.</p>
+      <p class="SupQuestion">
+        <strong>Metiria Turei</strong>: Does the Prime Minister stand by his statement yesterday that roads are a form of public transport; if so, does he not accept that if commuters who want to leave their cars at home have access to adequate bus and train services, their cars will not be on those roads and there will be enough room on the existing roads for those who need to use them?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: In answer to the latter part of the question, no, I do not accept that there would be enough roads if we did not build any more. Secondly, I say if the member goes and has a look at, say, the busway in Auckland, she will see that that road is used as a very effective form of public transport.</p>
+      <p class="SupQuestion">
+        <strong>Hon Phil Goff</strong>: Why has the Prime Minister been doing nothing while one in five young New Zealanders has gone straight from school to the dole queue—20 percent of all teenage New Zealanders?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: Far from doing nothing, we have actually delivered a Budget that saw a credit rating upgrade in New Zealand, as opposed to the downgrade that Labour would have delivered. Secondly, one of the fastest ways for a bit more infrastructure to be built in New Zealand would be for the Resource Management Act to be reformed. I challenge the Labour Opposition to vote for the reform that is to go through this House in a few weeks. One of the fastest ways to make sure that industry in New Zealand can get a foot up and continue to operate in New Zealand would be to have a balanced emissions trading scheme. I challenge the Opposition to vote for that. One of the fastest ways to see youngsters get an opportunity was the introduction of the 90-day probationary employment period. I am very sorry that the Opposition did not vote for that. I could go on for hours, because this has been a very busy Government.</p>
+      <p class="SupQuestion">
+        <strong>John Boscawen</strong>: Far from doing nothing, as the Leader of the Opposition just alleged, does the Prime Minister agree that crucial to achieving higher paying jobs in New Zealand is higher productivity growth, and that this will be provided for by the soon-to-be-announced 2025 commission?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: The member is absolutely right. To quote the Opposition, the reason that help is on its way is that over the last decade productivity collapsed under
+ the previous Labour Government to one of the lowest levels that we have seen. That is why we have a new Government; that is why we are focused on raising productivity.</p>
+      <a name="page_4575"></a>
+      <p class="SupQuestion">
+        <strong>Jo Goodhew</strong>: Has the Prime Minister seen reports of other employment summits?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: Funnily enough, I have. I saw a report on an employment conference organised by a former Minister of Employment, Phil Goff, in February 1989. This is really interesting reading, actually. Mr Goff said at the time that the public should not expect any major new employment schemes to emerge from the conference, and that no amount of further education or participation in retraining schemes could guarantee employment for New Zealand’s jobless. The conference was, as described by the
+ <em>National Business Review</em><strong></strong>, “a total flop”. The only concrete thing to come out of Mr Goff’s all-day talkfest on unemployment was the creation of another Cabinet committee. By the time Mr Goff was voted out in 1990, the unemployment rate had risen by 150 percent. [<em>Interruption</em><strong></strong>] I know the Leader of the Opposition is negative on these things, because he does not know how to run one. But ours was quite good.</p>
+      <p class="SupQuestion">
+        <strong>Hon Phil Goff</strong>: Given the very limited uptake of the 9-day working fortnight, why did the Prime Minister decide to sack 1,400 decent, hard-working public servants, instead of making the 9-day working fortnight available to people in the public sector and having one standard for all citizens?</p>
+      <p class="SupAnswer">
+        <strong>Hon JOHN KEY</strong>: Firstly, I challenge that number from the Leader of the Opposition. Secondly, we know that the Leader of the Opposition shoots first and then asks for a bit more detail later on. We will go away and look at that; it is not the advice that I have had. I know this is lost on the Opposition, but this is the worst recession since 1930. The Minister of Finance will have an economy that will produce $50 billion less revenue over the next 3 years. The Government has to tighten its belt and get on top of the issues. We are doing that in a responsible way, and I think New Zealanders support us in that.</p>
+      <ul class="">
+        <li>
+          <strong>Hon Phil Goff</strong>: I seek leave of the House to table a document. It is the Department of Labour’s weekly report to its Ministers indicating that its employers are now working on “Mark III” of the 9-day working fortnight. It is still trying to get it right.</li>
+      </ul>
+      <p class="Interjection">
+        <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is no objection.</p>
+      <ul class="">
+        <li>Document, by leave, laid on the Table of the House.</li>
+      </ul>
+      <p class="Interjection">
+        <strong>Metiria Turei</strong>: I seek leave of the House to table a document entitled
+ <em>Smart Transportation Economic Stimulation</em><strong></strong>. It shows how expanding urban highways exacerbates future transport problems and threatens future economic productivity—</p>
+      <p class="Interjection">
+        <strong>Mr SPEAKER</strong>: Could the member please indicate what the document is?</p>
+      <p class="Interjection">
+        <strong>Metiria Turei</strong>: I am just about to get to that.</p>
+      <p class="Interjection">
+        <strong>Mr SPEAKER</strong>: Well, I ask the member to please come to it very quickly.</p>
+      <p class="Interjection">
+        <strong>Metiria Turei</strong>: It is a report from the Victoria Transport Policy Institute, dated 21 April 2009.</p>
+      <p class="Interjection">
+        <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? [<em>Interruption</em><strong></strong>] Did I hear objection? I will put it to members again. Is there objection to that document being tabled? [<em>Interruption</em><strong></strong>] Did I hear yes again? There is objection.</p>
       <h4 class="QSubjectheadingalone">New Zealand—Clean, Green Image</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
@@ -558,7 +564,7 @@
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table a report from the
  <em>Southland Times</em><strong></strong>. Is there any objection to that course of action? There is objection.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Clayton Cosgrove</strong>: I seek leave to table a report in which the Minister of Police implies that the police provided by the previous Government were underfunded. I do this noting your rulings, Mr Speaker; it is an answer to an oral question of 2 June, 2009.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Just let me clarify: the member is seeking to table the answer to an oral question of 2 June 2009, which is only a few days back.</p>
@@ -570,17 +576,17 @@
           <strong>Hon Clayton Cosgrove</strong>: I am quite happy to provide that answer. I seek leave to table the answer reluctantly, but I do it, firstly, because under Standing Order 368 I am able to, and, secondly, because the answer highlights an inherent contradiction in what the Minister—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will sit down. I have made the point on many occasions that the important provision in the Standing Orders for members to table documents is to provide the House with information that it otherwise would not have. It is not to enable members to score political points using information that was provided in the House only a few days before. I am bound to put the leave the member is seeking, but I note that it is disorderly to abuse the provisions like that. Leave has been sought, and I will put that leave. Is there any objection? There is objection.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Parker</strong>: I raise a point of order, Mr Speaker. With respect, you are editorialising what the Standing Order states. The Standing Order does not state what its intention is; it states just what we are allowed and not allowed to do. My colleague was perfectly within order to seek leave to table that document. There used to be abuse of the leave provisions in this House when the Hon Phil Heatley would stand up and list 10 different documents separately—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will resume his seat, and he will not use the point of order procedure to attack another member in the House. I have made my position as Speaker very clear. The member is certainly entitled to his view; I will respect his view. But he will not take further time of the House.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. This is a matter that came up last week and it has come up again now, and you have indicated that you will refer it to the Standing Orders Committee. Can I suggest that until the Standing Orders are changed, it would be appropriate either for the House to use the current Standing Orders, or for you to issue a clear Speaker’s ruling that indicates that you will not accept points of order of this sort. If you issued a clear Speaker’s ruling of that type, then the House would be obliged to obey it in the interim. While we have editorialising and case by case management of this issue I think it will lead to disorder, but it is something that is in your hands.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I appreciate the honourable member’s point. I remind members of the House that the Standing Orders Committee reviewed this matter and reported on it at the end of the last Parliament, giving guidance to the Speaker. The Speaker attempts to follow the guidance of the Standing Orders Committee, which was very clear that the provision should be used to provide information to the House that it would not otherwise have in its possession. As Speaker, I have been trying to follow the guidance
  of the Standing Orders Committee, and I apologise to the House if members feel that I am taking that too far. I am trying to treat both sides of the House evenly. I try to make it clear that it is not a great course of action to try to use the tabling procedure to score political points.</p>
         <a name="page_4582"></a>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Clayton Cosgrove</strong>: I raise a point of order, Mr Speaker. I accept everything you have said. In addition to the request that my colleague has made, I also ask whether you would reflect on this—and I am not scoring political points. If a statement is made in the House on a particular area, and the
  <em>Hansard</em><strong></strong> record, either latterly or historically, shows that a member has taken a different position, then members have often sought to table the
  <em>Hansard</em><strong></strong>. The only course of action available to highlight that the particular position may be contradictory is to offer up the
@@ -722,18 +728,18 @@
       </div>
       <h4 class="QSubjectheadingalone">Question Time</h4>
       <div class="Speech">
-      <p class="Interjection">
-        <a name="time_15:11:56"></a>
-        <strong>Hon TREVOR MALLARD (Labour—Hutt South)</strong>
-        <strong>:</strong> I raise a point of order, Mr Speaker. I have deliberately waited to the end of question time to raise this point of order, because I think there is an opportunity for a correction in the House. You indicated that at the beginning of our lives as parliamentarians, members had only one supplementary question for questions for oral answers. I have gone to the records and on two days, 22 and 23 November, found examples of up to six supplementary questions on questions for oral answer.</p>
-      <p class="Interjection">
-        <strong>Mr SPEAKER</strong>: During the 1980s?</p>
-      <p class="ContinueSpeech">
-        <strong>Hon TREVOR MALLARD</strong>: In 1984.</p>
-      <p class="Interjection">
-        <strong>Mr SPEAKER</strong>: It must have changed around then. I thank the honourable member for his advice. There was certainly a period in my time in this House when supplementary questions were very limited. It is a more recent development that many supplementary questions can be asked.</p>
+        <p class="Speech">
+          <a name="time_15:11:56"></a>
+          <strong>Hon TREVOR MALLARD (Labour—Hutt South)</strong>
+          <strong>:</strong> I raise a point of order, Mr Speaker. I have deliberately waited to the end of question time to raise this point of order, because I think there is an opportunity for a correction in the House. You indicated that at the beginning of our lives as parliamentarians, members had only one supplementary question for questions for oral answers. I have gone to the records and on two days, 22 and 23 November, found examples of up to six supplementary questions on questions for oral answer.</p>
+        <p class="Interjection">
+          <strong>Mr SPEAKER</strong>: During the 1980s?</p>
+        <p class="ContinueSpeech">
+          <strong>Hon TREVOR MALLARD</strong>: In 1984.</p>
+        <p class="Interjection">
+          <strong>Mr SPEAKER</strong>: It must have changed around then. I thank the honourable member for his advice. There was certainly a period in my time in this House when supplementary questions were very limited. It is a more recent development that many supplementary questions can be asked.</p>
+      </div>
     </div>
-  </div>
   </div>
 		</div>
 </div>
@@ -763,7 +769,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

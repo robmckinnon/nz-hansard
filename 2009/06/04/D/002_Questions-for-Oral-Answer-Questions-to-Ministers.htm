@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/c/3/f/49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/0/3/a/49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/3/7/c/49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/6/d/2/49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f3%2f7%2fc%2f49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b9DED79B6-91D0-4F6C-A004-65ADC3F22D37%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b6BCF1073-9AA7-48AD-99DF-1753A00A16AE%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f6%2fd%2f2%2f49HansD_20090604_00000025-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/5/d/d/49HansD_20090604-Volume-654-Week-14-Thursday-4-June-2009.htm">Parliamentary Debates (Hansard) for Thursday, 4 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/4/9/3/49HansD_20090604-Volume-654-Week-14-Thursday-4-June-2009.htm">Parliamentary Debates (Hansard) for Thursday, 4 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:4217]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Dr Richard Worth—Confidence</h4>
@@ -388,7 +390,7 @@
           <strong>Hon ANNE TOLLEY (Minister of Education)</strong>
           <strong>:</strong> The premise of the question is that Vote Education has been cut. Well, that is not the case. We have made some reprioritisations but, despite a tough economic climate, Vote Education in Budget 2009 rises from $10.5 billion to $10.8 billion. I am very proud of that quality investment in education.</p>
         <p class="SupQuestion">
-          <strong>Hon Maryan Street</strong>: How does she reconcile cuts to adult and community education with the views of her colleague Bill English, who, as National Opposition education spokesperson, said: “For more than 50 years, night classes have provided a leg-up for people wanting to return to the education system. National supports these low-cost
+          <strong>Hon Maryan Street</strong>: How does she reconcile cuts to adult and community education with the views of her colleague Bill English, who, when National Opposition education spokesperson, said: “For more than 50 years, night classes have provided a leg-up for people wanting to return to the education system. National supports these low-cost
  courses. The current system of night classes through schools works well and should not be tampered with.”?</p>
         <a name="page_4223"></a>
         <p class="SupAnswer">
@@ -578,15 +580,15 @@
           <strong>Iain Lees-Galloway</strong>: How does the Minister reconcile that answer with the Minister of Health’s assertion on 4 March 2009 that “there is no international evidence that shows a clear link between banning tobacco displays and reducing smoking rates.”?</p>
         <p class="SupAnswer">
           <strong>Hon TARIANA TURIA</strong>: I suggest that that member ask that question of the Minister. I am not responsible for comments he makes.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. This question is set down to the Associate Minister of Health, because she holds delegated responsibility for tobacco policy. She represents Government policy in respect of tobacco policy, and she has been asked by that member how she reconciles two positions within the Government. She is required to answer that question. She holds the delegation.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: She answered the question. She said she is not responsible for what another Minister might have said. And she is a Minister outside of Cabinet, so that seemed to be a perfectly reasonable answer. [<em>Interruption</em><strong></strong>] She was asked to reconcile two statements, as I recollect the question. It is perfectly within the Minister’s ability to say she cannot reconcile those two statements.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I ask you to reflect—not immediately—on that ruling as it applies to Associate Ministers when substantive Ministers are making comments in an area where Associate Ministers have delegated responsibility. It has certainly been our impression in the past that, as with any other Minister, when they get the job, when they have the pay, and when they have the cars, they should answer the questions.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: I think that is a disingenuous request on the part of Mr Mallard. This sort of issue has been dealt with over and over again by Parliament. I refer you to Speaker’s ruling 165/3, which was given in this House by Speaker Wilson and which, I think, goes right to the heart of this issue. It deals with the quality of an answer. An answer may not be satisfactory for the person who asked the question. None the less that is the end of the matter, as it cannot be further debated. An answer is given, and an answer is accepted.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Peter Dunne</strong>: Mr Speaker, I draw to your attention to Speaker’s rulings 147/4-6. I submit that Speaker’s ruling 147/4 goes to the heart of this issue. It states: “it is
  necessary to know what delegated area of responsibility each Associate Minister has. Associate Ministers cannot be asked questions across the whole portfolio in the way that a portfolio Minister can.” I submit to you that the Associate Minister was answering the question in respect of her delegated responsibility. The supplementary question that was posed to her related to the conduct of the portfolio as a whole, and that was what Speaker Hunt ruled as not being permissible back in 2000.</p>
         <a name="page_4229"></a>
@@ -604,15 +606,15 @@
           <strong>Mr SPEAKER</strong>: That will be the end of interjections. I am on my feet. The Minister does not need to respond to interjections from other members. The Hon Tariana Turia can complete her answer.</p>
         <p class="ContinueSpeech">
           <strong>Hon TARIANA TURIA</strong>: I certainly agree with the statement the Minister of Health made on 3 March, which said we are continuing the efforts to reduce smoking rates and tobacco use, and to explore new effective initiatives to support that. They include the ongoing discussion between him and me on the banning of tobacco at the point of sale.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. In the last series of points of order we were told that the Associate Minister could not comment across the whole of the portfolio. Then we had an answer that was a quote from the Hon Tony Ryall. But Mr Lees-Galloway’s question was about the advice the Associate Minister gave to the Minister in terms of her delegated responsibility. Reading out a quote from Mr Ryall does not tell us what advice she gave him in an area she has responsibility for.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Does the honourable Minister want to speak to the point of order?</p>
         <p class="ContinueSpeech">
           <strong>Hon TARIANA TURIA</strong>: I am happy to answer the question.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: My point is simply this. If the Minister gave no answer at all, which is also permissible in the Standing Orders and the Speakers’ rulings, then the Opposition would be on their feet and really going to town about that matter. The fact is that the Associate Minister attempted to give an answer. For Opposition members to virtually tell you that they think that answer is not good enough breaches many of the conditions for answering questions that are long established in this House.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Parker</strong>: The Leader of the House misunderstands the provisions of the Standing Orders if he thinks that Ministers can merely get up and say they will not answer a question because they do not want to. They could claim that there is a public interest in their not answering questions, but, unless they claim that, they are required to address questions.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: One of the dilemmas I have with some of these questions is the difficulty for the Speaker in determining whether the Minister has answered the question in a manner that is consistent with the Standing Orders. With primary questions it is much easier, because the question is on notice and Ministers have time to prepare answers for them. With supplementary questions like this, it is more difficult. What I am prepared to do for Ian Lees-Galloway on this occasion is—as I realise that he
@@ -624,7 +626,7 @@
           <strong>Hon TARIANA TURIA</strong>: No, I did not advise the Minister of that, because he sat on that select committee and heard that advice. But I have certainly talked with him about the matter of tobacco displays and the banning of them, and the Government has agreed that at some point we will look at that issue, when we have all the evidence in front of us.</p>
         <p class="SupQuestion">
           <strong>Iain Lees-Galloway</strong>: Does she agree that the refusal of National Ministers to accept her advice as Associate Minister of Health is in fact one reason why, in her own words, “this brave country” is failing to act on tobacco displays?</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Rodney Hide</strong>: I raise a point of order, Mr Speaker. It is quite right that you expect Ministers to address questions and do a much better job of requiring that than has been seen in the past. But the difficulty we have here is that the question just asked resolutely refuses to acknowledge the answer that the Associate Minister just gave. It was incompatible with that answer. She said she gave no advice, because the Minister was on the jolly select committee. Now Iain Lees-Galloway is saying the Minister did not take the advice. Well, how could he, since none was given?</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The particular issue involved here is not one of order. If a member who is asking questions wishes to waste a supplementary question by ignoring an answer that has been given or repeating a question he or she has already asked, that is the right of the member who is asking questions. I should not rule out the question. My dilemma now, though, is whether the Associate Minister will remember the question she was asked. Can I check with her whether she remembers it? I am happy to have it repeated.</p>
@@ -715,7 +717,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme></a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/7/1/c/49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/6/d/4/49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/0/a/d/49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/9/1/2/49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f0%2fa%2fd%2f49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7bDD053A42-C5AB-4A29-8154-1B5579831720%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7bCA6A8776-82EB-4FE2-990F-1C152EAF51CA%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f9%2f1%2f2%2f49HansD_20090625_00000025-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/6/5/8/49HansD_20090625-Volume-655-Week-16-Thursday-25-June-2009.htm">Parliamentary Debates (Hansard) for Thursday, 25 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/6/4/4/49HansD_20090625-Volume-655-Week-16-Thursday-25-June-2009.htm">Parliamentary Debates (Hansard) for Thursday, 25 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers, Questions to Members</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4655]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Economy—Current Account Deficit</h4>
@@ -227,7 +229,7 @@
           <strong>Hon David Cunliffe</strong>: Why, if the Minister is now ready to govern and if he is concerned about the current account deficit, did his Budget reduce tourism promotion funding; or does he think it proper to build a cycleway, even though there are fewer funds to promote it, just so that John Key can show him who is boss?</p>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: That is a bit rich coming from a member of the previous Government, which in 10 years of record fiscal surpluses did not increase tourism promotion funding.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. It is an inevitable point of order. The Minister in response to the primary question and all three supplementary questions spent at least the lion’s share, if not all, of the answers rehearsing his take on the previous Government, and hardly any part of them talking about his own policies. It may be that he does not have any policies, but New Zealanders would like to give him the benefit of the doubt—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I have listened to the honourable member on his point of order and taken it seriously, but I invite him to reflect on the supplementary question he just asked and on whether it was a fairly political question. When he asks a fairly political supplementary question, he is likely to get a fairly political answer. I fear I cannot assist him on this occasion.</p>
@@ -269,8 +271,10 @@
           <strong>Hon David Cunliffe</strong>: I seek leave to table Statistics New Zealand’s report on the balance of payments and investment position for the March 2009 quarter, which was issued this morning and shows a continued deterioration in the international investment position.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Is the member seeking to table a document that was made public this morning?</p>
-        <p class="Interjection">
-          <strong>Hon David Cunliffe</strong>: That is correct, but it was not brought to the House’s attention.</p>
+        <ul class="">
+          <li>
+            <strong>Hon David Cunliffe</strong>: That is correct, but it was not brought to the House’s attention.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that statistics release from this morning. Is there any objection to that course of action? There is none.</p>
         <ul class="">
@@ -288,12 +292,12 @@
           <a name="time_14:14:37"></a>
           <strong>Hon BILL ENGLISH (Minister of Finance)</strong>
           <strong>:</strong> The Government inherited a New Zealand economy in recession because of 9 years of bad economic management.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. Given that the question was a Government question and was expressed in very straight and simple terms, there can be no excuse for the Minister to begin his answer with a political soliloquy about the previous Government, as he has done in every response today, with either a personal attack or a strange recounting of history.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Rodney Hide</strong>: Mr Speaker, the Minister of Finance had got about four words of the answer out before David Cunliffe jumped to his feet. What the Minister of Finance was saying was that the Government inherited a recession, which I suspect was giving the context to the decisions of the Budget. I do not think there is any doubt that the Government did inherit a recession. I do not see how you could possibly prevent a Minister of Finance from saying what the situation was when a Government delivered a Budget.</p>
         <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: I appreciate the honourable member’s raising the point, but I think that the point of order raised by the Hon David Cunliffe is a valid point. The question was very straight. It asked what the main decisions in Budget 2009 were. I think that the answer should start at least by addressing that question and not by rehearsing matters do to with the previous Government. They may be part of an explanation, but the question was very straight. It asked what the main decisions in the Budget were.</p>
+          <strong>Mr SPEAKER</strong>: I appreciate the honourable member’s raising the point, but I think that the point of order raised by the Hon David Cunliffe is a valid point. The question was very straight. It asked what the main decisions in Budget 2009 were. I think that the answer should start at least by addressing that question and not by rehearsing matters to do with the previous Government. They may be part of an explanation, but the question was very straight. It asked what the main decisions in the Budget were.</p>
         <p class="ContinueSpeech">
           <strong>Hon BILL ENGLISH</strong>: The Government had to consider a very wide range of options in the Budget because it had inherited an economy in recession after 9 years of economic mismanagement. We focused on promoting jobs, cleaning up the Government’s books, getting debt under control, and setting New Zealand on the road to recovery. In the Budget the Government decided to maintain public services despite the poor fiscal outlook, maintain entitlements, invest in a way that supported thousands of jobs, clean up the reckless fiscal mess left by the previous Government, and get Government debt back under control.</p>
         <p class="SupQuestion">
@@ -327,7 +331,8 @@
           <strong>Hon ANNE TOLLEY (Minister for Tertiary Education)</strong>
           <strong>:</strong> The Tertiary Education Commission does not purchase adult and community education on a course-by-course basis. Providers determine the number of specific courses they deliver within an overall funding allocation by the Tertiary Education Commission. The member who asked the question used to hold the delegation for adult and community education, so I presume that she would know that. The Government will continue to invest $124 million in adult and community education over the next 4 years.</p>
         <p class="SupQuestion">
-          <strong>Hon Maryan Street</strong>: Which of the following courses offered and supported by Tangaroa College in South Auckland does the Minister think should be self-funded by the participants: mathematics for Tongan parents, volunteer training and financial management advice to the Otara Budgeting Service, or making stepfamilies work, a parenting course run by Family Works?</p>
+          <strong>Hon Maryan Street</strong>: Which of the following courses offered and supported by Tangaroa College in South Auckland does the Minister think should be self-funded by the participants: mathematics for Tongan parents, volunteer training and financial management advice for the
+ Otara Budgeting Service, or making stepfamilies work, a parenting course run by Family Works?</p>
         <p class="SupAnswer">
           <strong>Hon ANNE TOLLEY</strong>: Over many days in this House, I have explained to the member who has just resumed her seat the priorities for funding on adult and
  community education. The priorities are literacy, numeracy, and foundation courses. As Minister, I will not decide anything. The Tertiary Education Commission will make the decisions as to what providers are funded and for what courses.</p>
@@ -348,19 +353,19 @@
           <strong>Hon Maryan Street</strong>: What is the Minister saying to the 1,676 students who participated in an adult and community education course run through Whakatane High School last year and to the 800 who have enrolled so far this year, who will not be able to avail themselves of this well-known parenting course for fathers and sons, and many other courses besides; or are all such courses simply hobby courses in her book?</p>
         <p class="SupAnswer">
           <strong>Hon ANNE TOLLEY</strong>: As I said to that member in answer to similar questions on Tuesday, parenting courses throughout New Zealand are funded by a variety of means: by the Department of Internal Affairs, by district health boards, by the Ministry of Social Development—and some have been funded through schools. The best advice that that member could give, as I have given, to those students who are being funded through Whakatane High School—</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Tariana Turia</strong>: I raise a point of order, Mr Speaker. I am seeking your guidance. The issue was raised in the House a couple of days ago of people moving to other parts of the House and then barracking, and I would like you to note that people from Labour are sitting on the front benches who do not normally sit there, and are barracking.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: Mr Speaker, I think you have seen from our exchange that the major volume of barracking was, in fact, coming from me. You corrected me for it. The
  member has not been in the House that often, but I have been shifted on to the front bench again recently.</p>
         <a name="page_4661"></a>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I do not need to hear further. I am sure the member’s benchmate, Grant Robertson, has also been interjecting with considerable volume. I think the rule is sometimes fairly unworkable. Members move around the House these days, and it is unreasonable to expect them to stay in their own seats. All I would ask is that all members are reasonable with their interjections. Members should remember that the acoustics in this House mean that interjections from members at the front of the Chamber make it very hard to hear what is going on, because the volume at the front here can be very loud. All I am asking for is just a bit of reasonableness. Has the Hon Anne Tolley finished her answer?</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Bill English</strong>: I raise a point of order, Mr Speaker. Does that mean that the rules have changed? For at least 19 years, as far as I am aware, the rule has been that if a member shifts seats to give himself or herself advantage, the member cannot interject. That is the rule. If you are going to change it, I think you should make it quite clear that you are changing the rule.</p>
         <p class="Interjection">
           <strong>Hon Trevor Mallard</strong>: The rule, in fact, is that members cannot shift for the purpose of interjecting. There is a subjective test involved in that rule that only you, Mr Speaker, can decide. Even then, your decision is likely to be challenged.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Rodney Hide</strong>: I think that is quite true, but who in their right mind would otherwise choose to sit beside the angry one—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: That is not acceptable—[<em>Interruption</em><strong></strong>] That is not acceptable. I ask the honourable member to stand, withdraw, and apologise to the House for that abuse of Standing Orders.</p>
@@ -410,7 +415,7 @@
           <a name="time_14:31:14"></a>
           <strong>Hon Dr WAYNE MAPP (Associate Minister for Economic Development)</strong> on behalf of the
  <strong>Minister for Economic Development</strong>: The six Job Summit work streams that the Minister is responsible for will collectively improve the environment in which business can prosper. For instance, in the case of the advancement of the energy and environmental initiative, with particular focus on housing, 1 week ago the Government launched the Warm Up New Zealand: Heat Smart campaign, which will retrofit 180,000 houses.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Shane Jones</strong>: I raise a point of order, Mr Speaker. This question was directed to the Minister for Economic Development. Mr Brownlee has a role as energy Minister—although the notion of him and energy is a mathematical impossibility—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will stand, withdraw, and apologise, just as I asked the Hon Rodney Hide to do. The member has sought to abuse a member through a point of order. That is totally unacceptable.</p>
@@ -443,11 +448,11 @@
           <strong>Hon Shane Jones</strong>: How does cutting $10 million from the New Zealand Trade and Enterprise budget help business assistance schemes?</p>
         <p class="SupAnswer">
           <strong>Hon Dr WAYNE MAPP</strong>: The reductions in funding, of course, were almost invariably in areas that were unfunded. I might add that the Minister for Economic Development, the Minister of Finance, and the Minister of Research, Science and Technology are working on a programme to improve business-facing assistance.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Shane Jones</strong>: I raise a point of order, Mr Speaker. The question was very pithy and lucid. Ten million dollars has been cut. Please invite the Minister to repeat his answer without saying it was unfunded. We cannot cut something if it does not exist.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The difficulty is for the Speaker to have specific knowledge on these things. The Minister did answer the member’s question, although I accept it may not have been to the member’s satisfaction. It is difficult for me to arbitrate on an issue such as that. I believe I have to allow that the Minister did answer the question.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: Although I fully respect that it is not for the Speaker to wade into judgments on the quality of the response or the satisfaction of the member, I believe that my colleague’s point is a more technical one. It is not logically, mathematically, or indeed legally possible to cut something that has not been funded. That would mean there was nothing to cut. The whole point of a cut is that an allocation must have been in the Budget previously. I guess that is the point. On that technical point, I believe my colleague is on strong ground. Could you ask the Minister to clarify his point? We would love to know what he meant.</p>
         <a name="page_4664"></a>
         <p class="Interjection">
@@ -564,13 +569,13 @@
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Parker</strong>: I raise a point of order, Mr Speaker. I want to address the issue of tabling documents that was raised as a consequence of the Hon Phil Heatley’s seeking leave to table various documents. I want to defend the right of Phil Heatley to do what he did. Mr Speaker, yesterday when you addressed the issue of tabling documents, you referred to the report of the Standing Orders Committee. Arising out of that report, a change was made to the Standing Orders to require that documents be tabled when leave is granted for them to be tabled—and I congratulate the Speaker on
  enforcing it. Another way in which the Speaker has improved the tabling of documents is to make sure that the document exists rather than is going to be created, and I congratulate the Speaker on that.</p>
         <a name="page_4667"></a>
         <p class="a">But, Mr Speaker, in respect of your desire to dissuade members from seeking to table documents that are already a matter of public record, I suggest that what the Hon Phil Heatley did was within order, just as earlier practice by the Opposition was in order. I refer the Speaker to the report of the Standing Orders Committee, because its wording was quite careful. It states: “The primary purpose of … seeking leave to table documents is to inform debate …”, and that is why, as a general rule, we should not always be referring to documents that are on the public record. I think the wording of the Standing Orders Committee was quite careful. It referred to that being the primary purpose, but it is not the only purpose. There is a proper political purpose around the tabling of documents. It ought not to be abused by members coming to the House with long lists of historical documents that are of marginal relevance, but the Hon Phil Heatley did not do that then, and the Opposition has not being doing it in previous weeks.</p>
         <p class="a">Mr Speaker, I think the balance to be found is that if people waste lots of time with long lists of documents, then you should intervene. But where an occasional political point is being made, the best way for the Speaker to handle it, in my submission, is to let it flow. Members have the right to refuse leave. It will be political, but this is a political place. The business of the House should be allowed to flow.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon John Carter</strong>: Mr Speaker, although we would not disagree with the comment that has been made, I draw the House’s attention to the very fact that your rulings on this matter have been very good. Indeed, you put to the House the last application by Mr Heatley to table a document on the basis that it was a historical rather than a recent document. Your rulings have been that we are not expected to table documents that are newly created. It makes a farce of the parliamentary system if we seek leave to table documents that appeared yesterday. In that sense, your rulings have been very even and very fair. You have not ruled out our seeking the leave of the House to table historic documents—I do not think I have seen you do that—but you certainly have suggested to the House that the last thing we should want to do is to table, for example, yesterday’s
  <em>Hansard</em><strong></strong>, as that brings the House into disrepute.</p>
         <p class="Interjection">
@@ -805,8 +810,7 @@
       <h4 class="QSubjectHeading">2009-10 Estimates of Appropriation—Progress of Consideration</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
-          <strong>13.
- </strong>
+          <strong>1.</strong>
           <strong>Hon DAVID CUNLIFFE (Labour—New Lynn)</strong> to the
  <strong>Chairperson of the Finance and Expenditure Committee</strong>: What progress has been made on the committee’s consideration of the 2009-10 Estimates of Appropriation?</p>
         <p class="SubsAnswer">
@@ -822,8 +826,7 @@
       <h4 class="QSubjectheadingalone">Methodist Church of New Zealand Trusts Bill—Progress of Consideration</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
-          <strong>14.
- </strong>
+          <strong>2.</strong>
           <strong>Hon DAVID CUNLIFFE (Labour—New Lynn)</strong> to the
  <strong>Chairperson of the Finance and Expenditure Committee</strong>: What progress has been made on the committee’s consideration of the Methodist Church of New Zealand Trusts Bill?</p>
         <p class="SubsAnswer">
@@ -841,8 +844,7 @@
       <h4 class="QSubjectheadingalone">Banking Practices—Inquiry</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
-          <strong>15.
- </strong>
+          <strong>3.</strong>
           <strong>Hon DAVID CUNLIFFE (Labour—New Lynn)</strong> to the
  <strong>Chairperson of the Finance and Expenditure Committee</strong>: When will the Finance and Expenditure Committee next give consideration or make a decision on the proposed banking inquiry?</p>
         <p class="SubsAnswer">
@@ -857,8 +859,7 @@
       <h4 class="QSubjectheadingalone">Vote Health—Progress of Consideration</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
-          <strong>16.
- </strong>
+          <strong>4.</strong>
           <strong>Hon LUAMANUVAO WINNIE LABAN (Labour—Mana)</strong> to the
  <strong>Chairperson of the Health Committee</strong>: What progress has been made on the committee’s consideration of Vote Health?</p>
         <p class="SubsAnswer">
@@ -883,7 +884,7 @@
           <strong>Hon Darren Hughes</strong>: The chairperson of the committee sets the agenda for the business before the committee, and that is what the question goes to the heart of—will there be time for the chairperson to put that on the agenda?</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Before I rule on the matter, I will just check with the member asking the supplementary question whether that is an item of business before the committee. [<em>Interruption</em><strong></strong>] I do not see how the chair of the committee can therefore be asked to answer on the matter. I have allowed the member two supplementary questions. I think I have been perfectly reasonable on the matter. We must now move on.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. I think we have had examples of several questions that go to the heart of select committee processes rather than the substance of decisions, and members on this side of the Chamber are fully aware that they are not within the Standing Orders to ask. I seek some clarification on your ruling. The question asked by my colleague was, essentially, whether there would be room on the timetable for a potential item of business. It would not be logically possible to ask that question if an item had already been scheduled. It cannot be out of order to ask whether it would be possible to make time; that would go to the question of whether there are too many other items of business, and that was exactly the point my colleague sought to make. I ask you to explain why it was out of order to ask whether there would be time to ask a further matter.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I like the honourable member’s attempt to bring the question within the Standing Orders, but obviously a question to a member must relate to a matter for which the committee has charge, and that is in front of the committee. I suppose that a question could be asked as to whether the committee has any spare time in the future, but a member cannot ask the chair of the committee about the possible consideration of a matter that is not before the committee. I think I have allowed the member two supplementary questions. I really need now to move on. I think that is only fair and reasonable. The House has come to the end of questions for oral answer.</p>
@@ -922,7 +923,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

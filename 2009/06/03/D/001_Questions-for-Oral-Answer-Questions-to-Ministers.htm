@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/b/4/b/49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/c/4/6/49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/0/a/2/49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/d/4/e/49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f0%2fa%2f2%2f49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b0399AC07-2ABD-4EFB-9104-9072746DF735%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b65093D79-FCBE-4E73-A7DD-D8B50003230F%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fd%2f4%2fe%2f49HansD_20090603_00000001-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/6/3/5/49HansD_20090603-Volume-654-Week-14-Wednesday-3-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 3 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/9/d/0/49HansD_20090603-Volume-654-Week-14-Wednesday-3-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 3 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:4133]</p>
     <div class="QOA">
       <a name="page_4133"></a>
       <h2>Wednesday, 3 June 2009</h2>
@@ -298,18 +300,18 @@
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
       </div>
-      <h4 class="QSubjectheadingalone">Budget 2009—Home Insulation and Clean Heating Devices</h4>
+      <h4 class="QSubjectheadingalone">Budget 2009—Home Insulation and Clean-heating Devices</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>3.
  </strong>
           <strong>PESETA SAM LOTU-IIGA (National—Maungakiekie)</strong> to the
- <strong>Minister of Energy and Resources</strong>: What assistance does Budget 2009 provide for people wanting to insulate their homes and use clean heating devices?</p>
+ <strong>Minister of Energy and Resources</strong>: What assistance does Budget 2009 provide for people wanting to insulate their homes and use clean-heating devices?</p>
         <a name="page_4136"></a>
         <p class="SubsAnswer">
           <a name="time_14:12:09"></a>
           <strong>Hon GERRY BROWNLEE (Minister of Energy and Resources)</strong>
-          <strong>:</strong> Budget 2009 appropriates $323.4 million over the next 4 years for the New Zealand home insulation fund. Funding for insulation and clean heating devices will be available to all New Zealanders, regardless of income, who live in houses built before 2000. Households will be able to access one-third of the costs of insulation, up to a maximum of $1,300, and $500 for clean heating devices. More money will be available to community services card holders. The Government’s goal is to see up to 60,500 homes insulated each year by 2012-13.</p>
+          <strong>:</strong> Budget 2009 appropriates $323.4 million over the next 4 years for the New Zealand home insulation fund. Funding for insulation and clean-heating devices will be available to all New Zealanders, regardless of income, who live in houses built before 2000. Households will be able to access one-third of the costs of insulation, up to a maximum of $1,300, and $500 for clean-heating devices. More money will be available to community services card holders. The Government’s goal is to see up to 60,500 homes insulated each year by 2012-13.</p>
         <p class="SupQuestion">
           <strong>Peseta Sam Lotu-Iiga</strong>: Why is the Government investing in home insulation and clean heating?</p>
         <p class="SupAnswer">
@@ -326,10 +328,10 @@
           <strong>Hon Members</strong>: The Budget!</p>
         <p class="ContinueSpeech">
           <strong>Hon GERRY BROWNLEE</strong>: —but my understanding is that currently very few community service card holders actually pay anything. It is our hope that, with the partnership arrangements made available through this scheme, community service card holders, who for both insulation and clean heating can access up to $3,000, will, in fact, have a partner that picks up the balance of that cost.</p>
+        <p class="Intervention">
+          <strong>Chauvel</strong>: I seek leave to table the information release from the Minister containing the figures that I cited. [<em>Interruption</em><strong></strong>]</p>
         <p class="Interjection">
-          <strong>Charles Chauvel</strong>: I seek leave to table the information release from the Minister containing the figures that I cited. [<em>Interruption</em><strong></strong>]</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Order! This is a point of order. The member will resume his seat. The provisions for tabling documents in this House are to provide information for members that might not otherwise be available to them. The provisions are not for political grandstanding. If the member thinks that a document from the Budget is not available to members of this House, I do not know what is available to them. I make that point. The member has sought leave to table the document. I just want to ascertain exactly what the document is. The member said “information”. What is the document?</p>
+          <strong>Mr SPEAKER</strong>: This is a point of order. The member will resume his seat. The provisions for tabling documents in this House are to provide information for members that might not otherwise be available to them. The provisions are not for political grandstanding. If the member thinks that a document from the Budget is not available to members of this House, I do not know what is available to them. I make that point. The member has sought leave to table the document. I just want to ascertain exactly what the document is. The member said “information”. What is the document?</p>
         <p class="Interjection">
           <strong>Charles Chauvel</strong>: The document is the one that the Minister requested in his answer when he asked where I got the figures from. It is his own information release—</p>
         <p class="Interjection">
@@ -342,7 +344,7 @@
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. The point of order goes to the approach that was taken to the tabling of that document. You are correct that the Standing Orders Committee has looked at this provision and made some recommendations, but it stopped short of making recommendations to the House to change the Standing Orders in this respect. I think there may well be a degree of unanimity around what the approach would be, and that would involve a change to the Standing Orders. But until the time that the committee takes that step, I suggest that it is not appropriate for you to make value judgments or to remind members. We are all now aware of what the Standing Orders Committee said. We are also aware that it chose not to make what it said mandatory. Having you editorialise, I think, is not helpful, and it is actually making members on this side of the House quite unhappy.</p>
         <p class="ContinueSpeech">
           <strong>Hon GERRY BROWNLEE</strong>: That is another one of the long diatribes from the Hon Trevor Mallard that is supposed to be helpful. I think I can be more helpful by saying that I promise to read my own press releases.</p>
@@ -385,7 +387,7 @@
           <strong>Hon ANNE TOLLEY</strong>: The previous Government’s scorched earth spending policy seems to have reached its pinnacle in the tertiary education arena. Over $500 million was promised, without any dollars being committed. Promises such as the CPI indexation into 2010-11 and commitments to increases in student support entitlements in the out-years were left unfunded. That was news to the sector, which had been told by the previous Government that the money was locked in and ready for it to use. Well, we have managed to find funding to give those tertiary institutions the CPI adjustment in those 2 years and to maintain student support.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: That was a very long answer.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I think I can speak for members on this side of the House when I say, again, your intervention there was not helpful. The Minister was answering the question, we were interested in it, and the more she was answering the more interested we were getting.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member has been in this House long enough to know that the Speaker is the sole judge of the length of questions and answers.</p>
@@ -400,7 +402,7 @@
         <p class="SupAnswer">
           <strong>Hon ANNE TOLLEY</strong>: As I said, the change in funding priority is aimed at maintaining funding to those who provide literacy, numeracy, and foundation skills. We are targeting for cuts courses like Moroccan cooking, gardening in the wind, and concrete shell mosaics.</p>
       </div>
-      <h4 class="QSubjectheadingalone">Greenhouse Gas Reduction—Bonn Climate Change Talks</h4>
+      <h4 class="QSubjectheadingalone">Greenhouse Gas Reduction—Target</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>5.
@@ -643,7 +645,7 @@
           <strong>Michael Woodhouse</strong>: Did the head office of ACC expand excessively, as occurred in most Government head offices, during the Labour Government’s tenure?</p>
         <p class="SupAnswer">
           <strong>Hon Dr NICK SMITH</strong>: The head office of ACC expanded by 30 percent, including over 100 additional staff, during the last 5 years. It seems that the Labour members are far more—</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Darren Hughes</strong>: I raise a point of order, Mr Speaker. I am struggling to see the ministerial responsibility for this Minister in the answer he is giving, and for how on the earth the question could have been in order.</p>
         <p class="ContinueSpeech">
           <strong>Hon Dr NICK SMITH</strong>: Mr Woodhouse’s question was about the number of staff and the degree to which the head office had expanded over the last 3 years. I think that is eminently sensible in a debate around the changes—[<em>Interruption</em><strong></strong>] I thought points of order were meant to be heard in silence.</p>
@@ -691,7 +693,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

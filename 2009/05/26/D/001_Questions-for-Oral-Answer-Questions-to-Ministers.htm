@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/8/4/2/49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/f/6/b/49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/5/2/6/49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/b/f/a/49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f5%2f2%2f6%2f49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b0032720F-5A79-4E00-BCBB-116C793C7C6A%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7bA58BE440-8961-40A3-BB21-E5903EBA626D%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fb%2ff%2fa%2f49HansD_20090526_00000001-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/8/1/7/49HansD_20090526-Volume-654-Week-13-Tuesday-26-May-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 26 May 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/9/c/0/49HansD_20090526-Volume-654-Week-13-Tuesday-26-May-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 26 May 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,9 +195,9 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:3759]</p>
     <div class="QOA">
-      <a name="page_1"></a>
+      <a name="page_3759"></a>
       <h2>Tuesday, 26 May 2009</h2>
       <p class="a">
         <a name="time_14:00:00"></a>
@@ -228,7 +230,7 @@
           <strong>Hon Phil Goff</strong>: Gerry is just jealous that he was not there with them! Is it fair for the Prime Minister to blame the debacle around Christine Rankin on Paula Bennett, given that when a major division occurred within Cabinet—and clearly the Minister of Justice was opposed to the appointment—it was the Prime Minister who made the decision that the appointment should go ahead?</p>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: No, it would not be fair to blame the Minister for Social Development and Employment. That was a decision made by Cabinet and supported by all the members of Cabinet.</p>
-        <a name="page_2"></a>
+        <a name="page_3760"></a>
         <p class="SupQuestion">
           <strong>Hon Phil Goff</strong>: Will the Prime Minister remove Christine Rankin from her appointment as a Families Commissioner if public comments made by her in recent weeks are found to be untrue? [<em>Interruption</em><strong></strong>]</p>
         <p class="Interjection">
@@ -264,7 +266,7 @@
           <strong>Sue Kedgley</strong>: I seek leave to table a letter from the Campaign Against Factory Farming, where it briefed the current Minister in 2005.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that letter. Is there any objection? There is none.</p>
-        <a name="page_3"></a>
+        <a name="page_3761"></a>
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
@@ -304,7 +306,7 @@
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: The member will have to wait for the Budget to actually have those confirmed, but I can tell him that in the Budget Policy Statement the
  incoming Government outlined new capital spending of about $7.5 billion over the next 5 years, which is a substantial lift on previous spending. More important than the amount of money is how well it is invested. This Government will be focusing it on long-term investments that open up the bottlenecks in this economy, help our exporters become more competitive, and help make the economy more productive.</p>
-        <a name="page_4"></a>
+        <a name="page_3762"></a>
         <p class="SupQuestion">
           <strong>Hon Sir Roger Douglas</strong>: Does the Minister agree that reducing core Crown expenditure on sectors such as health, education, and welfare is sustainable only if it is accompanied by structural changes that increase competition; if so, why does he refuse to do that in the way that he did with the health sector in the 1990s, when he was responsible for large gains in productivity?</p>
         <p class="SupAnswer">
@@ -336,11 +338,11 @@
         <p class="SupQuestion">
           <strong>Hon Annette King</strong>: How can the 90-day employment trial legislation be “a great example of partnership working for everyone”, as the Minister has stated, when, last
  week, a citizens advice bureau in South Auckland advised that it is seeing one person a day who has been hired and then fired under that legislation?</p>
-        <a name="page_5"></a>
+        <a name="page_3763"></a>
         <p class="SupAnswer">
           <strong>Hon PAULA BENNETT</strong>: If we looked at the facts, I think we would also see many employees who are getting a chance that they were not getting before this legislation was put in place. I am hearing daily that people who were not getting opportunities are now getting them, that employers are now taking on people whom they would not normally have taken on, and that, actually, the legislation is working out there.</p>
       </div>
-      <h4 class="QSubjectheadingalone">Auckland—Land Gifted By Mana Whenua</h4>
+      <h4 class="QSubjectheadingalone">Auckland—Land Gifted by Mana Whenua</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>4.
@@ -372,7 +374,7 @@
         <p class="SupAnswer">
           <strong>Hon CHRISTOPHER FINLAYSON</strong>: My understanding is that those lands were the subject of a bequest by John Logan Campbell. I am not exactly certain of the details
  of the bequest, but I have a feeling that they are somewhat different from the circumstances surrounding transactions involving Ngāti Whātua.</p>
-        <a name="page_6"></a>
+        <a name="page_3764"></a>
         <p class="SupQuestion">
           <strong>Te Ururoa Flavell</strong>: Is the Government willing to establish a forum, to be facilitated by the transition committee, for the Crown and Auckland rohe rangatira to have dialogue on Auckland City governance, based on the partnership principle of the Treaty of Waitangi; if not, why not?</p>
         <p class="SupAnswer">
@@ -416,7 +418,7 @@
         <p class="SupQuestion">
           <strong>Hon David Cunliffe</strong>: Does he agree with rating agencies such as Standard and Poor’s and Moody’s who make clear that closing our external deficit and building a more diversified and innovative economy is a greater challenge than reducing New
  Zealand’s relatively low Government debt; if so, why has he gutted KiwiSaver, research and development tax cuts, and the Fast Forward programme, which were critical to reducing the savings gap and getting our economy moving?</p>
-        <a name="page_7"></a>
+        <a name="page_3765"></a>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: The first task of the Government has been to get expenditure and debt under control, because they were out of control when the previous Government left office and the global recession made that worse.</p>
         <p class="SupQuestion">
@@ -456,7 +458,7 @@
         <p class="SupAnswer">
           <strong>Hon TONY RYALL</strong>: This Government has introduced a voluntary bonding scheme to help keep midwives in the country. The scheme funds incentives for midwives in
  rural areas, and the intake into midwifery education has increased. Speaking of that woman from Capital Coast District Health Board, I wonder whether she explained why that district health board under the previous Government was going to pay women $100 Pak ’N Save vouchers to get out of the maternity ward in less than 6 hours. Where is the explanation for that?</p>
-        <a name="page_8"></a>
+        <a name="page_3766"></a>
         <p class="SupQuestion">
           <strong>Hon Ruth Dyson</strong>: Has the Minister seen reports from Southland saying that his announcement will not lead to longer stays for new mothers in Southland Hospital; and is he prepared to admit that his announcement will not even keep up with the baby boom that we are currently experiencing?</p>
         <p class="SupAnswer">
@@ -484,7 +486,7 @@
         <p class="SupQuestion">
           <strong>Dr Russel Norman</strong>: Does the Prime Minister agree that, by investing $2 billion over the next 3 years in new State housing, as laid out in the Green Party’s Green New Deal stimulus package, he could create 28,000 new jobs and improve the lot of families in
  desperate need of affordable housing, thereby dealing with economic, social, and environmental issues at the same time?</p>
-        <a name="page_9"></a>
+        <a name="page_3767"></a>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: That may or may not be correct. What I can confirm is that the Government is investing, albeit modestly, in building more State houses. But, more important, it is actually spending a lot of money on renovating State houses. That work has begun already. All I can say is that the aim of the Government is to no longer be a slum landlord, which is the position we inherited from the Labour Government.</p>
         <p class="SupQuestion">
@@ -496,7 +498,7 @@
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: Firstly, I always agree with the Minister of Finance. Secondly, I know that New Zealand is very lucky that he will be the Minister of Finance reading the Budget on Thursday. New Zealanders will be grateful on Thursday, when they hear the Budget being read out, that they are not looking at a picture of Michael Cullen on their TV screens; he knew how to spend money, but he certainly could not run a Government efficiently.</p>
       </div>
-      <h4 class="QSubjectheadingalone">Auckland Council—Māori Representation</h4>
+      <h4 class="QSubjectheadingalone">Auckland, Local Government Reform—Māori Representation on Auckland Council</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>9.
@@ -515,7 +517,7 @@
           <strong>Hon Shane Jones</strong>: When did the Cabinet submission that was made by you, Mr Hide, to scrap Māori—apologies. Mr Hide, when the Minister—[<em>Interruption</em><strong></strong>]</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will resume his seat while I am on my feet. I thank the honourable member. Colleagues, I ask for a little decorum, please. I call the Hon Shane Jones, and I ask him to please concentrate.</p>
-        <a name="page_10"></a>
+        <a name="page_3768"></a>
         <p class="SupQuestion">
           <strong>Hon Shane Jones</strong>: Did the Minister seek the views of any Māori other than the Minister of Māori Affairs when deciding whether to ditch the royal commission’s recommendation for Māori representation?</p>
         <p class="SupAnswer">
@@ -555,7 +557,7 @@
         <p class="SupAnswer">
           <strong>Hon GERRY BROWNLEE</strong>: I have seen a report from the Bioenergy Association of New Zealand stating that the prompt action by the Minister has provided immediate security for 40 direct jobs and 200 indirect jobs, and that the implementation of the investment plans will provide a further 100 jobs in the first year of the scheme with the expectation that the industry will grow to provide at least 55 direct jobs in 3 years.
  Although the focus of the grants scheme is to support new and fledgling industry in New Zealand, the employment effects are also very pleasing; so too will be the reduction in New Zealand’s greenhouse gases that will result from increased use of bio-diesel produced in New Zealand.</p>
-        <a name="page_11"></a>
+        <a name="page_3769"></a>
         <p class="SupQuestion">
           <strong>Charles Chauvel</strong>: Does the Minister accept that his grants scheme is too little too late, for the development of projects such as the Argent Energy 60 million litre bio-diesel plant in the Bay of Plenty, and the plants of BioDiesel Oils (NZ) Ltd in Auckland and Waharoa, which have been cancelled or put on hold because of the uncertainty created by his short-sighted repeal of the biofuels obligation; and can he tell the House how many jobs his stop-start policies in the biofuels area have cost New Zealand in the last 6 months?</p>
         <p class="SupAnswer">
@@ -590,7 +592,7 @@
           <strong>Mr SPEAKER</strong>: The member cannot be too specific with a question like that. We heard from the Minister that an inquiry had been done and that he is trying to find out the outcome of it.</p>
         <p class="SupQuestion">
           <strong>Amy Adams</strong>: What is the current average floating mortgage rate?</p>
-        <a name="page_12"></a>
+        <a name="page_3770"></a>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: The average floating mortgage rate as stated by the Reserve Bank is 6.41 percent, which is 4.5 percent lower than it was in June last year, when floating mortgage rates peaked at 10 percent. I do not recall hearing complaints from members opposite then, when interest rates were much higher for ordinary New Zealanders than they are today.</p>
         <p class="SupQuestion">
@@ -628,7 +630,7 @@
         <p class="SupAnswer">
           <strong>Hon SIMON POWER</strong>: Yes, once the Government has received submissions on the issues paper, we will use them to develop a proposal document. All parliamentary parties will be consulted again before we release that document for further public consultation. Submissions on that document will assist us in drafting a bill to reform electoral finance law. Once the bill is before Parliament, the public will also have a
  further opportunity to make a submission on the bill during the select committee process.</p>
-        <a name="page_13"></a>
+        <a name="page_3771"></a>
         <p class="SupQuestion">
           <strong>Hon David Parker</strong>: Is the Minister aware that at the last election the National Party and its candidates disclosed the source of only 15 percent of their $4 million of election spending, and does he agree that transparency with regard to donations to political parties is a cornerstone of maintaining public confidence in our democracy?</p>
         <p class="SupAnswer">
@@ -664,7 +666,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

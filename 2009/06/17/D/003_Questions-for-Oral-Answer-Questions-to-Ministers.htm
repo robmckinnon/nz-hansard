@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -58,6 +58,8 @@
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -92,27 +94,27 @@
 		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
 		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/4/b/8/49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/3/b/2/49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/4/9/9/49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/a/a/5/49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f4%2f9%2f9%2f49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b23CAE28A-FFAF-465C-85A9-5D87599AD0FF%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b0B32BA8B-4704-4FB7-B024-B6BA43FD6C91%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fa%2fa%2f5%2f49HansD_20090617_00000013-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/6/1/4/49HansD_20090617-Volume-655-Week-15-Wednesday-17-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 17 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/5/4/7/49HansD_20090617-Volume-655-Week-15-Wednesday-17-June-2009.htm">Parliamentary Debates (Hansard) for Wednesday, 17 June 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4355]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectheadingalone">Question No. 1 to Minister</h4>
@@ -261,13 +263,13 @@
           <strong>Hon Phil Goff</strong>: Who is telling the truth: the Minister for Social Development and Employment, Paula Bennett, who said she consulted fully with Pita Sharples before deciding to axe the Enterprising Communities scheme, or Pita Sharples, who said he had not been briefed on this at all? Both of them cannot be telling the truth.</p>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: That is a bit rich coming from that member, who is losing public support because of his inability to be open with the truth.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Phil Goff</strong>: I raise a point of order, Mr Speaker. You surely cannot accept that as being a valid answer to the question. There are two opposing statements made by two Ministers. I am asking the Minister of Finance which one of those statements is accurate and truthful. That is straightforward.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I just wish the honourable Leader of the Opposition had asked which one of those statements was accurate. Instead of that, his question implied that an honourable member of this House may not have been telling the truth. He asked which one was telling the truth. The member knows from past rulings in this House that one cannot allege that someone is telling lies or not telling the truth. I allowed the question to go, but, in fact, the way that the Minister answered it was not unexpected, given the allegation that someone was not telling the truth. Had he asked how the Minister accounted for two apparently conflicting statements, then I could have assisted the honourable member more.</p>
         <p class="Interjection">
           <strong>Hon Phil Goff</strong>: Had my question been out of order, I would have expected you to rule it out of order. My understanding is that it is not outside the Standing Orders to ask the Minister which one of those statements is truthful. That is what I did, but the answer to that was not given.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: I think the Leader of the Opposition needs to listen to the advice that you just gave him, because he is now getting into a different interpretation of things. But in any event Speaker’s ruling 163/3 makes it very clear that there is now greater scope for the way in which questions can be asked in the House. By the same token there should also be an expectation that there be greater scope in the way in which questions are answered. The way in which the Hon Bill English answered that question was not at all unreasonable, given the way in which the question was answered. That was nowhere near as distinct and precise as the suggestion you made to the Leader of the Opposition.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I do not think we need to take more time on this matter. The honourable Leader of the Opposition knows perfectly well that he cannot allege someone is not telling the truth. There is a way of asking that question. I am sure he is perfectly capable of asking the question, and he has further supplementary questions available in which to do that.</p>
@@ -321,8 +323,10 @@
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
         <a name="page_4359"></a>
-        <p class="ContinueSpeech">
-          <strong>Hon PHIL GOFF</strong>: The third document is an answer by Paula Bennett to an oral question saying that she consulted fully with the Minister of Māori Affairs before announcing the axing of the Enterprising Communities initiative.</p>
+        <ul class="">
+          <li>
+            <strong>Hon PHIL GOFF</strong>: The third document is an answer by Paula Bennett to an oral question saying that she consulted fully with the Minister of Māori Affairs before announcing the axing of the Enterprising Communities initiative.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I take it that is a
  <em>Hansard</em><strong></strong> document.</p>
@@ -342,8 +346,10 @@
           <a name="time_14:18:24"></a>
           <strong>Hon DAVID PARKER (Labour)</strong>
           <strong>:</strong> I seek leave to table the transcript of the radio interview with the Secretary to the Treasury of 10 June where he predicts that something has to be given up as a consequence.</p>
-        <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Leave is sought to table that radio transcript. Is there any objection to that course of action? There is no objection.</p>
+        <ul class="">
+          <li>
+            <strong>Mr SPEAKER</strong>: Leave is sought to table that radio transcript. Is there any objection to that course of action? There is no objection.</li>
+        </ul>
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
@@ -388,8 +394,10 @@
           <strong>Hon Ruth Dyson</strong>: That is not true. That was an underspend, and you know it.</p>
         <p class="ContinueSpeech">
           <strong>Hon TONY RYALL</strong>: Oh, it was an “underspend”.</p>
-        <p class="Interjection">
-          <strong>Hon Ruth Dyson</strong>: I seek leave to table the evaluation of the cancellation of the primary health care conference, which shows that the total cost incurred by its cancellation is $113,491 of taxpayers’ money.</p>
+        <ul class="">
+          <li>
+            <strong>Hon Ruth Dyson</strong>: I seek leave to table the evaluation of the cancellation of the primary health care conference, which shows that the total cost incurred by its cancellation is $113,491 of taxpayers’ money.</li>
+        </ul>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is no objection.</p>
         <ul class="">
@@ -599,13 +607,13 @@
         <a name="page_4366"></a>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: I repeat the comment I made yesterday. I went into a broad description, but not specifics.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Pete Hodgson</strong>: I raise a point of order, Mr Speaker. I raise it under Standing Order 377(1). Here is a little reminder as to what that Standing Order says. It says: “An answer that seeks to address the question asked must be given if it can be given consistently with the public interest.” My question was whether the Prime Minister, having briefed his Cabinet on the reasons for dismissing or losing confidence in Dr Richard Worth, had told his Cabinet anything substantive that he had not made public. You should note, Mr Speaker, that I did not ask what he had told his Cabinet, but simply whether he had told his Cabinet anything substantive that was not yet public. I put it to you that he has not sought to address that question, and because of the wording of the question he has no public interest reason to deny addressing it.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I respect the honourable member’s important point of order, but I come back to the point that only the Minister—or in this case, the Prime Minister—can judge the issue of public interest. That is why the Standing Order is written that way. My assessment was that the Prime Minister answered the question, given the constraints of his judgment around the public interest issue. I believe I cannot ask him to do more than that under the Standing Orders.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I would like you to examine your ruling and previous rulings with regard to the question of public interest. My understanding from the, I think, two occasions that I have seen that Standing Order applied by Ministers in the past is that they have, in fact, elected not to give an answer, or to give an answer that says that they cannot give that answer because it is not in the public interest. I have never seen that Standing Order used before to judge whether an answer addressed a question. It goes to whether an answer is to be given, and whether that is in the public interest, not to the quality of the answer or whether it addresses the question.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: I think that if we were to turn to Speaker’s ruling 165/6, then the situation becomes a little clearer. The Prime Minister gave an answer to the question. This is a Speaker’s ruling from the Rt Hon Jonathan Hunt. It states: “The Speaker does not judge whether ministerial replies are adequate or make political judgments on how well Ministers have responded to the House, or, indeed, how well other members are performing. Those are matters for members themselves, the press, and the public generally.” The Prime Minister has made it clear. He has given an answer to Mr Hodgson as far as he can. It would seem to me that by relying on this particular Speaker’s ruling we would see an end to the matter.</p>
         <p class="Interjection">
           <strong>Hon Trevor Mallard</strong>: I think it would be advantageous to give a couple of examples of where my understanding of this Standing Order is designed to be applied. One example would be in the area of foreign affairs or defence, where there is a point of conflict and New Zealand interests would be at risk, either in a trade sense or a defence sense. The other occasions, in the examples that we have been briefed on, have been in police cases where an active police operation is occurring and it would not be appropriate for a Minister to give an answer. That Minister could not give an answer that was truthful in any of those examples where it would be in the interests of the country. Those are the sorts of areas that, in my opinion, and certainly in the briefings that we have had from the previous Clerks, are covered by the Standing Order. It does not extend to a judgment partway through a question that answering the question properly is not in the public interest; it relates to whether the question is answered at all.</p>
@@ -613,7 +621,7 @@
         <p class="Interjection">
           <strong>Hon Gerry Brownlee</strong>: Well, I think that anyone observing this would know that this is a question that comes down to the issue of political exchange. If we look at Speaker’s ruling 163/6, also a ruling by the Rt Hon Jonathan Hunt, we see that he acknowledges within that ruling that there are questions that are matters of political exchange. It makes it very, very clear that the Speaker cannot be put in a position of judging the adequacy of either the question or the answer. The Prime Minister has given an answer in so far as he can and is prepared to, and that should be acceptable to the House.
  </p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Pete Hodgson</strong>: I simply want to remind the Speaker that I have raised a point of order on a very narrow issue, not to do with Speaker’s ruling 165/6 which is to do with the adequacy of the reply, but to do with whether the Minister addressed the question. It is a narrow issue. He must seek to address the question unless there is a public interest reason for not doing so. Similarly, Speaker’s ruling 163/6 is irrelevant to the point of order that I have raised. The Hon Trevor Mallard makes a very good point, which is that if it is not in the public interest to give an answer, then that is what we would expect to be told. In fact, the Prime Minister has said in his answer to my primary question that it is not in the public interest for him to give further detail. So I changed my questioning to ask who else had that detail, but I did not ask for the detail itself—because it is apparently not in the public interest. At that point I think, the Minister must seek to address my question.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I thank honourable members, because this is an issue that I accept is not absolutely black and white. But, in fact, when the Hon Trevor Mallard was recounting Speakers’ rulings or briefings on the matter, he overlooked the one by Speaker Wilson just last year, which is Speaker’s ruling 162/4. It actually gets into the issue of matters of public interest versus privacy as well, and there are issues to be covered there.</p>
@@ -623,7 +631,7 @@
           <strong>Hon Pete Hodgson</strong>: When the Prime Minister came to the view that he had lost confidence in Dr Richard Worth, was he in possession, or was he not in possession, of substantive information that is not yet public?</p>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: I was in possession of information that meant I no longer had confidence in Dr Worth, and at that point I believed he was not fit to be a Minister.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Pete Hodgson</strong>: I raise a point of order, Mr Speaker. My point of order is that neither the spirit nor the letter of Standing Order 377(1) has been met by the Prime Minister’s answer to that question.</p>
         <p class="Interjection">
           <strong>Hon Gerry Brownlee</strong>: Mr Speaker—[<em>Interruption</em><strong></strong>]</p>
@@ -631,7 +639,7 @@
           <strong>Mr SPEAKER</strong>: I apologise to the member. Both those senior Labour members know they cannot interject like that during a point of order. This is a difficult issue, and
  I believe that I owe the House the courtesy and the respect of taking it seriously. I will hear the Hon Gerry Brownlee.</p>
         <a name="page_4368"></a>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: Numerous Speakers in the past have ruled that although an answer can be sought, the answer that is given may not be adequate for the purpose of satisfying the questioner’s inquiry but is perfectly adequate in terms of the Standing Orders. Numerous examples from Speaker Wilson and earlier make that abundantly clear. I do not think we are in a different situation here. The question was asked, an answer was given, and that answer related to the topic. The fact that the answer was not as specific as the member wanted it to be does not mean it is in any way a breach of the Standing Orders.</p>
         <p class="Interjection">
           <strong>Hon Pete Hodgson</strong>: I offered the Prime Minister the opportunity to tell us whether he had, or did not have, substantive information that was not in the public arena. If he did not have it, then it seems to me that the Prime Minister is entitled to tell the House that. If he did have substantive information, but he did not want to tell us what it was, because it was not in the pubic interest to do so, he is absolutely entitled—absolutely entitled—to say that to the House. The truth of the matter is that he took neither of those options, and I assert, therefore, that he did not seek, endeavour, try, or attempt to address the question, and he ought to do so.</p>
@@ -643,14 +651,14 @@
           <strong>Hon Pete Hodgson</strong>: When the Prime Minister came to the view that he had lost confidence in Dr Richard Worth, was he in possession, or was he not in possession, of substantive information that is not yet public?</p>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: I was in possession of information that meant I no longer had confidence in Dr Worth.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I say “ibid” in terms of the previous point of order, which my colleague Pete Hodgson raised. That answer no more addressed the question than the previous answer did. In fact, it was very close to being a repeat of the original answer, which you ruled did not address the question.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I gave the honourable member the chance to repeat his question. What has been made clear is that, in the Prime Minister’s judgment, it is not in the public interest to give further information on it. He has given as much information in his answer as he believes is consistent with the public interest, and I cannot insist on any more than that. I gave the honourable member the chance to repeat his question, he has made his point, and the Prime Minister has answered as far as he believes he can consistent with the public interest. I think that is as far as the House can take that matter.</p>
         <p class="Interjection">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. I think the problem we are getting to now is that you are providing an answer for the Prime Minister that he himself is not prepared to give. What you have done in your ruling is indicate that it is the Prime Minister’s view that it is not in the public interest to give further information. If that is his view, then it is incumbent on him to say so. It is not incumbent on you to interpret—in fact, you should not interpret—that the Prime Minister is saying that, because it could well come out later that that is not the fact, and, effectively, the Prime Minister will be hung by your ruling.</p>
         <a name="page_4369"></a>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: That is an unacceptable attack on the integrity of the Chair and I do not think it should pass lightly. In any event, let us turn to Speakers’ ruling 162/6, a ruling by Speaker Harrison that was later repeated by Speaker Arthur. It is a long-standing ruling. It has survived many, many Parliaments since those two gentlemen occupied the seat in the late 1970s and early 1980s. The ruling states: “The Speaker cannot force a Minister to give an answer to a question and has no responsibility for the quality of the answer that is given nor its content.” Mr Speaker, the Opposition is asking you to overturn that ruling and, in fact, to become the adjudicator in the case of those rulings, which would mean that subsequent ruling 163/6 and numerous rulings on page 165 would also be overturned. I assert again that the question we are dealing with is in the nature of a political exchange, as described in Speaker’s ruling 163/6. I think it is unfortunate that the Opposition is asking you to be put in a position where you are judging the quality of the answer, when, in fact, previous Speakers have strenuously attempted to stay away from that particular position. The Prime Minister has given an answer, it is a reasonable answer in all the circumstances, and I think this case being in the nature of a political exchange does override any other consideration.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I have heard quite sufficient on the matter. The member asked a perfectly fair and reasonable question, and was concerned about the answer. I accepted that his question had been a pretty straight question and had not been directly answered; that was why I allowed the member to repeat it. However, when he repeated the question he got a further answer from the Prime Minister that clearly indicated the limits to which the Prime Minister felt he was able to go within the public interest. As the Hon Gerry Brownlee has pointed out, I cannot then judge the quality of that answer. The member asked his question, it was a straight question, he got the answer, and he can draw his own conclusions about it. But there is no way that I as Speaker can take it a step further and start adjudicating on whether an answer was adequate. I believe that the Prime Minister gave an answer as far as he believed was consistent with the public interest, and that is where the matter for today must lie.</p>
@@ -681,8 +689,7 @@
  those changes were deferred. A further paper considering policy proposals was considered in February 2005 but consideration of that was further deferred. A review of the Public Works Act and the Land Act 1948 was put before the Cabinet in 2008 and a legislative programme bid was made for the Land (Acquisition, Management, and Disposal) Bill, but again that was deferred and not put through. So there has been a long history from 2001 of proposals and reviews but nothing happening from them. I can assure that member that all land that qualifies to be sold back to the original owner is indeed sold back.</p>
         <a name="page_4370"></a>
         <p class="SupQuestion">
-          <strong>Rahui</strong>
-          <strong> Katene</strong>: What response can be made to the submissions to the 2001 review that suggested that compensation provisions for the offer back of land were deficient in that they did not take into account spiritual, cultural, and social values associated with land?</p>
+          <strong>Rahui Katene</strong>: What response can be made to the submissions to the 2001 review that suggested that compensation provisions for the offer back of land were deficient in that they did not take into account spiritual, cultural, and social values associated with land?</p>
         <p class="SupAnswer">
           <strong>Hon MAURICE WILLIAMSON</strong>: I am told—and given I have been in the portfolio for only 24 hours I am struggling with some of this—that as part of phase 2 of the reforms to the Resource Management Act this Government is investigating whether compensation for landowners under the Public Works Act 1981 needs to be more generous. Similarly the Government is keen to streamline and better integrate the process under the Public Works Act and other legislation such as the Resource Management Act. That work is currently going on.</p>
       </div>
@@ -725,11 +732,12 @@
           <strong>Jacinda Ardern</strong>: I am happy to do a consolidated short list, if that is easier—</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: The member will resume her seat. Is the member now making it clear there is no document she is seeking to table, and it is a set of information that she wishes to table?</p>
-        <p class="Interjection">
-          <strong>Jacinda Ardern</strong>: I am seeking leave to table the Budget documents, because the Minister questioned my figures, which came directly from her Government’s Budget. [<em>Interruption</em><strong></strong>]</p>
+        <p class="Intervention">
+          <strong>Jacinda Ardern</strong>: I am seeking leave to table the Budget documents, because the Minister questioned my figures, which came directly from her Government’s Budget. [<em>Interruption</em><strong></strong>]
+ </p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: We will not have this. The Budget documents are all in the public domain. I invite the honourable member just to reflect on the time of the House she is wasting. [<em>Interruption</em><strong></strong>] I have been very tolerant today in terms of putting leave for press statements and radio transcripts, but there is a limit—[<em>Interruption</em><strong></strong>] Both sides of the House will be quiet. There is a limit to how much time we waste on point-scoring, when the procedure under the Standing Orders for leave that is being sought to table documents is there to provide information for the House that it does not otherwise have access to. Clearly, the House has access to the information in the Budget documents. I invite the honourable member to reflect on how she is contributing to the good order of the House by seeking leave to do this. Does she still wish to proceed?</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Speaker. This point is one that I have brought up before, and it is a question about whether members do have the right to seek leave. At the moment, under the Standing Orders they have the right to seek leave to do anything. I would make two points. The first is that I actually agree with you; I think the Standing Orders need a change. But the second is that until the Standing Orders have that change made, I think we would be losing more time by your interventions than we would have lost by the leave just being put and turned down.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I accept that—</p>
@@ -737,7 +745,7 @@
           <strong>Hon Gerry Brownlee</strong>: I raise a point of order, Mr Speaker.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: It is members’ day, I guess!</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon Gerry Brownlee</strong>: It is true that members do have a right to seek leave for anything that the House might consider to be outside the Standing Orders’ prescription. However, in the case of leave being sought to table a document, the House has a right to know what is proposed. In this case the document does not exist. That member has also changed her position from, at one point, saying she was prepared to collate some information for the House and table that, to then saying she would table the page out of the Budget documents, etc. The Budget documents have been tabled; they sit on the Table. So it was important that we bored down to find out the actual fact that what was being asked for was something that does not exist.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: We are in a curious situation. I accept the point the Hon Trevor Mallard has made, absolutely. Although I am trying to discourage the seeking of leave
@@ -778,7 +786,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

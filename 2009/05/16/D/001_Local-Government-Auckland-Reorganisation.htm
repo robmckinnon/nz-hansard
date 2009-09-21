@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/a/6/6/49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/c/9/a/49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/b/9/2/49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/5/3/7/49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fb%2f9%2f2%2f49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation%2ehtm&NRNODEGUID=%7bCC9A1EBF-6A30-4F08-BC43-87B4F145B2E5%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b6E51719B-3D63-413B-8767-CC522E981965%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f5%2f3%2f7%2f49HansD_20090516_00000001-Local-Government-Auckland-Reorganisation%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,12 +176,12 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Legislation/Bills/a/4/7/00DBHOH_BILL9147_1-Local-Government-Tamaki-Makaurau-Reorganisation.htm">Local Government (Tamaki Makaurau Reorganisation) Bill</a></li>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/3/6/6/49HansD_20090516-Volume-654-Week-12-Wednesday-13-May-2009-continued.htm">Parliamentary Debates (Hansard) for Wednesday, 13 May 2009(continued on Saturday, 16 May 2009)</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/a/2/9/49HansD_20090516-Volume-654-Week-12-Wednesday-13-May-2009-continued.htm">Parliamentary Debates (Hansard) for Wednesday, 13 May 2009(continued on Saturday, 16 May 2009)</a></li>
+					<li><a href="/en-NZ/PB/Legislation/Bills/4/1/f/00DBHOH_BILL9147_1-Local-Government-Tamaki-Makaurau-Reorganisation.htm">Local Government (Tamaki Makaurau Reorganisation) Bill</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -194,7 +196,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Local Government (Auckland Reorganisation) Bill — In Committee, Speaker Recalled, In Committee, Speaker Recalled, In Committee</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:3621]</p>
     <div class="BillDebate">
       <a name="page_3621"></a>
       <h1>Wednesday, 13 May 2009</h1>
@@ -523,23 +525,26 @@
           <p class="Clause-Indent1">(1)The Auckland Transition Agency Review Commission is established immediately before the commencement of this section and which shall have the jurisdiction and powers conferred on it by or pursuant to this Act and any other Act.</p>
           <p class="Clause-Indent1">(2)The Commission is independent from the Auckland Transition Agency.</p>
           <p class="Clause-Heading">39Interpretation</p>
-          <p class="Clause-Indent1">For the purposes of this part, Auckland Transition Agency Review Commission or Commission means the entity established by section 38.</p>
+          <p class="Clause-Indent1">For the purposes of this part,
+ <strong>Auckland Transition Agency Review Commission</strong> or
+ <strong>Commission</strong> means the entity established by section 38.</p>
           <p class="Clause-Heading">40Membership of the Auckland Transition Agency Review Commission</p>
           <p class="Clause-Indent1">The Commission shall consist of the following members:</p>
-          <p class="Clause-Indent2">(a)A Chair of the Commission; and</p>
-          <p class="Clause-Indent2">(b)Five Commissioners.</p>
+          <p class="Clause-Indent2">(a)a Chair of the Commission:</p>
+          <p class="Clause-Indent2">(b)five Commissioners.</p>
           <p class="Clause-Heading">41Eligibility for appointment as Chair of the Commission</p>
-          <p class="Clause-Indent1">(1)A person shall not be appointed or hold office as Chair of the Commissioner unless he or she is, or is eligible to be, a District Court Judge. If an appointee is not a District Court Judge at the time of appointment as a Commissioner, he or she shall be appointed as a District Court Judge at that time.</p>
+          <p class="Clause-Indent1">(1)A person shall not be appointed or hold office as Chair of the Commission unless he or she is, or is eligible to be, a District Court Judge. If an appointee is not a District Court Judge at the time of appointment as a Commissioner, he or she shall be appointed as a District Court Judge at that time.</p>
           <p class="Clause-Heading">42Eligibility for Commissioner</p>
           <p class="Clause-Indent1">When considering whether a person is suitable to be appointed as a Commissioner the Attorney-General shall have regard to the need to ensure that the Court possesses a mix of knowledge and experience in matters coming before the Court, including knowledge and experience in—</p>
-          <p class="Clause-Indent2">(a)Economic, commercial, and business affairs, local government, and community affairs;</p>
-          <p class="Clause-Indent2">(b)Planning, resource management, and heritage protection;</p>
-          <p class="Clause-Indent2">(c)Environmental science, including the physical and social sciences;</p>
-          <p class="Clause-Indent2">(d)Architecture, engineering, surveying, minerals technology, and building construction;</p>
-          <p class="Clause-Indent2">(da)Alternative dispute resolution processes; and</p>
-          <p class="Clause-Indent2">(e)Matters relating to the Treaty of Waitangi and kaupapa Maori.</p>
+          <p class="Clause-Indent2">(a)economic, commercial, and business affairs, local government, and community affairs:</p>
+          <p class="Clause-Indent2">(b)planning, resource management, and heritage protection:</p>
+          <p class="Clause-Indent2">(c)environmental science, including the physical and social sciences:</p>
+          <p class="Clause-Indent2">(d)architecture, engineering, surveying, minerals technology, and building construction:</p>
+          <p class="Clause-Indent2">(da)alternative dispute resolution processes:</p>
+          <p class="Clause-Indent2">(e)matters relating to the Treaty of Waitangi and kaupapa Maori.</p>
           <p class="Clause-Heading">43Appointment of Commissioners</p>
-          <p class="Clause-Indent1">The Governor-General may, on the recommendation of the Attorney-General, after consultation with the Prime Minister, the Minister for Local Government and the Minister of Māori affairs, appoint a person as the Chair of the Commission. The Commissioners shall hold office for the duration of the transition period.</p>
+          <p class="Clause-Indent1">(1)The Governor-General may, on the recommendation of the Attorney-General, after consultation with the Prime Minister, the Minister for Local Government and the Minister of Māori affairs, appoint a person as the Chair of the Commission.</p>
+          <p class="Clause-Indent1">(2)The Commissioners shall hold office for the duration of the transition period.</p>
           <p class="Clause-Heading">44Oath of office</p>
           <p class="Clause-Indent1">A person appointed as a Commissioner shall, before undertaking any duties as such, take an oath of office that he or she will honestly and impartially perform the duties of the office.</p>
           <p class="Clause-Heading">45Special advisors</p>
@@ -547,28 +552,28 @@
           <p class="Clause-Indent1">(2)A special advisor is not a member of the Commission but may sit with it and assist it in any way the Commission determines.</p>
           <p class="Clause-Heading">46Registrar and other officers</p>
           <p class="Clause-Indent1">(1)The Commission—</p>
-          <p class="Clause-Indent2">(a)Shall have a Registrar;</p>
-          <p class="Clause-Indent2">(aa)May have 1 or more Deputy Registrars; and</p>
-          <p class="Clause-Indent2">(b)May have other persons to assist it in an administrative capacity.</p>
+          <p class="Clause-Indent2">(a)shall have a Registrar; and</p>
+          <p class="Clause-Indent2">(aa)may have 1 or more Deputy Registrars; and</p>
+          <p class="Clause-Indent2">(b)may have other persons to assist it in an administrative capacity.</p>
           <p class="Clause-Indent1">(2)The Registrar, a Deputy Registrar, and every other person assisting the Commission shall—</p>
           <a name="page_3633"></a>
-          <p class="Clause-Indent2">(a)Be appointed under the State Sector Act 1988; and</p>
-          <p class="Clause-Indent2">(b)Be officers of the Commission.</p>
+          <p class="Clause-Indent2">(a)be appointed under the State Sector Act 1988; and</p>
+          <p class="Clause-Indent2">(b)be officers of the Commission.</p>
           <p class="Clause-Indent1">(2A)A Deputy Registrar has all the powers, functions, duties, and immunity of the Registrar subject to the control of the Registrar.</p>
           <p class="Clause-Indent1">(3)An officer of the Commission may also hold another office or employment in the Public Service.</p>
           <p class="Clause-Heading">47Remuneration of Commissioners and special advisors</p>
           <p class="Clause-Indent1">There shall be paid, out of money appropriated by Parliament for the purpose, to every Commissioner, and special advisor, remuneration by way of fees, salary, or allowances, and travelling allowances and expenses, in accordance with the Fees and Travelling Allowances Act 1951, and the provisions of that Act shall apply accordingly, and—</p>
-          <p class="Clause-Indent2">(a) The Commission shall be a statutory Board for the purposes of that Act; and</p>
-          <p class="Clause-Indent2">(b) Every special adviser shall be deemed to be a member of a statutory Board.</p>
+          <p class="Clause-Indent2">(a) the Commission shall be a statutory Board for the purposes of that Act; and</p>
+          <p class="Clause-Indent2">(b) every special adviser shall be deemed to be a member of a statutory Board.</p>
           <p class="Clause-Heading">48Commission sittings</p>
-          <p class="Clause-Indent1">The quorum for the Commission is Chair of the Commission and one Commissioner sitting together.</p>
+          <p class="Clause-Indent1">The quorum for the Commission is the Chair of the Commission and one Commissioner sitting together.</p>
           <p class="Clause-Heading">49Commission procedure</p>
           <p class="Clause-Indent1">The Commission may regulate its own proceedings in such manner as it thinks fit.</p>
           <p class="Clause-Heading">50Hearings</p>
           <p class="Clause-Indent1">The Commission shall meet every Monday and Tuesday of every week for the duration of the transition period.</p>
           <p class="Clause-Heading">51Hearing of submissions
  </p>
-          <p class="Clause-Indent1">(1)All hearing of the Commission shall be held in public</p>
+          <p class="Clause-Indent1">(1)All hearing of the Commission shall be held in public.</p>
           <p class="Clause-Indent1">(1A)Hearings will be informal with the Commission hearing submissions of any ratepayer in the Greater Auckland region that wishes to appear before the Commission.</p>
           <p class="Clause-Indent1">(2)The time and place of hearing before the Commission shall be fixed by the Registrar ensuring that all hearings are held within the current boundaries of the Franklin District, Papakura District, Rodney District, North Shore City, Waitakere City, Manukau City, Auckland City, Great Barrier Island, and Waiheke Island.</p>
           <p class="Clause-Indent1">(3)The Commission will also accept submissions by mail or email.</p>
@@ -576,7 +581,7 @@
           <p class="Clause-Indent1">(1)The Commissioners have the same powers that a District Court has in the exercise of its civil jurisdiction.</p>
           <p class="Clause-Indent1">(2)The Commission shall have the ability to direct the Transition Agency to reconsider a decision taken.</p>
           <p class="Clause-Heading">53Review of decision by Commission</p>
-          <p class="Clause-Indent1">Decisions of the Commission are subject to review by the High Court</p>
+          <p class="Clause-Indent1">Decisions of the Commission are subject to review by the High Court.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -603,7 +608,7 @@
           </table>
         </div>
         <div class="section">
-          <h3>New Part 10 Provisional Personnel Provisions of Auckland Council and Auckland Transition Agency</h3>
+          <h3>New Part 10 Provisional personnel provisions of Auckland Council and Auckland Transition Agency</h3>
         </div>
         <div class="Speech">
           <p class="Speech">
@@ -629,7 +634,7 @@
           <p class="ContinueSpeech">
             <strong>Hon DARREN HUGHES</strong>: I say to Mrs Goudie that I have a point of order. This is very serious point of order, and I want to word it as carefully as I can. We are in Committee and it is a Saturday morning. The Opposition has put up a lot of amendments and new parts by way of amendment. Obviously, some are more detailed than others. This particular new part, Part 10, is very important to the Opposition because it directly affects the lives of 6,500 people. My point of order is that on the last part considered by the Committee, if we include the time taken on points of order, a closure motion was accepted within 40 minutes of the Committee’s considering a brand new part that had never been near a select committee and had not been distributed to members until today.</p>
           <p class="a">The point I am making is that I understand that there will be pressure on both you and the other Chair of the Committee to get this business through as quickly as possible. I respectfully say that a part must be given the due consideration of this Committee, regardless of whether it is a Tuesday afternoon, a Wednesday evening, or a Saturday morning. I think that we need to have the chance to debate our new parts, which have not been to a select committee. The level of public scrutiny—</p>
-          <p class="Interjection">
+          <p class="Intervention">
             <strong>Hon Simon Power</strong>: This is outrageous! It’s your discretion; he shouldn’t be telling you this.</p>
           <p class="ContinueSpeech">
             <strong>Hon DARREN HUGHES</strong>: The Deputy Leader of the House can interject. I said at the beginning that I was trying to take a careful but serious point of order to reflect to the Committee exactly how we feel about this, which is that this particular part is of importance to us. I am not challenging your ruling, Mr Chairperson, because there has been no ruling. There is no closure motion before you; we are at the beginning of the debate on this part. I respectfully submit to you that the previous part was shut down very, very early. I want an assurance that that was not a tariff simply because we are meeting on a Saturday morning, which appears to be the reason for the Government’s sense of urgency about the closure motions.</p>
@@ -660,11 +665,11 @@
             <strong>:</strong> I appreciate the member’s wanting some elucidation on some of the finer detail around some of these judgments, and the shadow Leader of the House’s views on these matters. It has always been my understanding that when a closure motion is taken by the Chair is a matter for the sole discretion of the Chair. It has been my experience over the last short while that whenever an attempt is made to try to define those parameters, the fall-back position is the Standing Order in that regard.</p>
           <p class="Interjection">
             <strong>The CHAIRPERSON (Hon Rick Barker)</strong>: The member is absolutely correct. It has always been, and will always be, the sole discretion of the Chair whether a closure motion is taken, and the Chair will take it as he or she sees fit. I do not want to get into a long debate about the matter the Hon Trevor Mallard raised. Although members put up amendments and call them parts, that is only the way they themselves have described them. Those proposed new parts could in another way be looked at in substance, in effect, as amendments.</p>
-          <p class="Interjection">
+          <p class="Intervention">
             <strong>Hon Annette King</strong>: You can’t make that decision.</p>
           <p class="Interjection">
             <strong>The CHAIRPERSON (Hon Rick Barker)</strong>: I can make that decision about substance. For example, members get up and quite often say: “I am raising a fresh point of order.” when, in fact, they are not. They say that simply to relitigate the same matter; they describe it as a fresh point of order when it is not. I think everybody has been guilty of that at some stage.</p>
-          <p class="Interjection">
+          <p class="Intervention">
             <strong>Hon Trevor Mallard</strong>: Can you elaborate on the notice thing, Mr Chair.</p>
           <p class="Interjection">
             <strong>The CHAIRPERSON (Hon Rick Barker)</strong>: On the notice thing, the bill was put on the Table, and members have had a long time to read it, in terms of hours. But these proposed new parts have turned up—they have just appeared. The point I make is that I consider the bill, as tabled by the Government of the day, as being the issue we are here to debate. That is the main focus of this debate. When members table amendments to the bill, they are of lesser concern, to a degree, than the actual bill. When members table amendments that they put up as new parts, they may describe them as parts, but when one reads them one could describe them as amendments because they are not as significant as what we would normally have as a part of a bill. We will be flexible about this matter.</p>
@@ -1039,52 +1044,56 @@
         <div class="Speech">
           <p class="Speech">
             <a name="time_11:06:45"></a>
-            <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: The Minister’s amendment has now been agreed to. Therefore, the amendment in the name of Darien Fenton is now ruled out as it is inconsistent with a previous decision of the Committee.</p>
+            <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: The Minister’s amendment has now been agreed to. Therefore, the amendments in the name of Darien Fenton are now ruled out as they are inconsistent with a previous decision of the Committee.</p>
           <ul class="">
             <li>The question was put that the following amendment in the name of Carol Beaumont be agreed to:</li>
           </ul>
           <p class="Clause-Description0">to insert the following new part:</p>
           <p class="Clause-Heading">Part 10</p>
-          <p class="Clause-Heading">Provisional Personnel Provisions of Auckland Council and Auckland Transition Agency</p>
-          <p class="Clause-Heading">101General Principles</p>
+          <p class="Clause-Heading">Provisional personnel provisions of Auckland Council and Auckland Transition Agency</p>
+          <p class="Clause-Heading">101General principles</p>
           <p class="Clause-SubClause">(1)The Transition Agency and new Auckland Council must—</p>
-          <p class="Clause-Paragraph">(a)operate a personnel policy that complies with the principle of being a good employer;</p>
-          <p class="Clause-Paragraph">(b)make that policy (including the equal employment opportunities programme) available to its employees;</p>
+          <p class="Clause-Paragraph">(a)operate a personnel policy that complies with the principle of being a good employer; and</p>
+          <p class="Clause-Paragraph">(b)make that policy (including the equal employment opportunities programme) available to its employees; and</p>
           <p class="Clause-Paragraph">(c)
  ensure its compliance with that policy (including its equal employment opportunities programme) and report in its annual report on the extent of its compliance.</p>
           <p class="Clause-SubClause">(2)For the purposes of this section, a
- <em>good employer</em><strong></strong> is an employer who operates a personnel policy containing provisions generally accepted as necessary for the fair and proper treatment of employees in all aspects of their employment, including provisions requiring—</p>
+ <strong>good employer</strong> is an employer who operates a personnel policy containing provisions generally accepted as necessary for the fair and proper treatment of employees in all aspects of their employment, including provisions requiring—</p>
           <p class="Clause-Paragraph">(a)
- good and safe working conditions;</p>
-          <p class="Clause-Paragraph">(b)an equal employment opportunities programme;</p>
-          <p class="Clause-Paragraph">(c)the impartial selection of suitably qualified persons for appointment;</p>
+ good and safe working conditions; and</p>
+          <p class="Clause-Paragraph">(b)an equal employment opportunities programme; and</p>
+          <p class="Clause-Paragraph">(c)the impartial selection of suitably qualified persons for appointment; and</p>
           <p class="Clause-Paragraph">(d)
  recognition of—</p>
-          <p class="Clause-SubParagraph">(i)the aims and aspirations of the Māori people;</p>
+          <p class="Clause-SubParagraph">(i)the aims and aspirations of the Māori people; and</p>
           <p class="Clause-SubParagraph">(ii)the employment requirements of the Māori people; and</p>
-          <p class="Clause-SubParagraph">(iii)the need for greater involvement of the Māori people in Auckland public affairs;</p>
-          <p class="Clause-Paragraph">(e)opportunities for the enhancement of the abilities of individual employees;</p>
-          <p class="Clause-Paragraph">(f)recognition of the aims and aspirations and employment requirements;</p>
+          <p class="Clause-SubParagraph">(iii)the need for greater involvement of the Māori people in Auckland public affairs; and</p>
+          <p class="Clause-Paragraph">(e)opportunities for the enhancement of the abilities of individual employees; and</p>
+          <p class="Clause-Paragraph">(f)recognition of the aims and aspirations and employment requirements, and the cultural differences, of ethnic or minority groups; and</p>
           <p class="Clause-Paragraph">(g)recognition of the employment requirements of women; and</p>
           <p class="Clause-Paragraph">(h)
  recognition of the employment requirements of persons with disabilities.</p>
           <p class="Clause-SubClause">(3)In addition to the requirements, specified in subsections (1) and (2) of this section, the chief executive shall ensure that all employees maintain proper standards of integrity, conduct, and concern for the public interest.</p>
-          <p class="Clause-SubClause">(4)This part applies for 3 years from the commencement of this Act.</p>
+          <p class="Clause-SubClause">(4)This part applies for three years from the commencement of this Act.</p>
           <p class="Clause-Heading">102Equal employment opportunities</p>
           <p class="Clause-SubClause">(1)
- For the purposes of section 101 of this Act, an equal employment opportunities programme means a programme that is aimed at the identification and elimination of all aspects of policies, procedures, and other institutional barriers that cause or perpetuate, or tend to cause or perpetuate, inequality in respect to the employment of any persons or group of persons.</p>
+ For the purposes of section 101 of this Act, an
+ <strong>equal employment opportunities programme
+ </strong>means a programme that is aimed at the identification and elimination of all aspects of policies, procedures, and other institutional barriers that cause or perpetuate, or tend to cause or perpetuate, inequality in respect to the employment of any persons or group of persons.</p>
           <p class="Clause-Heading">103Employee context</p>
           <a name="page_3651"></a>
-          <p class="Clause-SubClause">(1)In this part an employee of a local government, does not include a person who, in the context of local government employment, is a casual or temporary employee, other than a long term casual or temporary employee, of the local government.</p>
-          <p class="Clause-SubClause">(2)In this section long term casual or temporary employee, of a local government, means a casual or temporary employee of the local government who has been employed by the local government, or by the local government and its predecessor local government, on a regular and systematic basis, for several periods of employment, for at least 1 year immediately before the issue arises as to whether the employee is a long term casual or temporary employee.</p>
+          <p class="Clause-SubClause">(1)In this part an
+ <strong>employee of a local government</strong> does not include a person who, in the context of local government employment, is a casual or temporary employee, other than a long term casual or temporary employee, of the local government.</p>
+          <p class="Clause-SubClause">(2)In this section
+ <strong>long term casual or temporary employee</strong> of a local government, means a casual or temporary employee of the local government who has been employed by the local government, or by the local government and its predecessor local government, on a regular and systematic basis, for several periods of employment, for at least 1 year immediately before the issue arises as to whether the employee is a long term casual or temporary employee.</p>
           <p class="Clause-Heading">104Appointments on merit</p>
           <p class="Clause-SubClause">The chief executive, in making any personnel appointments, shall give preference to the person who is best suited to the position.</p>
           <p class="Clause-Heading">105Acting appointments</p>
           <p class="Clause-SubClause">(1)In the case of absence from duty of any employee (from whatever cause arising) or on the occurrence from any cause of a vacancy in any position in the Auckland Transition Agency or Auckland Council (whether by reason of death, resignation, or otherwise) and from time to time while the absence or vacancy continues, all or any of the powers and duties of the employee or pertaining to the position may be exercised and performed by any other employee for the time being directed by the chief executive to exercise and perform them, whether the direction has been given before the absence or vacancy occurs or while it continues.</p>
           <p class="Clause-SubClause">(2)No such direction and no acts done by any employee acting pursuant to any such direction shall in any proceedings be questioned on the ground that the occasion for the direction had not arisen or had ceased, or on the ground that the employee has not been appointed to any position to which the direction relates.</p>
-          <p class="Clause-Heading">106Application for Part 10 transferring employees</p>
-          <p class="Clause-SubClause">(1)For employees transferring to the new Auckland Council, this part applies to any local government in the Auckland Region as defined in Part 1.</p>
-          <p class="Clause-SubClause">(2)For employees transferring to the new Auckland Council, this part applies to a person as an employee of a local government, other than the chief executive officer of a local government.</p>
+          <p class="Clause-Heading">106Application of Part 10 for transferring employees</p>
+          <p class="Clause-SubClause">(1)For employees transferring to the new Auckland Council, this Part applies to any local government in the Auckland Region as defined in Part 1.</p>
+          <p class="Clause-SubClause">(2)For employees transferring to the new Auckland Council, this Part applies to a person as an employee of a local government, other than the chief executive officer of a local government.</p>
           <p class="Clause-Heading">107Prohibition on retrenchment because of reform matter implementation</p>
           <p class="Clause-SubClause">(1)A local government must not take any action to end an employee’s employment with the local government if the action is taken, whether completely or partly and whether directly or indirectly, because of the taking effect under this Act.</p>
           <p class="Clause-SubClause">(2)For deciding whether a local government has contravened subsection (1), the reason given by a local government for taking action to end a person’s employment must be considered but is not conclusive.</p>
@@ -1109,14 +1118,15 @@
           <p class="Clause-Paragraph">(h)merit and equity should apply in all appointments;</p>
           <p class="Clause-Paragraph">(i)there should be prompt and sensitive dispute resolution;</p>
           <p class="Clause-Paragraph">(j)there should be no overall loss of employment across the local government employment sector;</p>
-          <p class="Clause-Paragraph">(k)there should be no overall reduction in working conditions for any employee; and</p>
+          <p class="Clause-Paragraph">(k)there should be no overall reduction in working conditions for any employee;</p>
           <p class="Clause-Paragraph">(l)there should be no overall disadvantage to an employee in relation to the employee’s working conditions.</p>
           <p class="Clause-SubClause">(5)It is the responsibility of each local government to ensure, to the extent a workforce transition code of practice applies to the local government, that the local government acts in conformity with the code of practice.</p>
           <p class="Clause-SubClause">(6)A workforce transition code of practice, whether made before or after the commencement of this subsection, is not subordinate legislation, but is a statutory instrument.</p>
-          <p class="Clause-Heading">106When workforce transition code of practice takes effect</p>
+          <p class="Clause-Heading">109When workforce transition code of practice takes effect</p>
           <p class="Clause-SubClause">(1)The Minister must notify the House of making of a workforce transition code of practice.</p>
           <p class="Clause-SubClause">(2)A workforce transition code of practice takes effect—</p>
-          <p class="Clause-Paragraph">(a)on the day the Minister’s notice is notified or published in the gazette; or</p>
+          <p class="Clause-Paragraph">(a)on the day the Minister’s notice is notified or published in the
+ <em>Gazette</em><strong></strong>; or</p>
           <p class="Clause-Paragraph">(b)if a later day is stated in the Minister’s notice or the workforce transition code of practice—on that day.</p>
         </div>
         <div class="partyVote">
@@ -1138,7 +1148,7 @@
                 </tr>
               </tbody><tfoot>
                 <tr>
-                  <td class="VoteResult" colspan="2">New Part 10 not agreed to.</td>
+                  <td class="VoteResult" colspan="2">New Part 10 as amended not agreed to.</td>
                 </tr>
               </tfoot>
           </table>
@@ -1309,13 +1319,13 @@
           <p class="Clause-Indent1">
             <strong>38AInterpretation</strong>
           </p>
-          <p class="Clause-Indent1">(1)In this Part, unless the context otherwise requires,</p>
+          <p class="Clause-Indent1">In this Part, unless the context otherwise requires,—</p>
           <a name="page_3659"></a>
           <p class="Clause-Indent1">
-            <strong>Sell
+            <strong>sell
  </strong>has the meaning it has in the Sale of Goods Act 1908</p>
           <p class="Clause-Indent1">
-            <strong>Voting</strong> has the meaning it has in the Electoral Act1993.</p>
+            <strong>voting</strong> has the meaning it has in the Electoral Act 1993.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1474,8 +1484,7 @@
           </ul>
         </div>
       </div>
-      <div class="SubDebate">
-        <h2>Speaker Recalled</h2>
+      <h1>Speaker Recalled</h1>
       <div class="Speech">
         <p class="Speech">
           <a name="time_12:06:15"></a>
@@ -1518,7 +1527,6 @@
         <p class="a">This is not the first time this issue has come before Parliament. Some members may recollect that when the House was previously considering liquor legislation, individual amendments were proposed to deal with the interests of each hotel and tavern in New Zealand. The amendments were ruled not to be in order, as they dealt with private business interests more appropriately dealt with in private legislation. So this is not the first time this kind of issue has been dealt with by the Committee. That is the first issue to cover. In terms of the substance of the decision made by the Chair, under the Standing Orders there is an issue around the nature of legislation, and in respect of previous precedent in the House the Chair’s ruling is absolutely consistent with those previous precedents.</p>
         <p class="a">The other important issue is that the Chair is required to rule on the admissibility of amendments. The Chairperson’s rulings are not to be corrected or reversed by the Speaker. That is Speakers’ ruling 78/1. That change can be done only by the House by resolution upon a motion with notice. Our Speakers’ rulings indicate that the standard practice of the House is for the Speaker not to overrule the ruling of the Chair. But in this case I must say that the argument accepted by the Chair is totally consistent with the Standing Orders and with previous precedent, and the Chair’s ruling must stand. I declare the House back in Committee on the bill at hand.</p>
       </div>
-      </div>
       <div class="SubDebate">
         <h2>In Committee</h2>
         <ul class="">
@@ -1531,7 +1539,7 @@
         <ul class="">
           <li>The question was put that the following amendment in the name of Sue Moroney to the amendment to add new Part 9 in the name of Charles Chauvel be agreed to:</li>
         </ul>
-        <p class="Clause-Description0">to insert the words “of Parliament” after the words “those Acts”.</p>
+        <p class="Clause-Description0">to insert after “those Acts” “, of Parliament”.</p>
         <div class="partyVote">
           <table class="table vote">
             <caption>
@@ -1595,7 +1603,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of Sue Moroney to the amendment to add new Part 9 in the name of Charles Chauvel be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to insert before “the unelected group of friends called”, “Transition Agency”.</p>
+          <p class="Clause-Description0">to insert before “Transition Agency”, “the unelected group of friends called”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1624,9 +1632,9 @@
             <li>The question was put that the following amendment in the name of Grant Robertson to the amendment to add new Part 9 in the name of Charles Chauvel be agreed to:</li>
           </ul>
           <p class="Clause-Description0">to add the following new clause:</p>
-          <p class="Clause-Indent1">(39)The local government together with the citizens of Auckland, both present and future generations, have the right to:</p>
-          <p class="Clause-Indent2">(a)realise the benefits of fixed and variable public assets, including those held by Crown corporations and Crown agencies;</p>
-          <p class="Clause-Indent2">(b)full public disclosure and unfettered public access to information regarding the financial and legal status of Crown corporations and Crown agencies held in the public trust; and</p>
+          <p class="Clause-Indent1">39The local government together with the citizens of Auckland, both present and future generations, have the right to—</p>
+          <p class="Clause-Indent2">(a)realise the benefits of fixed and variable public assets, including those held by Crown corporations and Crown agencies:</p>
+          <p class="Clause-Indent2">(b)full public disclosure and unfettered public access to information regarding the financial and legal status of Crown corporations and Crown agencies held in the public trust:</p>
           <p class="Clause-Indent2">(c)be consulted about any planned changes to Crown corporations and Crown agencies.</p>
         </div>
         <div class="partyVote">
@@ -1656,12 +1664,12 @@
             <li>The question was put that the following amendment in the name of Grant Robertson to the amendment to add new Part 9 in the name of Charles Chauvel be agreed to:</li>
           </ul>
           <p class="Clause-Description0">to insert the following new clause:</p>
-          <p class="Clause-Indent1">(40)This Part 9 is made for the purposes of:</p>
+          <p class="Clause-Indent1">40This Part 9 is made for the purposes of—</p>
           <p class="Clause-Indent2">(a)
- providing for the peace, order and good Government of the Auckland region;</p>
+ providing for peace, order and good Government of the Auckland region:</p>
           <a name="page_3668"></a>
-          <p class="Clause-Indent2">(b)protecting public assets vested in Council from damage, accelerated deterioration or abuse;</p>
-          <p class="Clause-Indent2">(c)ensuring future generations of Auckland citizens have the use of public assets; and</p>
+          <p class="Clause-Indent2">(b)protecting public assets vested in Council from damage, accelerated deterioration or abuse:</p>
+          <p class="Clause-Indent2">(c)ensuring future generations of Auckland citizens have the use of public assets:</p>
           <p class="Clause-Indent2">(d)protecting important public assets from privatisation which may limit the access of future generations of Auckland citizens.
  </p>
         </div>
@@ -1697,7 +1705,7 @@
           <p class="Clause-Heading">38Protection of Public Assets</p>
           <p class="Clause-Description0">Nothing in this Act, the Local Government 2002, the Local Government (Auckland) Amendment Act 2004, the Local Government Act 1974, the Local Electoral Act 2001, or any regulations made under those Acts, shall permit the Transition Agency to—</p>
           <p class="Clause-Indent1">(a)sell or otherwise dispose of, or sell any equity securities in; or</p>
-          <p class="Clause-Indent1">(b)surrender any voting rights in; and</p>
+          <p class="Clause-Indent1">(b)surrender any voting rights in:</p>
           <p class="Clause-Indent1">(c)relinquish any right to appoint trustees, directors, or managers of
  any asset or organisation listed in Schedule 2 during the transition period.</p>
         </div>
@@ -1845,6 +1853,13 @@
           <p class="a">Nō reira mihi ana hoki ki ngā rōpū kua huihui nei i tēnei Whare. Otirā, kia kaha ki te tū ki te kōrero i ngā kōrero hōhonu, ngā kōrero whānui e pā nei ki te mana motuhake a
  te iwi Māori. Nō reira, e Hone tēnā koe. Otirā, āhua hōhā ki tō tumuaki rā ki a Tariana, hara mai ki roto i te Whare i nanahi, ka tuku i tana wero ki ā mātou ka kī mai rā, ē, āhua taurekareka noa iho a kōtou kōrero e Reipa. Kai te tino whakahe ki tēnā wero i te mea rā, mātou o tēnei taha ka tuku wero ki te Kāwanatanga kia āta whakaarohia, kia āta whakarongo ki ngā nawe, ki ngā pōrarurarutanga kua horahia nei i roto i te Whare. Kīhai i te whakarongo. Nō reira, nāna nā Tariana i kī ai, ē, āhua taurekareka noa iho ngā wero, ngā kōrero katoa o te Rōpū Reipa. Ē, kai te tū a Reipa ki te tautoko i ngā iwi katoa o Tāmaki-makau-rau. Ko wai a ia ki te kī mai, kai te āhua korotake noa iho ngā kōrero?</p>
           <a name="page_3673"></a>
+          <p class="Intervention">
+            <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Chairperson. We have not had the interpretation.</p>
+          <p class="Interjection">
+            <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: Well, I did pause. Is there to be a interpretation?</p>
+          <ul class="">
+            <li>[An interpretation in English was given to the House.]</li>
+          </ul>
           <p class="a">[<em>Thank you, Mr Chairman. I rise to endorse the statements and the challenge set down by my colleague the Hon Shane Jones. He stood up in this House to support the matter in our midst. He stated that the authority of the Māori people of Auckland has been trampled upon. We are troubled by that, a matter that the person seated by you, the Minister of Local Government, created. Because of that, it is right that we challenge that side of the House, the Māori members of each party, and, indeed, all parties gathered here in this House, to stand up and express their views on the matter that is on the Table about the authority of Ngāti Whātua.</em><strong></strong></p>
           <p class="a">
             <em>As a descendant of Ngāti Whātua, I say that the authority of this one standing before you has been trampled upon. As a descendant of Tainui, as well, my authority has been trampled upon again. Kawerau-a-Maki’s authority, just like Pare Hauraki’s authority, has been trampled upon, because this bill states that in respect of this matter you collectively must remain silent. You have no authority at all. It has gone to smaller groups whose members are somewhat fair in colour and who will steal Auckland’s resources and sell them offshore. That is my reason for standing up.</em>
@@ -1861,16 +1876,10 @@
             <em>And so I acknowledge the parties gathered here in this House. Be staunch and address us at length and in depth about Māori independence. Greetings to you, Hone. I find your leader Tariana a bit of a bore. She came into the House yesterday and stung us by saying: “Labour, all your challenges and talk amount to nothing.” We reject that taunt entirely, because we on this side are challenging the Government to really consider and think through the complaints and concerns being presented in the House. The Government is not listening. So for Tariana to say that all of Labour’s talk and challenges amount to nothing is being somewhat extreme. Labour is actually standing up in support of all the people in Auckland. Who is she to tell us that what we have stated is pointless?</em>
             <strong>
             </strong>]</p>
-          <p class="Intervention">
-            <strong>Hon Trevor Mallard</strong>: I raise a point of order, Mr Chairperson. We have not had the translation.</p>
-          <p class="Interjection">
-            <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: Well, I did pause. Is there to be a translation?</p>
-          <ul class="">
-            <li>[An interpretation in English was given to the House.]</li>
-          </ul>
-          <p class="a">I thank the interpreter for his very close description of what I said.</p>
+          <p class="ContinueSpeech">
+            <strong>Hon MITA RIRINUI</strong>: I thank the interpreter for his very close description of what I said.</p>
           <p class="a">I would like to summarise one particular point. I was very offended—and I have to say this while Hone Harawira is in this Chamber—by the comments made by the Hon Tariana Turia yesterday. She came to this Chamber and described as vexatious Labour’s efforts to have the Government recognise the needs of the Auckland people and allow them to have a say in this process. That is absolutely ridiculous. If that member cannot
- accept that this Parliament has a process that everybody, including the general public, has an opportunity to take part in, then she is just as guilty of a dictatorial attitude as the Minister in the chair, Rodney Hide, and as the Leader of the House, and as many of those members sitting on that side of the Chamber. The junior Government whip is waving the paper in the air. He knows I am right. There is a process issue at hand here. The people of Auckland deserve the right to have a say in what the Government might have in mind for their future.</p>
+ accept that this Parliament has a process that everybody, including the general public, has an opportunity to take part in, then she is just as guilty of a dictatorial attitude as the Minister in the chair, Rodney Hide, and as the Leader of the House, and as many of those members sitting on that side of the Chamber. The junior Government whip is waving the paper in the air. He knows I am right. There is a process issue at hand here. The people of Auckland have the right to have a say in what the Government has in mind for their future.</p>
           <a name="page_3674"></a>
         </div>
         <div class="Speech">
@@ -1903,7 +1912,6 @@
             <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: Thank you. I said that at the time, and we will take that into account.</p>
           <p class="ContinueSpeech">
             <strong>HONE HARAWIRA</strong>: Tēnā koe. Tangi ana taku ngākau i te mea, kua rongo ahau i te kōrero me te whakaaro o Shane Jones, e ōrite ana te tū o te Māori ki tērā a wētahi atu. Tangi ana taku ngākau ki tērā. I was very grieved to hear Shane Jones put forward the view that Māori are just like anybody else. Tangi ana taku ngākau i te mea, ehara mātou i te tangata e ōrite ana ki tētahi atu. I am grieved to hear Shane Jones say that, because we are not the same as everybody else. He tangata whenua mātou te iwi Māori. We are the people of this land. E rongo ana au i ngā kōrero mō Te Moana-nui-a-Kiwa, e rongo ana au i ngā kōrero mō wērā kei roto o Haina, me wērā atu o ngā rohe. I hear the call for representation from the Pacific peoples and from Asian people. Engari, kei hea te kōrero mō ngā Tararā, kei hea te kōrero mō Kenya, kei hea te kōrero mō Somalia, kei hea te kōrero mō ētahi atu? He whai pōti anake tēnei kaupapa. Kāre au i te whai rangatiratanga. Koi rā taku riri. Tēnā koe.</p>
-          <p class="a">[<em>But where is the talk for Dalmatians, for those from Kenya and from Somalia? Where is the talk for other places? This is all about chasing votes. I am not seeking self-determination. That is why I am furious. Thank you</em><strong></strong>.]</p>
           <a name="page_3675"></a>
           <ul class="">
             <li>Sitting suspended from 1 p.m. to 2 p.m.</li>
@@ -1963,7 +1971,7 @@
           <p class="Speech">
             <a name="time_14:15:04"></a>
             <strong>CATHERINE DELAHUNTY (Green)</strong>
-            <strong>:</strong> Tēnā koe, Mr Chairperson. Tēnā koutou katoa. I stand to support Labour’s position on new Part 5 of the Local Government (Auckland Reorganisation) Bill, but also I tautoko Mr Hone Harawira’s comments. We stand here under Te Tiriti o Waitangi. Out rights do not come from multiculturalism; they come from te Tiriti. Although we acknowledge the multiple cultures of Aotearoa, the first point is the difference between mana whenua rangatiratanga and minority need for representation. Any legislation in this House should be passed on that basis, recognising the value of mana whenua, first-nation people first, then recognising the diversity that Auckland undoubtedly has.</p>
+            <strong>:</strong> Tēnā koe, Mr Chairperson. Tēnā koutou katoa. I stand to support Labour’s position on new Part 5 of the Local Government (Auckland Reorganisation) Bill, but also I tautoko Mr Hone Harawira’s comments. We stand here under Te Tiriti o Waitangi. Our rights do not come from multiculturalism; they come from te Tiriti. Although we acknowledge the multiple cultures of Aotearoa, the first point is the difference between mana whenua rangatiratanga and minority need for representation. Any legislation in this House should be passed on that basis, recognising the value of mana whenua, first-nation people first, then recognising the diversity that Auckland undoubtedly has.</p>
           <p class="a">The other main problem with this bill is its capacity to reinforce a trend that has been dominating local government since its inception in Aotearoa. I have named this TMPM syndrome—“Too Many Pākehā Men” in positions of power syndrome. Local government in Tāmaki-makau-rau and throughout the motu is already cursed with TMPM syndrome, with current and historical dominance of Pākehā men just about everywhere we look. This is not an attack on Pākehā men. I have lived with two of them, though not at the same time. Members should not get me wrong: I value my Pākehā men very deeply, especially the current one. However, I think for Pākehā men a minority experience in a decision-making process would be a salutary lesson because unless one has experienced marginalisation as a minority in the decision-making process, one has no idea what one is talking about or what it feels like.</p>
           <p class="a">What is the problem with TMPM and local government? If we are to have representative democracy, which is not necessarily the only way we can do things in the Pacific, it should absolutely be representative. In addition, we must acknowledge mana whenua and the three Māori seats as recommended by the Royal Commission on Auckland Governance. To my knowledge there is no local authority district in Aotearoa where two-thirds of the community is Pākehā men, yet 90 percent of local councils Pākehā men. Fifty percent of all communities are women, and many other cultures are well represented in most communities, but we will not see them on local authorities except in corners desperately trying to be heard.</p>
           <p class="a">Mr Rodney Hide’s bill exacerbates the problem we have with TMPM syndrome. There will not be a choice to stand for the super-city council. An “at-large” voting system is about the money needed to establish name recognition before one can start to have a chance. That fact immediately marginalises tangata whenua and other people in the city. The system is also not about numbers. Even if Pākehā men were the majority, councils would still need to represent different perspectives. Tāmaki-makau-rau needs a vibrant system of participatory local government that uses creative techniques of engagement with the diversity of communities, whilst staying based on Te Tiriti o Waitangi. Māori are not a stakeholder to be consulted, but are the first nation, with whom we Pākehā—and I am speaking for the Green Party, which is predominantly Pākehā—via the Crown, need to negotiate relationships based on the article signed on 6 February 1840. Te Waiōhua have made a claim to the Waitangi Tribunal, and hence the Māori Party, the Greens, and Labour are calling for the Prime Minister to support the recommendations of the royal commission on this issue. There will be a hīkoi, and we will support it with weary hearts as yet again the Crown pays lip-service to the Tiriti relationship but gatekeeps the actual political process.</p>
@@ -2004,7 +2012,7 @@
           <p class="Interjection">
             <strong>Hon Annette King</strong>: That’s not a point of order.</p>
           <p class="ContinueSpeech">
-            <strong>Hon GERRY BROWNLEE</strong>: —I am allowed; I am making my point. —all last night, all day yesterday, and right from the start of this debate, Labour members have said “We want to debate this bill fully.” This afternoon, shortly after David Parker spoke, those Labour members have been trying to shut down debate on what they are describing as the most important bill for Auckland. My point is this—</p>
+            <strong>Hon GERRY BROWNLEE</strong>: —I am allowed, I am making my point—all last night, all day yesterday, and right from the start of this debate, Labour members have said “We want to debate this bill fully.” This afternoon, shortly after David Parker spoke, those Labour members have been trying to shut down debate on what they are describing as the most important bill for Auckland. My point is this—</p>
           <p class="Interjection">
             <strong>Hon Members</strong>: What’s the point of order?</p>
           <p class="Interjection">
@@ -2083,7 +2091,7 @@
         <div class="Speech">
           <p class="Speech">
             <a name="time_14:38:01"></a>
-            <strong>Hon CHRIS CARTER (Labour—Te Atatū)</strong>
+            <strong>Hon JOHN CARTER (Associate Minister of Local Government)</strong>
             <strong>:</strong> I am not raising a new point; I am speaking to the point of order following that of Mr Mallard. I am hoping to help the Committee by saying that you are quite right that the Minister, as you have already stated, has the right to make that decision and postpone, and it is not debatable. It is the right of the member in charge of the bill. That is the advice that I have sought and that is the motion that—</p>
           <p class="Interjection">
             <strong>The CHAIRPERSON (Hon Rick Barker)</strong>: All right. I now call the honourable member Hone Harawira.</p>
@@ -2101,7 +2109,7 @@
           <p class="Speech">
             <a name="time_14:33:32"></a>
             <strong>Hon DARREN HUGHES (Senior Whip—Labour)</strong>
-            <strong>:</strong> I raise a point of order, Mr Chairperson. I have two points of order to raise with you. First, the status of the motion that I moved: you will have to give a decision on whether the question would be put. Second, in respect of the Minister in charge of the bill not wanting to consider the bill that is in urgency before the Committee at the present time, when we return to this part we will be at the point after my closure motion. That is my first point of order. My second point of order relates to the time factor in which the Minister in charge of the bill wants to postpone consideration of this part. We will need to know what time we are going to come back to that, in order to consider it, because we have other parts ahead to debate. If we get ourselves into a position where we have finished those parts and have to report progress, the opportunity for this part to be voted on by the Committee and for the amendments to be considered by the Committee will not come. I am presuming it is not a catch-all, so that the Minister can delay for consideration just this part for another day—whatever that might mean.</p>
+            <strong>:</strong> I raise a point of order, Mr Chairperson. I have two points of order to raise with you. First, regarding the status of the motion that I moved, you will have to give a decision on whether the question would be put. Second, in respect of the Minister in charge of the bill not wanting to consider the bill that is in urgency before the Committee at the present time, when we return to this part we will be at the point after my closure motion. That is my first point of order. My second point of order relates to the time factor in which the Minister in charge of the bill wants to postpone consideration of this part. We will need to know what time we are going to come back to that, in order to consider it, because we have other parts ahead to debate. If we get ourselves into a position where we have finished those parts and have to report progress, the opportunity for this part to be voted on by the Committee and for the amendments to be considered by the Committee will not come. I am presuming it is not a catch-all, so that the Minister can delay for consideration just this part for another day—whatever that might mean.</p>
         </div>
         <div class="Speech">
           <p class="Speech">
@@ -2355,8 +2363,8 @@
           <p class="Clause-Description0">to insert the following new part:</p>
           <p class="Clause-Part">Part 12</p>
           <p class="Clause-Part">Paid Parental Leave Entitlement</p>
-          <p class="Clause-Description0">250 Nothing in this Act shall affect the rights and entitlements of any employee of any territorial authority under the Parental Leave and Employment Protection Act 1987.</p>
-          <p class="Clause-Description0">251 Notwithstanding anything in the Act, all current councils and any new council created under this legislation will be related employees for the purposes of the Parental Leave and Employment Protection Act 1987.</p>
+          <p class="Clause-Indent1">250Nothing in this Act shall affect the rights and entitlements of any employee of any territorial authority under the Parental Leave and Employment Protection Act 1987.</p>
+          <p class="Clause-Indent1">251Notwithstanding anything in the Act, all current councils and any new council created under this legislation will be related employees for the purposes of the Parental Leave and Employment Protection Act 1987.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -2452,8 +2460,7 @@
           </ul>
         </div>
       </div>
-      <div class="SubDebate">
-        <h2>Speaker Recalled</h2>
+      <h1>Speaker Recalled</h1>
       <div class="Speech">
         <p class="Speech">
           <a name="time_15:39:58"></a>
@@ -2472,7 +2479,7 @@
         <p class="Speech">
           <a name="time_15:42:26"></a>
           <strong>Hon CLAYTON COSGROVE (Labour—Waimakariri)</strong>
-          <strong>:</strong> In order to be helpful, Mr Tisch was diligent in giving a very detailed series of justifications in the report back, as it were, to the member. Quite a number of technical and individual issues were contained within that description. It is, of course, your call, Mr Speaker, but I mean this in all seriousness. I say that it may be helpful, given the nature of this matter, if Mr Tisch could outline in detail those matters for you in order for you to make an informed ruling, because they were very, very individualised and were quite technical. As I say, he was very diligent in his description in order to give the justification for the member. I think it would be difficult for you to give an informative ruling without that information.</p>
+          <strong>:</strong> In order to be helpful, Mr Tisch was diligent in giving a very detailed series of justifications in the report back, as it were, to the member. Quite a number of technical and individual issues were contained within that description. It is, of course, your call, Mr Speaker, but I mean this in all seriousness. I say that it may be helpful, given the nature of this matter, if Mr Tisch could outline in detail those matters for you in order for you to make an informed ruling, because they were very, very individualised and were quite technical. As I say, he was very diligent in his description in order to give the justification for the member. I think it would be difficult for you to give an informed ruling without that information.</p>
       </div>
       <div class="Speech">
         <p class="Speech">
@@ -2500,9 +2507,7 @@
  <em>Speakers’ Rulings</em><strong></strong> that go back that far, and they have been reiterated every few years many times. Speaker’s ruling 78/3 states: “It is bordering on an inappropriate use of the undoubted right to recall the Speaker to do so on the ground of relevance,”. So where the Chair has made a judgment on the issue of relevance and scope, the Speaker cannot overturn that judgment. I have taken the first step of saying that I believe that the Chair has acted on very sound ground, but 100 years of Speakers’ rulings make it very, very clear that the Speaker cannot overturn the judgment of the Chair on those matters.</p>
         <a name="page_3697"></a>
       </div>
-      </div>
-      <div class="SubDebate">
-        <h2>In Committee</h2>
+      <h1>In Committee</h1>
       <ul class="">
         <li>Debate resumed.</li>
       </ul>
@@ -2546,12 +2551,8 @@
           <strong>:</strong> I raise a point of order, Mr Chairperson. Because we are now moving to consideration of the schedules, I take it that all the additional parts that have been submitted by way of amendment have been ruled out of order by you—that the series that you have just ruled out were all the remaining parts that there were to be amendments.</p>
         <p class="Interjection">
           <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: That is correct.</p>
-      </div>
-      <div class="Speech">
-        <p class="Speech">
-          <a name="time_15:53:18"></a>
-          <strong>Hon DARREN HUGHES (Senior Whip—Labour)</strong>
-          <strong>:</strong> I also seek a second assurance. It was not while you were in the Chair, but there was an outburst from the Leader of the House directed at the Clerk’s Office. I just want an assurance that that outburst is not linked to the fact that, all of a sudden, every single amendment that created a new part has been ruled out. The convenience of that for the Government is not lost on the Opposition.</p>
+        <p class="ContinueSpeech">
+          <strong>Hon DARREN HUGHES</strong>: I also seek a second assurance. It was not while you were in the Chair, but there was an outburst from the Leader of the House directed at the Clerk’s Office. I just want an assurance that that outburst is not linked to the fact that, all of a sudden, every single amendment that created a new part has been ruled out. The convenience of that for the Government is not lost on the Opposition.</p>
         <p class="Interjection">
           <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: Thank you. I am the sole judge of that. I can assure the member of the integrity of the Clerk’s Office and the hard work it has done over the last few days. I will be here to protect the Clerk’s Office at every opportunity, and I am the sole judge of such things. I heard that comment. I was not here, but I did hear that comment. Any criticism of the Clerk’s Office goes through the Chair, but I want to give you the assurance that I have full faith in the integrity of the way that the Clerk’s Office has been operating.</p>
       </div>
@@ -2569,7 +2570,7 @@
         <table class="table vote">
           <caption>
             <p>A party vote was called for on the question,
- <em>That the schedules be agreed to.</em></p>
+ <em>That the schedule be agreed to.</em></p>
           </caption>
           <colgroup><col width="" /><col width="" /></colgroup><tbody>
               <tr>
@@ -2579,12 +2580,12 @@
               </tr>
               <tr>
                 <td class="VoteCount">Noes
- 53</td>
-                <td class="VoteText">New Zealand Labour 42; Green Party 7; Māori Party 4.</td>
+ 43</td>
+                <td class="VoteText">New Zealand Labour 32; Green Party 7; Māori Party 4.</td>
               </tr>
             </tbody><tfoot>
               <tr>
-                <td class="VoteResult" colspan="2">Schedules agreed to.</td>
+                <td class="VoteResult" colspan="2">Schedule agreed to.</td>
               </tr>
             </tfoot>
         </table>
@@ -2643,7 +2644,7 @@
           <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: I have been advised that the closure motion was still live. That was where the debate on new Part 5 was postponed. We now come back to the position where the Hon Darren Hughes moved the closure motion. We will continue from that point.</p>
       </div>
       <div class="section">
-        <h3>New Part 5 Mechanisms to ensure representation of Maori, Pacific and Ethnic groups in the reorganisation of the Auckland Council. (<em>continued</em><strong></strong>) </h3>
+        <h3>New Part 5 Mechanisms to ensure representation of Maori, Pacific and Ethnic groups in the reorganisation of the Auckland Council (<em>continued</em><strong></strong>) </h3>
       </div>
       <p class="Interjection">
         <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: I put the closure motion on Part 5.</p>
@@ -2751,10 +2752,10 @@
         <p class="Clause-Indent1">(1)Despite any other provision—</p>
         <a name="page_3702"></a>
         <p class="Clause-Indent2">(a)there will be a review of the ethnic make-up of the Transition Agency (including its governing body) on 30 May 2009; and</p>
-        <p class="Clause-Indent2">(b)the review will include a review of the Māori, Pacific, Pākehā, Chinese, and Korean representation of the governing body.</p>
+        <p class="Clause-Indent2">(b)the review will include a review of the Māori, Pacific, Pakeha, Chinese, and Korean representation of the governing body.</p>
         <p class="Clause-Indent1">(2)Despite any other provision, community boards of existing local authorities will be consulted on any Māori, Pacific, or other ethnic representation of the Auckland Council.</p>
         <p class="Clause-Indent1">(3)Despite any other provision, representatives from all ethnic groups will be consulted on 30 May 2009 about the activities of the Transition Agency.</p>
-        <p class="Clause-Indent1">(4)Despite any other provision, the Minister has the power on 30 May 2009 to appoint a board of Indian members and a board of Pacific members, and a board of Māori members to advise the Transition Agency.</p>
+        <p class="Clause-Indent1">(4)Despite any other provision, the Minister has the power on 30 May 2009 to appoint a board of Indian members, a board of Pacific members, and a board of Māori members to advise the Transition Agency.</p>
         <p class="Clause-Indent1">(5)Despite any other provisions the Minister has the power on 30 May 2009 to appoint a board of experts to advise the Auckland Council on matters of ethnic affairs.</p>
       </div>
       <div class="partyVote">
@@ -2832,35 +2833,42 @@
         </ul>
         <p class="Clause-Description0">to insert the following new part:</p>
         <p class="Clause-Heading">Part 5</p>
-        <p class="Clause-Heading">Mechanisms to ensure representation of Maori, Pacific and Ethnic groups in the reorganisation of the Auckland Council.</p>
+        <p class="Clause-Heading">Mechanisms to ensure representation of Māori, Pacific and Ethnic groups in the reorganisation of the Auckland Council</p>
         <p class="Clause-Heading">Subpart 1</p>
-        <p class="Clause-Heading">Guarantees Māori Representation on the Auckland Council by directing the Auckland Transition Agency to establish Māori seats.</p>
+        <p class="Clause-Heading">
+          <em>Guarantees Māori representation on the Auckland Council by directing the Auckland Transition Agency to establish Māori seats</em>
+          <strong>
+          </strong>
+        </p>
         <p class="Clause-Heading">71</p>
-        <p class="Clause-Indent1">(1)Two Māori members are to be elected to the Auckland Council by voters who are on the parliamentary Māori Electoral Roll.</p>
-        <p class="Clause-Indent2">(a)The 2 Māori seats shall not be removed from the Auckland Council unless:</p>
-        <p class="Clause-SubParagraph">(i)a referendum of Māori voters on the parliamentary Māori Electoral Roll is held; and</p>
+        <p class="Clause-Indent1">(1)Two Māori members are to be elected to the Auckland Council by voters who are on the parliamentary Māori electoral roll</p>
+        <p class="Clause-Indent2">(a)The 2 Māori seats shall not be removed from the Auckland Council unless—</p>
+        <p class="Clause-SubParagraph">(i)a referendum of Māori voters on the parliamentary Māori electoral roll is held; and</p>
         <p class="Clause-SubParagraph">(ii)75% of those voters vote in favour of removing the seats.</p>
-        <p class="Clause-Indent1">(2)Directs the Auckland Transition Agency to establish a Mana Whenua Forum, the members of which will be appointed by mana whenua from the district of the Auckland Council.</p>
-        <p class="Clause-Indent2">(a)The Mana Whenua Forum should:</p>
-        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council</p>
-        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to mana whenua.</p>
-        <p class="Clause-Indent2">(b)The Mana Whenua seat shall not be removed from the Auckland Council unless:</p>
+        <p class="Clause-Indent1">(2)Directs the Auckland Transition Agency to establish a Mana Whenua Forum, the members of which will be appointed by mana whenua from the district of the Auckland Council</p>
+        <p class="Clause-Indent2">(a)The Mana Whenua Forum should—</p>
+        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council:</p>
+        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to mana whenua:</p>
+        <p class="Clause-SubParagraph">(b)The Mana Whenua seat shall not be removed from the Auckland Council unless 75% of Mana Whenua Forum members vote in favour of removing the seat.</p>
         <a name="page_3704"></a>
-        <p class="Clause-SubParagraph">(i)75% of Mana Whenua Forum members vote in favour of removing the seat.</p>
-        <p class="Clause-Heading">Subpart 2Pacific and Minority Representation</p>
-        <p class="Clause-Heading">Guarantee representation and participation by Pacific and Minority Groups by directing the Auckland Transition Agency to establish a Pacific Advisory Forum and an Ethnic Advisory Forum and allow the members of those forums to appoint one member each to hold a set on the Auckland Council</p>
+        <p class="Clause-Heading">Subpart 2—Pacific and Minority Representation</p>
+        <p class="Clause-Heading">
+          <em>Guarantees representation and participation by Pacific and Minority groups by directing the Auckland Transition Agency to establish a Pacific Advisory Forum and an Ethnic Advisory Forum and allows the members of those forums to appoint one member each to hold a seat on the Auckland Council</em>
+          <strong>
+          </strong>
+        </p>
         <p class="Clause-Heading">72</p>
         <p class="Clause-Indent1">(1)Directs the Auckland Transition Agency to establish a Pacific Advisory Forum, the members of which will be appointed by Councillors on Auckland Council in consultation with Pacific communities and pacific leaders based in the Auckland district</p>
-        <p class="Clause-Indent2">(a)The Pacific Advisory Forum should:</p>
-        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council</p>
-        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to Pacific Communities</p>
-        <p class="Clause-Indent2">(b)The Pacific Advisory seat shall not be removed from the Auckland Council unless</p>
+        <p class="Clause-Indent2">(a)The Pacific Advisory Forum should—</p>
+        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council:</p>
+        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to Pacific Communities:</p>
+        <p class="Clause-Indent2">(b)The Pacific Advisory seat shall not be removed from the Auckland Council unless—</p>
         <p class="Clause-SubParagraph">(i)75% of members of the Pacific Advisory Forum vote in favour of removing the seat.</p>
-        <p class="Clause-Indent1">(2)Directs the Auckland Transition Agency to establish an Ethnic Advisory Forum, the members of which will be appointed by councillors on Auckland Council in consultation with ethnic communities and ethnic leaders based in the Auckland District</p>
-        <p class="Clause-Indent2">(a)The Ethnic Advisory Forum should:</p>
-        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council</p>
-        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to ethnic communities</p>
-        <p class="Clause-Indent2">(b)The Ethnic Advisory seat shall not be removed from the Auckland Council unless:</p>
+        <p class="Clause-Indent1">(2)Directs the Auckland Transition Agency to establish an Ethnic Advisory Forum, the members of which will be appointed by Councillors on Auckland Council in consultation with Ethnic communities and Ethnic leaders based in the Auckland district</p>
+        <p class="Clause-Indent2">(a)The Ethnic Advisory Forum should—</p>
+        <p class="Clause-SubParagraph">(i)appoint a representative to be a councillor on the Auckland Council:</p>
+        <p class="Clause-SubParagraph">(ii)through its representative on the Auckland Council, advise the Auckland Council on issues of relevance to Ethnic communities:</p>
+        <p class="Clause-Indent2">(b)The Ethnic Advisory seat shall not be removed from the Auckland Council unless—</p>
         <p class="Clause-SubParagraph">(i)75% of members of the Ethnic Advisory Forum vote in favour of removing the seat.</p>
       </div>
       <div class="partyVote">
@@ -3070,7 +3078,7 @@
         <p class="Interjection">
           <strong>Hon Member</strong>: So we suffer.</p>
         <p class="ContinueSpeech">
-          <strong>Hon DARREN HUGHES</strong>: I raise a point of order, Mr Speaker. It is a new point of order.</p>
+          <strong>Hon DARREN HUGHES</strong>: I raise a point of order, Mr Chairperson. It is a new point of order.</p>
         <p class="Interjection">
           <strong>The CHAIRPERSON (Hon Rick Barker)</strong>: I think I know what the member is going to raise. I just say to members that it is helpful if we keep our comments down while a point of order is being raised. I do not mind small muttering, but that comment was a bit excessive.</p>
         <p class="ContinueSpeech">
@@ -3149,7 +3157,7 @@
         <ul class="">
           <li>The question was put that the following amendment in the name of the Hon Rodney Hide to clause 1 be agreed to:</li>
         </ul>
-        <p class="Clause-Description0">to omit “Auckland” and substitute “Tamaki Makaurau”.</p>
+        <p class="Clause-Description0">to omit “Auckland Reorganisation” and substitute “Tamaki Makaurau Reorganisation”.</p>
         <a name="page_3715"></a>
       </div>
       <div class="partyVote">
@@ -3207,9 +3215,11 @@
           <li>The question was put that the following amendment in the name of the Hon Rodney Hide to clause 2 be agreed to:</li>
         </ul>
         <p class="Clause-Description0">to omit subclauses (1) to (3) and to substitute the following new subclauses:</p>
-        <p class="Clause-Indent1">Subject to subsections (2) and (3), this Act comes into force 2 days after the date on which it receives the Royal assent;</p>
-        <p class="Clause-Indent1">Part 2 comes into force on 1 November 2010;</p>
-        <p class="Clause-Indent1">Sections 27 and 28, and subpart 3 of Part 3 come into force on the close of 31 December 2010.</p>
+        <p class="Clause-Indent1">Subject to
+ <strong>subsections (2) and (3)</strong> this Act comes into force 2 days after the date on which it receives the Royal assent.</p>
+        <p class="Clause-Indent1">Part 2 comes into force on 1 November 2010.</p>
+        <p class="Clause-Indent1">
+          <strong>Sections 27 and 28</strong> and subpart 3 of Part 3 come into force on the close of 31 December 2010.</p>
       </div>
       <div class="partyVote">
         <table class="table vote">
@@ -3389,7 +3399,6 @@
               </tr>
             </tfoot>
         </table>
-        </div>
       </div>
     </div>
   </div>
@@ -3421,7 +3430,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

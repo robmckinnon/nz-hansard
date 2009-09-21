@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 21 July 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/2/5/5/49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/9/1/5/49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/6/f/1/49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/3/5/8/49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f6%2ff%2f1%2f49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7b785C487E-BCC7-41FF-A932-51D3829B6A93%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7bEC506BDB-DD7D-45D2-A1AE-DD18186BB598%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f3%2f5%2f8%2f49HansD_20090702_00000054-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/8/d/b/49HansD_20090702-Volume-655-Week-17-Thursday-2-July-2009.htm">Parliamentary Debates (Hansard) for Thursday, 2 July 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/2/0/a/49HansD_20090702-Volume-655-Week-17-Thursday-2-July-2009.htm">Parliamentary Debates (Hansard) for Thursday, 2 July 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,7 +195,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4876]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
       <h4 class="QSubjectHeading">Government Expenditure—State Sector Pay Settlements</h4>
@@ -294,7 +296,7 @@
           <strong>Hon David Cunliffe</strong>: If the Minister believes that the committee has made up its own mind, has he had any contact with the Finance and Expenditure Committee chair Craig Foss on the matter in recent weeks, noting that Craig Foss has said there is “a lot more communication going on with senior banking industry figures”; if so, has he received any new information from the banks, their Australian parents, or the Australian Government, and did this information assist him to change his mind on an inquiry?</p>
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: The inquiry was a matter for the committee. I have made it plain to anyone who will listen that our top priority is to ensure that banks keep lending, because when they stop lending, people lose jobs. There is some argument to be had about margins that apply to a very small amount of the lending they do, but we want to maintain the advantage New Zealand has of a stable banking system, which is rare in the world at the moment, and can make sure the banks keep lending to businesses, which can keep employing people. Grandstanding over an inquiry about a marginal issue is the proper role of the Opposition, but it has no impact on economic policy.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. I expect you will know what the point of order is. The Minister has not attempted to address the process question that I just posed to him, which was whether he had had any contact with the Finance and Expenditure Committee chairman, with the banks, with their parents, or with the Australian Government. He did not attempt to address that question.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I hear the point the honourable member is making. I could have assisted the honourable member far more if he had asked just that question. If the honourable member wanted that question answered, he should have just asked whether the Minister had had any contact with the chair of the select committee. Then we could have had an answer. But no, the member went on and added at least three other questions that I heard. There is no way I can assist him in getting an answer to whichever bit of the question he particularly wanted answered. I think that is an object lesson in how to keep his question to the point if he wants it answered.</p>
@@ -322,7 +324,8 @@
         <p class="SupAnswer">
           <strong>Hon BILL ENGLISH</strong>: I almost always agree with Don Nicholson; he is a constituent of mine and a fine man. I have met with FinSec members a couple of times over different issues; I agree with some of what they say but not all of what they say.</p>
       </div>
-      <h4 class="QSubjectheadingalone">Public Transport Projects, Auckland—Progress</h4>
+      <h4 class="QSubjectheadingalone">Auckland—Public Transport Projects,
+ Progress</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>4.
@@ -466,7 +469,7 @@
           <strong>Sue Moroney</strong>: —I said “if”—will she instruct the Minister of State Services to reinstate the pay equity investigation for social workers at Child, Youth and Family, where men are paid 9.5 percent more than their women colleagues, or is she happy for her Government to be one of those unscrupulous employers she referred to in Parliament on Tuesday?</p>
         <p class="SupAnswer">
           <strong>Hon KATE WILKINSON</strong>: I refer to my previous answer. The same answer applies to that question.</p>
-        <p class="Interjection">
+        <p class="Intervention">
           <strong>Sue Moroney</strong>: I raise a point of order, Mr Speaker. I referred specifically to the Minister’s own statement in the House on Tuesday. She has failed to address the question of why, if her assertion is that the standard is equal pay for equal work, she will not instruct the Ministers. Why will she not address the question?</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: I apologise to the honourable member for repeating this, but if she reflects back on her supplementary question she will see that if she had asked the question in her point of order, and only that question, then it would be much easier for the Speaker to assist her. The dilemma was that the tail part of her question—if I remember correctly—put in a bit about whether it was part of the Government being irresponsible, or something along those lines. When a member does that, he or she cannot expect a question to be addressed absolutely, because he or she has added political content to it and will get a political answer. If the member asked the simple question then I would assist her every time if I could, but not when political content is added. That gives the Minister an out.</p>
@@ -657,7 +660,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

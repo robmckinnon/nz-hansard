@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 21 July 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/a/d/2/49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/f/2/b/49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/2/5/0/49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/d/b/d/49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f2%2f5%2f0%2f49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading%2ehtm&NRNODEGUID=%7bB4353FF7-CD40-47F5-84C8-590CD10D95A7%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7bBD7C6A8F-90A9-491D-9DF3-4494021FE72F%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fd%2fb%2fd%2f49HansD_20090630_00000793-Climate-Change-Response-Emissions-Trading%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,12 +176,12 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Legislation/Bills/a/2/0/00DBHOH_BILL9253_1-Climate-Change-Response-Emissions-Trading-Forestry.htm">Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill</a></li>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/4/f/7/49HansD_20090630-Volume-655-Week-17-Tuesday-30-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 30 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/c/6/d/49HansD_20090630-Volume-655-Week-17-Tuesday-30-June-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 30 June 2009</a></li>
+					<li><a href="/en-NZ/PB/Legislation/Bills/f/7/6/00DBHOH_BILL9253_1-Climate-Change-Response-Emissions-Trading-Forestry.htm">Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -194,7 +196,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill — Second Reading, In Committee, Third Reading</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:655;Page:4724]</p>
     <div class="BillDebate">
       <h1>Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill</h1>
       <div class="SubDebate">
@@ -273,7 +275,7 @@
             <strong>:</strong> By tonight the Government will be in breach of the law, and so will some foresters, unless we pass the Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill. As I indicated in my first reading speech, the Greens will help get the Government off the hook here. We will support this bill. That was conditional, initially, on the Government agreeing to put firm dates for the obligations in the bill, rather than open-ended opportunities to pass dates by Order in Council. The select committee has done that and the Minister responsible for Climate Change Issues has agreed, so we are supporting this bill, and we are also offering our support to the process of giving leave for the bill to go through all stages today.</p>
           <p class="a">We had an interesting debate at the select committee about the “no later than 1 July” clause. Some of us wanted to know why we did not just set a firm date of 1 July and reduce uncertainty even further. It was pointed out to us that if in fact that date can be moved forward, then the allocation plans can get under way earlier as well, and that is entirely a good thing. We are comfortable with the degree of flexibility that “up to 1 July 2010” gives us.</p>
           <p class="a">However, the forestry industry is still not very impressed with what is happening under the emissions trading scheme. Foresters have no one to sell their credits to and many of them are not convinced that they ever will have. Charles Chauvel and Craig Foss have expressed the hope that deforestation has now ended, but I do not think we can guarantee that. Those who own forests but are interested only in dairying are pushing extremely hard for rules that make it as easy as possible to deforest and convert their land to dairying. They are expecting to get the ability to offset on to different land from this Government, even if it is not accepted under Kyoto. Many people hope that the whole thing will just fall over and go away, because it is not clear how the Government will proceed in terms of getting a majority in the House for whatever it wants to do.</p>
-          <p class="a">In Opposition, National attacked Labour—justly, in my view—for taking 9 long years to get any economic instrument in place. Now, the National Government itself has delayed and created new uncertainty for 7 months and counting, and we may be counting for a while yet. As the previous speaker said, this has been going on since the mid-1990s, when the Cabinet of the day first tried to get a principle decision about an emissions trading scheme or a carbon charge, and, for God’s sake, either would have been better than neither, by a very long way. But the fact is that nothing happened for a very long time. If this Government goes to Copenhagen at the end of the year with no clear plan or agreed majority of the House for a way forward, New Zealand will be a laughing stock. It would be extremely bad for our trade and our international relationships.</p>
+          <p class="a">In Opposition, National attacked Labour—justly, in my view—for taking 9 long years to get any economic instrument in place. Now, the National Government itself has delayed and created new uncertainty for 7 months and counting, and we may be counting for a while yet. As the previous speaker said, this has been going on since the mid-1990s, when the Cabinet of the day first tried to get an in principle decision about an emissions trading scheme or a carbon charge, and, for God’s sake, either would have been better than neither, by a very long way. But the fact is that nothing happened for a very long time. If this Government goes to Copenhagen at the end of the year with no clear plan or agreed majority of the House for a way forward, New Zealand will be a laughing stock. It would be extremely bad for our trade and our international relationships.</p>
           <p class="a">These last 7 months, when officials should have been able to get busy writing the rules and the allocation plans for the emissions trading scheme, they have instead been spending countless hours servicing a select committee going over old ground and writing yet another summary of the science for the disbelievers showing that, yes, climate change is real, yes, the Intergovernmental Panel on Climate Change has done its
  job properly, and, yes, climate change is a real and present danger. I think that is a huge waste of the valuable time of our skilled officials, and of many of us on the committee, as well.</p>
           <a name="page_4731"></a>
@@ -417,12 +419,12 @@
         <p class="Speech">
           <a name="time_16:38:36"></a>
           <strong>STUART NASH (Labour)</strong>
-          <strong>:</strong> The title of the bill is the Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill. I suggest that it should perhaps be the “Climate Change Lack of Response (Emissions Trading Forestry Sector) Amendment Bill”. The one thing about this bill, and I alluded to this in my speech on the second reading, is that the forestry industry was ready for this bill. The only party that was not ready for this was the National Government. If I look through the bill, I see that the major changes have been made, as we all know, to the dates. The thing about this bill is the Labour Party had sat down and consulted the industry. There were changes that that forestry industry wanted; there were changes that the previous Labour Government wanted. They sat around a table, which was made of wood, to talk about the changes. The table was probably native wood, it could have been radiata pine, but it does not really matter. It was New Zealand - grown wood that had not been farmed for carbon, because it had been cut down. There were many of these meetings because one of the things the previous Labour Government did the whole time was consult back and forth with the industry. It came up with a bill that was perfect. It fitted the expectations and the aspirations of the forest industry, and it fitted the expectations and the aspirations of the previous Labour Government’s emissions trading scheme. It was going brilliantly. It was ready. The forest industry was ready to get out there and start marketing this. The forest industry had all these seedlings ready to plant. We had international investors.</p>
+          <strong>:</strong> The title of the bill is the Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill. I suggest that it should perhaps be the “Climate Change Lack of Response (Emissions Trading Forestry Sector) Amendment Bill”. The one thing about this bill, and I alluded to this in my speech on the second reading, is that the forestry industry was ready for this bill. The only party that was not ready for this was the National Government. If I look through the bill, I see that the major changes have been made, as we all know, to the dates. The thing about this bill is the Labour Party had sat down and consulted the industry. There were changes that the forestry industry wanted; there were changes that the previous Labour Government wanted. They sat around a table, which was made of wood, to talk about the changes. The table was probably native wood, it could have been radiata pine, but it does not really matter. It was New Zealand - grown wood that had not been farmed for carbon, because it had been cut down. There were many of these meetings because one of the things the previous Labour Government did the whole time was consult back and forth with the industry. It came up with a bill that was perfect. It fitted the expectations and the aspirations of the forest industry, and it fitted the expectations and the aspirations of the previous Labour Government’s emissions trading scheme. It was going brilliantly. It was ready. The forest industry was ready to get out there and start marketing this. The forest industry had all these seedlings ready to plant. We had international investors.</p>
         <p class="a">But let us get back to the bill. If we look at Part 1, clause 4, we see that it says that we are changing the date to 1 July 2010—2010! That is a delay of 365 days. For those who do not know much about forestry, I say that 365 days is a growing year. There are four seasons in a growing year, and that constitutes one growth ring. In fact, when we are talking about a cycle of 30 years, every year is important because one does not know what is going to happen in the industry. But the most important thing that this bill does is delay the potential investment in this industry.</p>
         <p class="a">As I have said, I support this bill. The reason I support it is that it provides certainty. I support the recommendations based on the fact that it provides certainty. Let us look at some of the other clauses. Clause 5 is called “Applications for exemption of land
  holdings of less than 50 hectares of pre-1990 forest land”. Where does “50 hectares” come from? I mean, it is an arbitrary amount. It is a good amount, but it takes it out to July 2010 again. What is it with 2010? Why could we not just go ahead with it straight away? This is the really disappointing thing for me as a past forester, for the forest industry, for the investment community—in fact, for everyone who is passionate about emissions trading.</p>
         <a name="page_4743"></a>
-        <p class="a">Nikki Kaye, I heard you wax on in Ethiopia, where you gave a very impassioned speech about the importance of climate change. It was a wonderful speech, and we all sat up and applauded. I come back and stand in this hall, which is an amazing, wood-lined Chamber—members should look at this fantastic wood—and I hear you speak about delaying this bill. It says here it will be delayed until 2010. You are delaying it!</p>
+        <p class="a">Nikki Kaye, I heard you wax on in Ethiopia, where you gave a very impassioned speech about the importance of climate change. It was a wonderful speech, and we all sat up and applauded. I come back and stand in this Chamber, which is an amazing, wood-lined hall—members should look at this fantastic wood—and I hear you speak about delaying this bill. It says here it will be delayed until 2010. You are delaying it!</p>
         <p class="Interjection">
           <strong>Nikki Kaye</strong>: You support it!</p>
         <p class="ContinueSpeech">
@@ -452,9 +454,9 @@
         <p class="a">Legislation is about to go through some crucial stages in the United States Congress to set up a “cap and trade” scheme—the mirror image of the sort of scheme that was passed in our last Parliament. We have the European response mirrored in domestic
  legislation of member nations of the European Union, such as the UK, most notably for our purposes. There are also countries like Japan. No way could we be described as a world leader any more, even if that was an accurate description back in September last year, which I do not think it was.</p>
         <a name="page_4745"></a>
-        <p class="a">We have the principle that the scheme should be fiscally neutral. Well, it was always Labour’s intention to recycle revenues gained from, for example, the auctioning of permits, to pay for the vital complementary measures that are the other equation in dealing with climate change. We have the emissions trading mechanism—the financial mechanism that puts a price on carbon at the margins, so that we do things like disincentivise people who put an inappropriate dairy development on a marginal land, and we incentivise them instead to forest that land, which is much more in the national interest and is the logical consequence of putting a price on their pollution and their emissions, rather than having the taxpayer bear it. But we need those complementary measures as well, and it was certainly always going to be the case under Labour’s scheme that they would have been paid for from revenue from the scheme.</p>
-        <p class="a">Then there is the principle that there should be close alignment with the Australian Carbon Pollution Reduction Scheme, with, where possible, common compliance regimes and tradability. Well, that outcome is entirely feasible as far as technical harmonisation is concerned, without waiting for Australia to develop every last detail of its scheme. It is feasible under the legislation as it is designed at the moment. In respect of the principle that technology should be encouraged to improve efficiency and reduce emissions’ intensity, nobody could argue with that; it is the motherhood and apple-pie principle that, again, was consistent with the scheme as it currently exists.</p>
-        <p class="a">Then there are the final two principles. First, with regard to the principle that we need to recognise the importance of small and medium enterprise to New Zealand, again, no one would argue with that, but the Minister needs to get on and decide issues like thresholds, so that small and medium sized businesses know where they sit in the scheme and where their allocation regimes will come from. Second, in respect of the need to have flexibility to respond to progress in international negotiations, the scheme is designed to do exactly that. It is basically a set of broad legislative principles that allow the Minister and his officials to get on and fill out the detail. As far as the international developments are concerned, it is a ground for review under the existing scheme. Those principles have to be treated with a great degree of caution, and I would remind the previous speaker, Craig Foss, of that.</p>
+        <p class="a">We have the principle that the scheme should be fiscally neutral. Well, it was always Labour’s intention to recycle revenues gained from, for example, the auctioning of permits, to pay for the vital complementary measures that are the other equation in dealing with climate change. We have the emissions trading mechanism—the financial mechanism that puts a price on carbon at the margins, so that we do things like disincentivise people who put an inappropriate dairy development on a marginal land, and we incentivise them instead to afforest that land, which is much more in the national interest and is the logical consequence of putting a price on their pollution and their emissions, rather than having the taxpayer bear it. But we need those complementary measures as well, and it was certainly always going to be the case under Labour’s scheme that they would have been paid for from revenue from the scheme.</p>
+        <p class="a">Then there is the principle that there should be close alignment with the Australian Carbon Pollution Reduction Scheme, with, where possible, common compliance regimes and tradability. Well, that outcome is entirely feasible as far as technical harmonisation is concerned, without waiting for Australia to develop every last detail of its scheme. It is feasible under the legislation as it is designed at the moment. In respect of the principle that technology should be encouraged to improve efficiency and reduce emissions’ intensity, nobody could argue with that; it is the motherhood and apple-pie principle that, again, is consistent with the scheme as it currently exists.</p>
+        <p class="a">Then there are the final two principles. First, with regard to the principle that we need to recognise the importance of small and medium enterprise to New Zealand, again, no one would argue with that, but the Minister needs to get on and decide issues like thresholds, so that small and medium sized businesses know where they sit in the scheme and what their allocation regimes will be. Second, in respect of the need to have flexibility to respond to progress in international negotiations, the scheme is designed to do exactly that. It is basically a set of broad legislative principles that allow the Minister and his officials to get on and fill out the detail. As far as the international developments are concerned, it is a ground for review under the existing scheme. Those principles have to be treated with a great degree of caution, and I would remind the previous speaker, Craig Foss, of that.</p>
         <p class="a">The other thing I will say is that there was a comment in the second reading speech made by the Green member Jeanette Fitzsimons. I think she made some assumptions about what Labour might or might not be willing to do in respect of dates and compromise for other sectors coming into this scheme. All I would say in response is that we have been scrupulous about not discussing in public our talks with the Minister, and I intend to continue that course. The member should not speculate—neither should anybody else—on what we might or might not be willing to agree with the Minister.</p>
         <p class="a">I wonder, in the time remaining, whether I could ask the Minister in the chair, the Hon Dr Nick Smith, to respond to two quick questions: one relates to clause 4; the other relates to clause 5(2). The amendments to the clauses are recommended in the committee’s report to the House. The questions are simply these: given that the committee has recommended firm deadlines, as opposed to dates, to be set by Order in Council for the doing of things that are required under those paragraphs, I ask whether there is a prospect, in his view, that those things might be done sooner than the statutory deadlines, which are set out in both cases on 1 July 2010. If so, I ask whether he has a view as to when those things might be done on an earlier date than 1 July 2010, and I ask what the conditions are under which those things might occur. These are my
  questions, and I would be very grateful if the Minister took the opportunity to address them. Those are my comments at this point.</p>
@@ -611,7 +613,7 @@
         <p class="a">Climate change is a pressing, complex global issue, and the cost of getting the legislation wrong is high. Governments around the world are struggling to find the best way to cope with greenhouse gases and global warming without crippling their economies. In a time of international recession, finding workable solutions is even more difficult. We want to make sure we get a good emissions trading scheme, but we do not want to get it at the expense of our economy. New Zealand is committed to making emissions reductions, but we want to reduce those emissions in ways that result in the least cost to our society and the least cost to our economy. We need to capitalise on the Kiwi can-do attitude, and to focus on New Zealand’s creativity and innovation in order to develop new ways to manage our lives, our organisations, and our businesses so that we can reduce our greenhouse gas emissions and we can protect our environment.</p>
         <p class="a">As we know, New Zealand has a very unusual greenhouse gas profile. For a developed country, it has a uniquely high percentage of agricultural emissions. Almost 50 percent of our greenhouse gases come from the farm, in comparison with other developed countries, which usually have only 12 to 15 percent of their emissions from agriculture. Unfortunately, our emissions profile is particularly difficult to manage. We will, of course, be using all our expertise, and New Zealand has a good deal of expertise in research and development in the agricultural and forestry sectors. We will use this expertise to try to reduce these levels. New Zealand will lead the development of an international research centre focused on greenhouse gas emissions from the agricultural sector. This will be a great contribution from our country to the global issue.</p>
         <p class="a">We will also be doing everything we can to tackle the other major areas that produce greenhouse gas emissions in our society: energy use and transport. One of the most vital things we need to do is cut back on our use of fossil fuel energy generation, and we can do that; we can do it in several ways.</p>
-        <p class="a">Last week the Prime Minister announced the new home insulation fund Warm Up New Zealand: Heat Smart. I have to say that it has been particularly enthusiastically received in my home town of Christchurch. The combination of a cold climate, old housing, and an air pollution problem makes Christchurch a prime suspect for more insulation. Christchurch people will enthusiastically support the insulation fund and its clean heating capacity. It is lucky that the Government has announced in the Budget that it is spending $323 million over 4 years to retrofit 180,000 homes with insulating and clean heating devices. The amazing thing is that over half a million New Zealanders will benefit from the scheme. They will benefit by using less energy and by keeping themselves warmer and drier. Insulation and clean heat will also cut greenhouse gas emissions from those homes and improve the carbon footprint of our cities.
+        <p class="a">Last week the Prime Minister announced the new home insulation fund Warm Up New Zealand: Heat Smart. I have to say that it has been particularly enthusiastically received in my home town of Christchurch. The combination of a cold climate, old housing, and an air pollution problem makes Christchurch a prime suspect for more insulation. Christchurch people will enthusiastically support the insulation fund and its clean-heating capacity. It is lucky that the Government has announced in the Budget that it is spending $323 million over 4 years to retrofit 180,000 homes with insulating and clean-heating devices. The amazing thing is that over half a million New Zealanders will benefit from the scheme. They will benefit by using less energy and by keeping themselves warmer and drier. Insulation and clean heat will also cut greenhouse gas emissions from those homes and improve the carbon footprint of our cities.
  </p>
         <p class="a">The Government is also focusing on renewable energy by working on the national policy statement for renewable energy generation and by streamlining the Resource Management Act processes. I have been working hard on that committee, the Local Government and Environment Committee, and we are convinced that the new processes will also improve the renewable energy consent process. Increasing renewable energy
  will allow a decrease in the use of fossil fuels to generate power, which will cut our emissions. The bigger the percentage of renewable energy the smaller our greenhouse gas footprint.
@@ -686,7 +688,7 @@
           <a name="time_19:43:44"></a>
           <strong>HEKIA PARATA (National)</strong>
           <strong>:</strong> Tēnā koe e te Mana Whakawā. Huri noa i te Whare, tēnā koutou katoa.</p>
-        <p class="a">[<em>Greetings to you, Mr Speaker, and to you all throughout the House.</em><strong></strong>]</p>
+        <p class="a">[<em>Greetings to you, Mr Assistant Speaker, and to you all throughout the House.</em><strong></strong>]</p>
         <a name="page_4763"></a>
         <p class="a">I rise to speak on the third reading of the Climate Change Response (Emissions Trading Forestry Sector) Amendment Bill. I would like to reiterate some of the points that I made earlier this evening about the complexity by which this issue is characterised, and the opportunity afforded me as a member of the Emissions Trading Scheme Review Committee, which has a number of members who have dealt with these issues one time before, and have brought that experience to the table this time.</p>
         <p class="a">One of the abiding features of the process this time round, as mentioned by Mr Chauvel, was the fact that the select committee agreed, by and large, on the science. That allowed us to move forward to the set of policy responses that this Government might settle upon in dealing with an emissions trading scheme for New Zealand. A lot of hard work has been done in the select committee, and more has yet to be done before that work is finally reported back.</p>
@@ -750,7 +752,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

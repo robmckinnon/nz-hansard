@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/0/5/e/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/2/5/6/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/f/c/7/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/a/3/f/49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2ff%2fc%2f7%2f49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation%2ehtm&NRNODEGUID=%7b09B00690-80CA-4284-9F66-0DB6C374B05D%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b3E2CE541-014E-412B-90E3-812036D48CD7%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2fa%2f3%2ff%2f49HansD_20090515_00000022-Local-Government-Auckland-Reorganisation%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,12 +176,12 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Legislation/Bills/a/4/7/00DBHOH_BILL9147_1-Local-Government-Tamaki-Makaurau-Reorganisation.htm">Local Government (Tamaki Makaurau Reorganisation) Bill</a></li>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/8/4/5/49HansD_20090515-Volume-654-Week-12-Wednesday-13-May-2009-continued.htm">Parliamentary Debates (Hansard) for Wednesday, 13 May 2009(continued on Friday, 15 May 2009, part 1)</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/e/a/0/49HansD_20090515-Volume-654-Week-12-Wednesday-13-May-2009-continued.htm">Parliamentary Debates (Hansard) for Wednesday, 13 May 2009(continued on Friday, 15 May 2009, part 1)</a></li>
+					<li><a href="/en-NZ/PB/Legislation/Bills/4/1/f/00DBHOH_BILL9147_1-Local-Government-Tamaki-Makaurau-Reorganisation.htm">Local Government (Tamaki Makaurau Reorganisation) Bill</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -194,7 +196,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Local Government (Auckland Reorganisation) Bill — In Committee</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:3405]</p>
     <div class="BillDebate">
       <h1>Local Government (Auckland Reorganisation) Bill</h1>
       <div class="SubDebate">
@@ -418,7 +420,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon David Parker to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to insert in subclause (2) before “The Auckland Council”, “Subject to subclause 5,”.</p>
+          <p class="Clause-Description0">to insert in subclause (2) “Subject to subclause 5,” before “The Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -446,7 +448,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to add to subclause (2) after “regional council”, “as defined by the Local Government Act 2002”.</p>
+          <p class="Clause-Description0">to add to subclause (2) “as defined by the Local Government Act 2002” after “regional council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -474,37 +476,8 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description">to omit from subclause (3) the words after “consequently amended” and substitute “by repealing section 23(1) and (5) of the Local Government Act 2002 and substituting the following section—23(1) A territorial authority must be either a city council or a
- district council, with the exception of the Chatham Islands Council or Auckland Council”.</p>
+          <p class="Clause-Description0">to omit from subclause (3) all words after “consequently amended” and substitute “by repealing section 23 of the Local Government Act 2002 and substituting: ‘A territorial authority has the power to determine its own name’ ”.</p>
           <a name="page_3416"></a>
-        </div>
-        <div class="partyVote">
-          <table class="table vote">
-            <caption>
-              <p>A party vote was called for on the question,
- <em>That the amendment be agreed to.</em></p>
-            </caption>
-            <colgroup><col width="" /><col width="" /></colgroup><tbody>
-                <tr>
-                  <td class="VoteCount">Ayes
- 57</td>
-                  <td class="VoteText">New Zealand Labour 42; Green Party 9; Māori Party 5; Progressive 1.</td>
-                </tr>
-                <tr>
-                  <td class="VoteCount">Noes
- 64</td>
-                  <td class="VoteText">New Zealand National 58; ACT New Zealand 5; United Future 1.</td>
-                </tr>
-              </tbody><tfoot>
-                <tr>
-                  <td class="VoteResult" colspan="2">Amendment not agreed to.</td>
-                </tr>
-              </tfoot>
-          </table>
-          <ul class="">
-            <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
-          </ul>
-          <p class="Clause-Description0">to omit from subclause (3) the words after “consequently amended” and substitute “by repealing section 23 of the Local Government Act 2002 and substituting the following section—23(1) A territorial authority has the power to determine its own name”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -529,8 +502,38 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
+          <p class="Clause-Description">to omit from subclause (3) all words after “consequently amended” and substitute “by repealing section 23(1) and (5) of the Local Government Act 2002 and substituting the following:</p>
+          <p class="Clause-Indent1">(1)
+ A territorial authority must be either a city council or a district council, with the exception of the Chatham Islands Council or Auckland Council.”</p>
+        </div>
+        <div class="partyVote">
+          <table class="table vote">
+            <caption>
+              <p>A party vote was called for on the question,
+ <em>That the amendment be agreed to.</em></p>
+            </caption>
+            <colgroup><col width="" /><col width="" /></colgroup><tbody>
+                <tr>
+                  <td class="VoteCount">Ayes
+ 57</td>
+                  <td class="VoteText">New Zealand Labour 42; Green Party 9; Māori Party 5; Progressive 1.</td>
+                </tr>
+                <tr>
+                  <td class="VoteCount">Noes
+ 64</td>
+                  <td class="VoteText">New Zealand National 58; ACT New Zealand 5; United Future 1.</td>
+                </tr>
+              </tbody><tfoot>
+                <tr>
+                  <td class="VoteResult" colspan="2">Amendment not agreed to.</td>
+                </tr>
+              </tfoot>
+          </table>
+          <ul class="">
+            <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
+          </ul>
           <p class="Clause-Description0">to insert the following new subclause:</p>
-          <p class="Clause-Indent1">(5)The changes in this part will not take effect until a poll of electors has approved the changes in line with schedule 3, section 49, of the Local Government Act 2002.</p>
+          <p class="Clause-Indent1">(5)The changes in this Part will not take effect until a poll of electors has approved the changes in line with Schedule 3, section 49 of the Local Government Act 2002.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -556,8 +559,8 @@
             <li>The question was put that the following amendment in the name of the Hon David Paker to clause 9 be agreed to:</li>
           </ul>
           <p class="Clause-Description">to add the following new subclause:</p>
-          <p class="Clause-Indent1">(5)Because of the concentration of powers in the office of the Mayor of the Auckland Council:</p>
-          <p class="Clause-Paragraph">(a)any current or former Minister of the Crown is prohibited from standing for, or holding, the office of the Mayor; and</p>
+          <p class="Clause-Indent1">(5)Because of the concentration of powers in the office of the Mayor of Auckland Council—</p>
+          <p class="Clause-Paragraph">(a)any current or former Minister of the Crown is prohibited from standing for, or holding, the office of Mayor:</p>
           <p class="Clause-Paragraph">(b)no person may hold the office of Mayor for more than two terms.</p>
           <a name="page_3417"></a>
         </div>
@@ -587,7 +590,8 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Te Rōpu Tāmaki Makaurau Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Te
+ Ropu Tamaki Makaurau Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -615,7 +619,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Greater Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Greater Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -643,7 +647,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Wider Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Wider Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -671,7 +675,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Regional Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Regional Council”.</p>
           <a name="page_3418"></a>
         </div>
         <div class="partyVote">
@@ -700,7 +704,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Regional Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Regional Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -728,7 +732,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Plus Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Plus Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -756,7 +760,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Plus Regions Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Plus Regions Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -784,7 +788,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Outsized Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Outsized Council”.</p>
           <a name="page_3419"></a>
         </div>
         <div class="partyVote">
@@ -813,7 +817,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Ngāti Whātua and friends Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Ngati Whatua and Friends Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -841,7 +845,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Ngāti Whātua and others Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Ngati Whatua and Others Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -869,7 +873,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Ngati Whatua and friends and families Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Ngati Whatua and Friends and Families Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -897,7 +901,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Catchment Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Catchment Council”.</p>
           <a name="page_3420"></a>
         </div>
         <div class="partyVote">
@@ -926,7 +930,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Environment Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Environment Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -956,7 +960,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “City of Sails Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “City of Sails Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1076,7 +1080,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Heart of the City Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Heart of the City Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1105,7 +1109,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Mayoralty Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Mayoralty Council”.</p>
           <a name="page_3423"></a>
         </div>
         <div class="partyVote">
@@ -1135,7 +1139,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Coast to Coast Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Coast to Coast Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1164,7 +1168,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “City of Vents Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “City of Vents Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1192,7 +1196,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Vents Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Vents Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1220,7 +1224,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Ring Road Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Ring Road Council”.</p>
           <a name="page_3424"></a>
         </div>
         <div class="partyVote">
@@ -1249,7 +1253,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Super Cone Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Super Cone Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1277,7 +1281,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Supercity Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Supercity Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1322,7 +1326,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Roads and Tunnels Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Roads and Tunnels Council”.</p>
           <a name="page_3425"></a>
         </div>
         <div class="partyVote">
@@ -1351,7 +1355,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Consulting Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Consulting Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1379,7 +1383,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Supercity Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Supercity Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1407,7 +1411,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Super City Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Super City Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1435,7 +1439,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Super Basin Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Super Basin Council”.</p>
           <a name="page_3426"></a>
         </div>
         <div class="partyVote">
@@ -1464,7 +1468,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Fast Track Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Fast Track Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1492,7 +1496,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Plains and Vents Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Plains and Vents Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1520,7 +1524,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Neighbourhood Plus Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Neighbourhood Plus Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1556,8 +1560,8 @@
             <a name="time_10:41:34"></a>
             <strong>Hon CLAYTON COSGROVE (Labour—Waimakariri)</strong>
             <strong>:</strong> I raise a point of order, Mr Chairperson. Again I seek your advice. I have had a look at
- <em>McGee</em><strong></strong>, page 379, which talks about “an amendment which is merely an attempt to criticise the contents of the bill will not be accepted.” and about, as you have rightly pointed out, the need for
- precision, but I ask you to consider the issue of consistency. We have just voted on the amendment that attempted to substitute the words “Neighbourhood Plus Council”, which you presumably ruled in order, because we voted on it. You then ruled out an amendment to insert the words “Monarchy Council”, referring to the sovereign.</p>
+ <em>McGee</em><strong></strong>, page 379, which talks about “an amendment which is merely an attempt to criticise the contents of the bill will not be accepted.” and about, as you have rightly pointed out, the need for precision, but I ask you to consider the issue of consistency. We have just voted on the
+ amendment that attempted to substitute the words “Neighbourhood Plus Council”, which you presumably ruled in order, because we voted on it. You then ruled out an amendment to insert the words “Monarchy Council”, referring to the sovereign.</p>
           <a name="page_3427"></a>
           <p class="a">Although I accept absolutely that, as you have said, under the Standing Orders you are the sole judge of what is in and what is out, I ask you, so that there is not disorder as we go through these amendments, for some indication of consistency. Where an amendment refers to the sovereign—to the monarchy—you have ruled it out, but where it refers to “neighbourhood” you have ruled it in. In order to assist you with the smooth running and passage of the Committee, we would be grateful for some sort of indication in respect of consistency; otherwise it becomes just an arbitrary process and we will repeatedly have to seek your guidance and, ultimately, recall the Speaker. So without being provocative I simply ask you to give us an indication of how your rulings are proceeding. Thank you.</p>
         </div>
@@ -1599,7 +1603,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Supreme Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Supreme Council”.</p>
           <a name="page_3428"></a>
         </div>
         <div class="partyVote">
@@ -1628,7 +1632,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Greater Auckland Supreme Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Greater Auckland Supreme Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1656,7 +1660,8 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Aotea Te Rōpū Tāmaki Makaurau Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it appears and substitute “Aotea Te
+ Ropu Tamaki Makaurau Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1684,7 +1689,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Greatest Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it appears and substitute “Greatest Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1712,7 +1717,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Widest Auckland Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Widest Auckland Council”.</p>
           <a name="page_3429"></a>
         </div>
         <div class="partyVote">
@@ -1737,10 +1742,8 @@
                 </tr>
               </tfoot>
           </table>
-          <ul class="">
-            <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
-          </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Regions Council”.</p>
+          <p class="a">The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Regions Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1768,7 +1771,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description">to omit the words “Auckland Council” and substitute the words “Region of Auckland Council”.</p>
+          <p class="Clause-Description">to omit “Auckland Council” wherever it occurs and substitute “Region of Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1831,7 +1834,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Ngāti Whātua and associates Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Ngati Whatua and Associates Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1863,7 +1866,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Ngāti Whātua and Other Peoples’ Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Ngati Whatua and Other Peoples’ Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1894,7 +1897,7 @@
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
           <a name="page_3431"></a>
-          <p class="Clause-Description">to omit the words “Auckland Council” wherever they appear and substitute “Environmental Auckland Council”.</p>
+          <p class="Clause-Description">to omit “Auckland Council” wherever it occurs and substitute “Environmental Auckland Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -1972,7 +1975,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “City of Boats Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “City of Boats Council”.</p>
           <a name="page_3432"></a>
         </div>
         <div class="partyVote">
@@ -2103,7 +2106,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Beach to Beach Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Beach to Beach Council”.</p>
           <a name="page_3435"></a>
         </div>
         <div class="partyVote">
@@ -2132,7 +2135,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “City of Beaches Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “City of Beaches Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -2160,7 +2163,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Beaches Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Beaches Council”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -2190,7 +2193,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Auckland Supercity 2009 Council”.</p>
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Auckland Supercity Council 2009”.</p>
         </div>
         <div class="partyVote">
           <table class="table vote">
@@ -2221,13 +2224,14 @@
             <a name="time_11:20:20"></a>
             <strong>Hon GEORGE HAWKINS (Labour—Manurewa)</strong>
             <strong>:</strong> I raise a point of order, Mr Chairperson. Could you tell us exactly which one it is, so that we can follow it?</p>
+          <a name="page_3436"></a>
           <p class="Intervention">
             <strong>The TEMPORARY CHAIRPERSON (Charles Chauvel)</strong>: Yes, I am working through the list that I think members have in front of them. We come to the amendment proposed by the honourable member to insert the words “Auckland Super City 2009 Council”. That is the amendment that I have ruled duplicative. That brings us to the amendment to clause 9 in the name of the Hon George Hawkins to omit “Auckland Council” and substitute “Super Basin 2009 Council”. I am advised by the Clerk that we have already voted on that amendment, so I will rule that out of order as duplicative.</p>
           <p class="a">The next proposed amendment to clause 9 in the name of the Hon George Hawkins to omit “Auckland Council” and substitute “Fast Track 2009 Council” has already been voted on as well, so I rule that out of order as duplicative. The same ruling applies to the amendment to clause 9 in the name of the Hon George Hawkins to omit “Auckland Council” and substitute “Plains and Vents 2009 Council”.</p>
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “Neighbourhood Plus their Neighbourhood Council”.
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “Neighbourhood Plus their Neighbourhood Council”.
  </p>
         </div>
         <div class="partyVote">
@@ -2258,7 +2262,7 @@
             <li>The result corrected after originally being announced as Ayes 57, Noes 64.</li>
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to omit the words “Auckland Council” wherever they appear and substitute “My Neighbourhood Council”.
+          <p class="Clause-Description0">to omit “Auckland Council” wherever it occurs and substitute “My Neighbourhood Council”.
  </p>
         </div>
         <div class="partyVote">
@@ -2983,8 +2987,6 @@
                 </tr>
               </tfoot>
           </table>
-        </div>
-        <div class="Speech">
           <p class="Interjection">
             <strong>The CHAIRPERSON (Lindsay Tisch)</strong>: There are a number of amendments that follow that have been ruled out of order. The reason for that is that in Part 1 the Committee agreed that a single unitary authority be established for the Auckland region on 1 November 2010. Amendments that propose that the authority is merely a proposal after 1 November 2010 are not consistent with that decision made in Part 1.</p>
           <p class="a">The next amendment for consideration is to insert new clause 9(5)—I will just read it, so you know where we are—“The Auckland Council shall also be known as the Auckland Supercity Proposal until 30 October 2010”.</p>
@@ -3065,7 +3067,7 @@
           <ul class="">
             <li>The question was put that the following amendment in the name of the Hon George Hawkins to clause 9 be agreed to:</li>
           </ul>
-          <p class="Clause-Description0">to add the following new subclause</p>
+          <p class="Clause-Description0">to add the following new subclause:</p>
           <p class="Clause-Indent1">(5)The Auckland Council shall also be known as the Auckland Supercity Proposal until 28 October 2010.</p>
         </div>
         <div class="partyVote">
@@ -4020,7 +4022,7 @@
         <div class="partyVote">
           <table class="table vote">
             <caption>
-              <p>A party vote was called for on the question,
+              <p>A party votewas called for on the question,
  <em>That the amendment be agreed to.</em></p>
             </caption>
             <colgroup><col width="" /><col width="" /></colgroup><tbody>
@@ -6771,7 +6773,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>

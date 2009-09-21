@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/c/a/c/49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/5/4/2/49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/9/f/3/49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/5/9/7/49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f9%2ff%2f3%2f49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee%2ehtm&NRNODEGUID=%7b6C6A9D60-5214-43D3-8C87-9D82C6E5800D%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7bE11E7E08-FA50-4A5E-A178-B602141C591E%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f5%2f9%2f7%2f49HansD_20090529_00000001-Taxation-Budget-Tax-Measures-Bill-In-Committee%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,12 +176,12 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Legislation/Bills/f/3/0/00DBHOH_BILL9229_1-Taxation-Budget-Tax-Measures-Bill.htm">Taxation (Budget Tax Measures) Bill</a></li>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/c/9/1/49HansD_20090529-Volume-654-Week-13-Thursday-28-May-2009-continued.htm">Parliamentary Debates (Hansard) for Thursday, 28 May 2009(continued on Friday, 29 May 2009)</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/8/6/6/49HansD_20090529-Volume-654-Week-13-Thursday-28-May-2009-continued.htm">Parliamentary Debates (Hansard) for Thursday, 28 May 2009(continued on Friday, 29 May 2009)</a></li>
+					<li><a href="/en-NZ/PB/Legislation/Bills/a/5/d/00DBHOH_BILL9229_1-Taxation-Budget-Tax-Measures-Bill.htm">Taxation (Budget Tax Measures) Bill</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -194,7 +196,7 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Taxation (Budget Tax Measures) Bill — In Committee, Third Reading</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:4009]</p>
     <div class="BillDebate">
       <a name="page_4009"></a>
       <h1>Thursday, 28 May 2009</h1>
@@ -1043,7 +1045,7 @@
           <a name="time_11:34:24"></a>
           <strong>STUART NASH (Labour)</strong>
           <strong>:</strong> I stand in support of this Taxation (Budget Tax Measures) Bill. I support it because it removes an insidious promise, which was hawked to the people of New Zealand, that the Nats always knew they could never implement. I contend that there was so much information in the market before the election that Mr Key, Mr English, Mr Tremain, Mr Foss, Mr Williamson, and anyone who read the newspaper knew exactly what they were doing when those members promised tax cuts to their electorates and the people of New Zealand. The unsuspecting people of New Zealand did not know that this was one big lie, but they know now. Mr Foss asked who knew that this was the state of the economy. Well, I knew. I read the newspaper, I watched the television, and I read
- <em>The Economist</em><strong></strong>. We all knew that the state of the economy was going to hell in a handbasket, but those members stood up and promised tax cuts. All the members on that side of the House promised tax cuts. All the newspapers were full of news of the recession—</p>
+ <em>The Economist</em><strong></strong>. We all knew that the economy was going to hell in a handbasket, but those members stood up and promised tax cuts. All the members on that side of the House promised tax cuts. All the newspapers were full of news of the recession—</p>
         <p class="Interjection">
           <strong>Hon Maurice Williamson</strong>: Michael Cullen said the worst of the recession was over.</p>
         <p class="ContinueSpeech">
@@ -1052,7 +1054,7 @@
         <p class="Interjection">
           <strong>Paul Quinn</strong>: More opera! Move on from the opera!</p>
         <p class="ContinueSpeech">
-          <strong>STUART NASH</strong>: Mr Quinn might like his opera, but goodness me, this message is tired, old, and sad, and it was a lie. Mr Key went on to say: “unlike Labour we won’t cancel our tax cuts.” Is that clear—“unlike Labour we won’t cancel our tax cuts.”? What are we debating at the moment? Are we debating the repeal of the tax cuts that were put in place by last Christmas? National members gave New Zealanders a Christmas present, and they took it away by Queen’s Birthday.</p>
+          <strong>STUART NASH</strong>: Mr Quinn might like his opera, but goodness me, this message is tired, old, and sad, and it was a lie. Mr Key went on to say: “unlike Labour we won’t cancel our tax cuts.” Is that clear—“unlike Labour we won’t cancel our tax cuts.”? What are we debating at the moment? We are debating the repeal of the tax cuts that were put in place by last Christmas. National members gave New Zealanders a Christmas present, and they took it away by Queen’s Birthday.</p>
         <p class="a">Let us look at our Labour leader, Phil Goff. He has been delivering for the working people of New Zealand for over 20 years. Mr Goff knows what New Zealanders want, because he has been out there talking to ordinary New Zealanders out in the markets. He knows what they want, because he has been out there on the streets. What has Mr Key
  been doing? While Mr Goff was talking to ordinary New Zealanders, Mr Key was manipulating the money markets of the global world. He was making honey from the New Zealand currency. Mr Goff negotiated the New Zealand free-trade agreement with China, which, as businesses big and small understand, was the most important measure of growth strategy ever negotiated in New Zealand’s history. Mr Goff is a man of his word. When Mr Goff says there will be tax cuts, he will deliver on them. He never promises New Zealanders something that Labour cannot deliver. Mr Goff is a man of integrity and honesty, and he has never engaged in the politics of cynicism and deceit.</p>
         <a name="page_4045"></a>
@@ -1121,7 +1123,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>
