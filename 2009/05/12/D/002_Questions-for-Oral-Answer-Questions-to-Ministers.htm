@@ -7,8 +7,8 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link title="Parliament Library Search" type="application/opensearchdescription+xml" rel="search" href="http://www.parliament.nz/search.xml" />
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css);</style>
-<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css" media="print" />
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/Default.css?v=2);</style>
+<link rel="stylesheet" type="text/css" href="/CmsSystem/Css/Print.css?v=1" media="print" />
 <script type="text/javascript" src="/CmsSystem/Js/Rollovers.js"></script>
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <meta name="keywords" content="parliament,house of representatives,government,nz,new zealand" />
@@ -39,7 +39,7 @@
 <!-- /Document Meta Data -->
 <script type="text/javascript" src="/CmsSystem/Js/Script.Aculo.Us/prototype.js"></script>
 <!--[if lte IE 6]>
-<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css);</style>
+<style type="text/css" media="screen,print">@import url(/CmsSystem/Css/IE6.css?v=1);</style>
 <![endif]-->
 </head>
 <body id="top">
@@ -51,13 +51,15 @@
 	<div id="header">
 		<a href="/en-NZ/" accesskey="1"><img src="/CmsSystem/Images/Logo.gif" width="75" height="82" alt="New Zealand House of Representatives" border="0" /></a>
 		<h1>New Zealand Parliament</h1>
-		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House next sits on Tuesday, 16 June 2009</a></div>
+		<div class="inSitting"><a href=/en-NZ/ThisWk/Programme>The House is sitting today</a></div>
 		<!-- search -->
 		<form id="searchForm" action="/en-NZ/Search/" method="get">
 		<div class="search"> 
 			<input name="q" type="text" id="Text1" alt="Enter search term(s). " class="searchBox" onfocus="this.style.backgroundColor='#FFF';this.style.color='#000';" />
 			<input type="image" src="/CmsSystem/Images/Homepage/en-NZ/ButtonSearchGreen.gif" title="Submit search. " class="button rollover" alt="Submit search. " />
 			<span class="advancedSearch"><a href="/en-NZ/Search/?SearchByForm=true" accesskey="3">Advanced search</a>
+			 | 
+			 <a href="/en-NZ/GoogleSearch/SearchTips.htm">Search tips</a>
 			 </span>
 		</div>
 		</form>
@@ -89,30 +91,30 @@
         <ul>
 			<!--<li><a href="/en-NZ/Register.htm">Register for updates</a></li>-->
 		</ul>
-		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTV">
-		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - viewing options. " />
+		            <a href='/en-NZ/AboutParl/SeeHear/PTV/' class="rollover headerButton" id="WatchPTVBroadcasting" >
+		                <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonPTV.gif" alt="Watch Parliament TV - currently broadcasting. " />
 		            </a>
-        <a id="ctl00_ctl00_Header_ctl00_hypAlerts" title="Alerts" class="button rollover" href="/en-NZ/Alerts/">
-            <img src="/CmsSystem/Images/LeftNav/en-NZ/ButtonAlerts.gif"/>
-        </a>
 					<ul class="languages">
 				    <li class="selected" title="English version of the site – currently selected. ">
 				     English
 				      </li>    
 				    |
-				    <li><a href=/mi-NZ/PB/Debates/Debates/e/6/d/49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
+				    <li><a href=/mi-NZ/PB/Debates/Debates/8/4/1/49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers.htm title="Māori version of the site. ">
 				     Māori 
 				      </a></li>    
 					</dl>
 		</div>
+        <!-- This is a fix for the Ecommittee form only, /en-NZ/OnlineSubmission/ECommitteeForm.aspx, and is because of the Essential Objects
+        control progress bar is interacting with the header. Do not ask why but adding this closing div stops the 'Do you wish to show insecure content'
+        pop up in IE7 and IE6 from displaying when accessing the form in https -->
 <!--[if IE]><input type="text" style="width: 1px; height: 1px; display: none;" disabled="disabled" size="1" /><!-->
 <div id="content">
-<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/8/d/4/49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NjIzMjU0MjJkZDXjRNw2GoXkEmhQPnKwD3YIyhfG" />
+<form name="aspnetForm" method="post"  id="aspnetForm" action="/en-NZ/PB/Debates/Debates/9/9/7/49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers.htm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExODI4NDE2NzlkZMtLjaDRJYX0oJQgVF+wOVw4dHOf" />
 <script language="javascript" type="text/javascript">
 <!--
    var __CMS_PostbackForm = document.forms['aspnetForm'];
-   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f8%2fd%2f4%2f49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRNODEGUID=%7bA213B4F8-C7C5-4BAA-B63D-CBFA8BAB1664%7d&NRCACHEHINT=NoModifyGuest";
+   var __CMS_CurrentUrl = "/CmsSystem/Templates/Documents/Bill.aspx?NRMODE=Published&NRNODEGUID=%7b79F12BAD-4B4B-41E3-87CC-22F23C2F6F68%7d&NRORIGINALURL=%2fen-NZ%2fPB%2fDebates%2fDebates%2f9%2f9%2f7%2f49HansD_20090512_00000064-Questions-for-Oral-Answer-Questions-to-Ministers%2ehtm&NRCACHEHINT=NoModifyGuest";
 // -->
 </script>
 <!-- main content -->
@@ -127,7 +129,7 @@
 		<div class="infoTiles right">
 			<table border="0" cellspacing="0" cellpadding="0" width="195">
 			<!-- content provider -->
-			<tbody id="ctl00_ctl00_MainContent_ctl02_tbContentProvider">
+			<tbody id="ctl00_ctl00_MainContent_ucDocumentPanel_tbContentProvider">
 			<tr>
 				<th>
 					<div class="hdr">Content provider</div>
@@ -135,7 +137,7 @@
 			</tr>
 			<tr>
 				<td class="contentProvider">
-					<img id="ctl00_ctl00_MainContent_ctl02_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
+					<img id="ctl00_ctl00_MainContent_ucDocumentPanel_imgContentProviderLogo" src="/NR/rdonlyres/59C64988-A9C6-4DF2-9710-2DEF7AC70796/0/HouseofRepresentatives.jpg" alt="House of Representatives" border="0" />
 					<!--<img src="/CmsSystem/Images/Example/ContentProvider.gif" width="195" height="102" alt="House of Representitives" border="0" />-->
 					<!-- House of Representitives -->
 				</td>
@@ -174,11 +176,11 @@
 			<th>
 				<div class="hdr">Related documents</div>
 			</th>
-		</tr
+		</tr>
 		<tr>
 			<td>
 				<ul>
-					<li><a href="/en-NZ/PB/Debates/Debates/Daily/d/3/a/49HansD_20090512-Volume-654-Week-12-Tuesday-12-May-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 12 May 2009</a></li>
+					<li><a href="/en-NZ/PB/Debates/Debates/Daily/5/5/a/49HansD_20090512-Volume-654-Week-12-Tuesday-12-May-2009.htm">Parliamentary Debates (Hansard) for Tuesday, 12 May 2009</a></li>
 				</ul>
 			</td>
 		</tr>
@@ -193,10 +195,11 @@
 		<div class="copy">
 			<div class="section">
     <a name="DocumentTitle"></a><h1>Questions for Oral Answer — Questions to Ministers, Questions to Members</h1>
-    <a name="DocumentReference"></a><p>[Advance Copy - Subject to minor change before inclusion in Bound Volume.]</p>
+    <a name="DocumentReference"></a><p>[Volume:654;Page:3055]</p>
     <div class="QOA">
       <h2>Questions to Ministers</h2>
-      <h4 class="QSubjectHeading">Auckland—Local Government Reform Consultation</h4>
+      <h4 class="QSubjectHeading">Auckland,
+ Local Government Reform—Consultation</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>1. Hon PHIL GOFF (Leader of the Opposition)</strong> to the
@@ -322,7 +325,7 @@
         <p class="Interjection">
           <strong>Hon David Cunliffe</strong>: I raise a point of order, Mr Speaker. Forgive me; I may not have made myself clear. It is not a—</p>
         <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: Forgive me. The honourable member made himself perfectly clear. I have pointed it out to him that this is not a matter for a point of order. Questioning what the Minister said in his answer and whether the Clerk had approved it as part of a question, is irrelevant. If the member disagrees with the answer given by the Minister, he should use his supplementary questions available to question the Minister in detail on that.</p>
+          <strong>Mr SPEAKER</strong>: Forgive me. The honourable member made himself perfectly clear. I have pointed it out to him that this is not a matter for a point of order. Questioning what the Minister said in his answer and whether the Clerk had approved it as part of a question is irrelevant. If the member disagrees with the answer given by the Minister, he should use his supplementary questions available to question the Minister in detail on that.</p>
         <p class="SupQuestion">
           <strong>Chris Tremain</strong>: What will be the effect of ending these unfunded commitments?</p>
         <p class="SupAnswer">
@@ -348,7 +351,7 @@
         <p class="Interjection">
           <strong>Hon David Cunliffe</strong>: In your consideration of the point of order I wonder whether you could also consider Standing Order 377(2)(b), which prohibits a Minister to answer using arguments, inferences, or imputations that are inappropriate. The phrase “unfunded commitment”, which the Clerk has ruled out, arguably falls within that category. Also Speaker’s ruling 164/7 reminds us that a Minister, in answering about a report that he has seen, may not use this to cast an inference on the policy of another political party for which he is not responsible.</p>
         <p class="Interjection">
-          <strong>Mr SPEAKER</strong>: I do not want this debate to go any further, because, actually, I think there is some misunderstanding over the concern the member first raised. It is not that the question was not answered that was the issue the member raised. The member raised the issue whether the Minister used language that the member took exception to. The dilemma around the Standing Orders in respect of an answer to a question is that either the Minister takes personal exception to it and wants to make a personal explanation to clear it up, or it is simply a matter of the quality of the answer, which I cannot get involved in as the Speaker. That is the dilemma around our Standing Orders. So either the member wishes to make a personal explanation, or he has to pursue it through further questions. That is why question time is handled this way under the Standing Orders, because you do have questions to pursue the issue, if that is what the member wants to do.</p>
+          <strong>Mr SPEAKER</strong>: I do not want this debate to go any further, because, actually, I think there is some misunderstanding over the concern the member first raised. It is not that the question was not answered that was the issue the member raised. The member raised the issue whether the Minister used language that the member took exception to. The dilemma around the Standing Orders in respect of an answer to a question is that either the member takes personal exception to it and wants to make a personal explanation to clear it up, or it is simply a matter of the quality of the answer, which I cannot get involved in as the Speaker. That is the dilemma around our Standing Orders. So either the member wishes to make a personal explanation, or he has to pursue it through further questions. That is why question time is handled this way under the Standing Orders, because you do have questions to pursue the issue, if that is what the member wants to do.</p>
         <p class="SupQuestion">
           <strong>Chris Tremain</strong>: In what areas has the Government identified unfunded commitments?</p>
         <p class="SupAnswer">
@@ -382,7 +385,7 @@
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: It is already tabled. I take it there is no objection? We get into difficulty when points of order are interjected upon. I take it there is no objection to part of a document that has already been tabled being tabled again? There is no objection. Sorry, there is objection to that course of action.</p>
       </div>
-      <h4 class="QSubjectheadingalone">Families Commissioner—Appointment of Christine Rankin</h4>
+      <h4 class="QSubjectheadingalone">Families Commission—Appointment of Christine Rankin</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
           <strong>3.
@@ -487,10 +490,8 @@
         <a name="page_3065"></a>
         <p class="SupAnswer">
           <strong>Hon JUDITH COLLINS</strong>: I am advised that other countries—including the UK, Australia, and the US—have online sales of guns. The online sale of guns is one of the issues I will be asking police to consider.</p>
-        <ul class="">
-          <li>
-            <strong>Keith Locke</strong>: I seek leave to table the 1997 report by Sir Thomas Thorp, which advocates a system of licensing of guns.</li>
-        </ul>
+        <p class="Interjection">
+          <strong>Keith Locke</strong>: I seek leave to table the 1997 report by Sir Thomas Thorp, which advocates a system of licensing of guns.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection?</p>
         <p class="Interjection">
@@ -523,8 +524,8 @@
         <p class="SupQuestion">
           <strong>Jacinda Ardern</strong>: Can the Minister explain what proportion of the Fresh Start programme will include the other interventions she has outlined, and what proportion will be military-style training, when the New Zealand Army has been confirmed as the provider for the entire programme?</p>
         <p class="SupAnswer">
-          <strong>Hon PAULA BENNETT</strong>: It is quite clear in the legislation that we envisage up to 40 young people in the first year being involved in the military-style camps. However, all youth offenders may be sentenced to the other programmes. The Fresh Start
- programme is a tool box that is given to the judges, which they can then use to sentence young offenders. There are no strict numbers around the programme. It is for those young people who come before the Youth Court. The judges actually make the decisions as to what sentences they give out. It is pretty straightforward.</p>
+          <strong>Hon PAULA BENNETT</strong>: It is quite clear in the legislation that we envisage up to 40 young people in the first year being involved in the military-style camps. However, all youth offenders may be sentenced to the other programmes. The Fresh Start programme is a tool box that is given to the judges, which they can then use to sentence
+ young offenders. There are no strict numbers around the programme. It is for those young people who come before the Youth Court. The judges actually make the decisions as to what sentences they give out. It is pretty straightforward.</p>
         <a name="page_3066"></a>
       </div>
       <h4 class="QSubjectheadingalone">Oil and Gas Exploration—Promotion</h4>
@@ -568,8 +569,8 @@
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: The whole purpose of having the select committee is to consider what the appropriate climate change response is that the Government should adopt. The Government is working hard with all parties, actually, and the submitters to try to find the appropriate response so that New Zealand can balance both its economic opportunities and its environmental responsibilities.</p>
         <p class="SupQuestion">
-          <strong>Jeanette Fitzsimons</strong>: If the Prime Minister is unable to find in the terms of reference anything that directs the select committee to actually consider the legislation or
- amendments to it, has he discussed with his coalition partner the ACT Party which is the greater hoax: climate change or an Emissions Trading Scheme Review Committee that is not tasked with reviewing the emissions trading scheme?</p>
+          <strong>Jeanette Fitzsimons</strong>: If the Prime Minister is unable to find in the terms of reference anything that directs the select committee to actually consider the legislation or amendments to it, has he discussed with his coalition partner the ACT Party which is
+ the greater hoax: climate change or an Emissions Trading Scheme Review Committee that is not tasked with reviewing the emissions trading scheme?</p>
         <a name="page_3067"></a>
         <p class="SupAnswer">
           <strong>Hon JOHN KEY</strong>: I will repeat my answer to the first question. The whole purpose of the select committee is to come up with a response that the Government thinks is the right response to the long-term problem of climate change.</p>
@@ -606,8 +607,8 @@
           <strong>Hon Dr RICHARD WORTH</strong>: All the comments that I made on immigration issues in India reflected National Party policy as set out in the manifesto.</p>
         <p class="SupQuestion">
           <strong>Hon Pete Hodgson</strong>: When the Minister told the
- <em>Indian Express</em><strong></strong>: “We have asked the government to start a direct flight between India and Auckland and also an India Trade
- Centre in Auckland.”, had he received the Government’s response at the time of the interview in late February; if not, has he received the Government’s response to each of those requests since?</p>
+ <em>Indian Express</em><strong></strong>: “We have asked the government to start a direct flight between India and Auckland and also an India Trade Centre in Auckland.”, had he received the Government’s response at the time of the
+ interview in late February; if not, has he received the Government’s response to each of those requests since?</p>
         <a name="page_3068"></a>
         <p class="SupAnswer">
           <strong>Hon Dr RICHARD WORTH</strong>: There are two questions there. As to the first, the position of the India Trade Group has been obvious for a number of years, and—Mr Goff will know this—we are very keen to see direct trade links established between India and New Zealand. That is a straightforward statement of fact. I had no further discussion with the Minister of Transport when I returned to New Zealand. As to the second question, about the India Trade Centre, that is something I know nothing about and it has never been India Trade Group policy.</p>
@@ -643,10 +644,8 @@
         <a name="page_3069"></a>
         <p class="SupQuestion">
           <strong>Hon Jim Anderton</strong>: Has the National Drought Committee, established by the previous Government, met yet on these issues; if so, what recommendations or initiatives is it advocating?</p>
-        <ul class="">
-          <li>
-            <strong>Hon DAVID CARTER</strong>: The National Drought Committee has been meeting on a regular basis, including today, and I visited it about an hour or so ago. It is happy with the initiatives that the Government has taken to date. I seek leave to table two maps that demonstrate quite clearly the effect of the drought around New Zealand.</li>
-        </ul>
+        <p class="Interjection">
+          <strong>Hon DAVID CARTER</strong>: The National Drought Committee has been meeting on a regular basis, including today, and I visited it about an hour or so ago. It is happy with the initiatives that the Government has taken to date. I seek leave to table two maps that demonstrate quite clearly the effect of the drought around New Zealand.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table those two documents. Is there any objection? There is none.</p>
         <ul class="">
@@ -730,19 +729,15 @@
           <strong>Chris Hipkins</strong>: Has the Minister instructed the Department of Internal Affairs to change its output plan, which currently estimates between 550 and 650 written parliamentary replies per year; if he has not, why is he refusing to answer questions on the basis that it would take too many resources to do so?</p>
         <p class="SupAnswer">
           <strong>Hon Dr RICHARD WORTH</strong>: I have already answered that question. The member has been receiving answers; it is just that he does not like them.</p>
-        <ul class="">
-          <li>
-            <strong>Chris Hipkins</strong>: I seek leave to table several documents. The first is the reply from the Minister to an Official Information Act request in which he refuses to provide information on all stakeholder and lobby groups he has met since becoming a Minister.</li>
-        </ul>
+        <p class="Interjection">
+          <strong>Chris Hipkins</strong>: I seek leave to table several documents. The first is the reply from the Minister to an Official Information Act request in which he refuses to provide information on all stakeholder and lobby groups he has met since becoming a Minister.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is none.</p>
         <ul class="">
           <li>Document, by leave, laid on the Table of the House.</li>
         </ul>
-        <ul class="">
-          <li>
-            <strong>Chris Hipkins</strong>: The second is a reply from the Minister to another Official Information Act request in which he refuses to provide information regarding all reports, briefings, and submissions he has received since becoming a Minister.</li>
-        </ul>
+        <p class="Interjection">
+          <strong>Chris Hipkins</strong>: The second is a reply from the Minister to another Official Information Act request in which he refuses to provide information regarding all reports, briefings, and submissions he has received since becoming a Minister.</p>
         <p class="Interjection">
           <strong>Mr SPEAKER</strong>: Leave is sought to table that document. Is there any objection? There is none.</p>
         <ul class="">
@@ -769,14 +764,14 @@
       <h4 class="QSubjectHeading">Emissions Trading Scheme Review Committee—Terms of Reference</h4>
       <div class="SubsQuestion">
         <p class="SubsQuestion">
-          <strong>1.
- </strong>
+          <strong>1.</strong>
           <strong>JEANETTE FITZSIMONS (Co-Leader—Green)</strong> to the
  <strong>Chairperson of the Emissions Trading Scheme Review Committee</strong>: Do the terms of reference of the Emissions Trading Scheme Review Committee include a review of the emissions trading scheme legislation?</p>
-        <a name="page_3072"></a>
         <p class="SubsAnswer">
           <a name="time_15:30:58"></a>
-          <strong>Hon PETER DUNNE (Chairperson of the Emissions Trading Scheme Review Committee):</strong> The committee’s terms of reference, which were set by the House, do not expressly refer to reviewing the legislation. However, they are broad enough to allow the committee to recommend changes to the scheme that might require amending the legislation.</p>
+          <strong>Hon PETER DUNNE (Chairperson of the Emissions Trading Scheme Review Committee):</strong> The committee’s terms of reference, which were set by the House, do not
+ expressly refer to reviewing the legislation. However, they are broad enough to allow the committee to recommend changes to the scheme that might require amending the legislation.</p>
+        <a name="page_3072"></a>
         <p class="SupQuestion">
           <strong>Jeanette Fitzsimons</strong>: Were submitters informed that their submissions did not need to stay within the written terms of reference; if not, were not those submitters misled by the ACT Party’s terms of reference about what was acceptable?</p>
         <p class="SupAnswer">
@@ -812,7 +807,7 @@
 		<dl title="Access Keys">
 			<dt>0</dt>
 			<dd>List of access keys</dd>
-			<dt>1</dd>
+			<dt>1</dt>
 			<dd>Home</dd>
 			<dt>2</dt>
 			<dd>Sitemap</dd>
