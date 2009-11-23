@@ -1,8 +1,8 @@
 --- 
 - name: 2009/10/29/D/001_Business-Statement.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000001-Business-Statement.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000001-Business-Statement.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/f/7/49HansD_20091029_00000001-Business-Statement.htm
   debate_date: 2009-10-29
@@ -10,76 +10,76 @@
   persisted_date: 
   persisted: false
   parliament_name: Business Statement
-  download_date: 2009-11-03
-- name: 2009/10/29/D/002_Speaker-s-Rulings-Tabling-of-Documents-Material.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000025-Speaker-s-Rulings-Tabling-of-Documents-Material.htm
+  download_date: 2009-11-23
+- name: 2009/10/29/D/002_Speaker-s-Rulings-Tabling-of-Documents-Application.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000025-Speaker-s-Rulings-Tabling-of-Documents-Application.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/4/b/49HansD_20091029_00000025-Speaker-s-Rulings-Tabling-of-Documents-Material.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/4/b/49HansD_20091029_00000025-Speaker-s-Rulings-Tabling-of-Documents-Application.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "Speaker\xE2\x80\x99s Rulings \xE2\x80\x94 Tabling of Documents\xE2\x80\x94Material Already Available to Members"
-  download_date: 2009-11-03
+  parliament_name: "Speaker\xE2\x80\x99s Rulings \xE2\x80\x94 Tabling of Documents\xE2\x80\x94Application of Standing Order 368"
+  download_date: 2009-11-23
 - name: 2009/10/29/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000047-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000050-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/4/1/49HansD_20091029_00000047-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/1/7/49HansD_20091029_00000050-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-11-03
+  download_date: 2009-11-23
 - name: 2009/10/29/D/004_Urgent-Debates-Declined-National-Health.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000733-Urgent-Debates-Declined-National-Health.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000802-Urgent-Debates-Declined-National-Health.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/2/0/49HansD_20091029_00000733-Urgent-Debates-Declined-National-Health.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/b/f/49HansD_20091029_00000802-Urgent-Debates-Declined-National-Health.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Urgent Debates Declined \xE2\x80\x94 National Health Board\xE2\x80\x94Appointment of Chair to Advisory Board"
-  download_date: 2009-11-03
+  download_date: 2009-11-23
 - name: 2009/10/29/D/005_Immigration-Bill-Third-Reading.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000743-Immigration-Bill-Third-Reading.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000813-Immigration-Bill-Third-Reading.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 5
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/7/7/49HansD_20091029_00000743-Immigration-Bill-Third-Reading.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/8/1/49HansD_20091029_00000813-Immigration-Bill-Third-Reading.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Immigration Bill \xE2\x80\x94 Third Reading"
-  download_date: 2009-11-03
+  download_date: 2009-11-23
 - name: 2009/10/29/D/006_Settlement-Systems-Futures-and-Emissions.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000857-Settlement-Systems-Futures-and-Emissions.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00000927-Settlement-Systems-Futures-and-Emissions.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 6
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/f/d/49HansD_20091029_00000857-Settlement-Systems-Futures-and-Emissions.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/a/d/49HansD_20091029_00000927-Settlement-Systems-Futures-and-Emissions.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Settlement Systems, Futures, and Emissions Units Bill \xE2\x80\x94 In Committee"
-  download_date: 2009-11-03
+  download_date: 2009-11-23
 - name: 2009/10/29/D/007_Insolvency-Amendment-Bill-Third-Reading.htm
-  file_name: 2009/10/29/advance/49HansD_20091029_00000996-Insolvency-Amendment-Bill-Third-Reading.htm
+  file_name: 2009/10/29/final/49HansD_20091029_00001066-Insolvency-Amendment-Bill-Third-Reading.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 7
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/a/6/49HansD_20091029_00000996-Insolvency-Amendment-Bill-Third-Reading.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/4/7/49HansD_20091029_00001066-Insolvency-Amendment-Bill-Third-Reading.htm
   debate_date: 2009-10-29
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Insolvency Amendment Bill \xE2\x80\x94 Third Reading"
-  download_date: 2009-11-03
+  download_date: 2009-11-23
