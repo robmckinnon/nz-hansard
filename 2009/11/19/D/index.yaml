@@ -1,0 +1,73 @@
+--- 
+- name: 2009/11/19/D/001_Business-Statement.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/2/2/49HansD_20091119_00000001-Business-Statement.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2009-11-24
+- name: 2009/11/19/D/002_Points-of-Order-Questions-for-Written-Answer.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000025-Points-of-Order-Questions-for-Written-Answer.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/a/6/49HansD_20091119_00000025-Points-of-Order-Questions-for-Written-Answer.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Points of Order \xE2\x80\x94 Questions for Written Answer\xE2\x80\x94Overdue Replies"
+  download_date: 2009-11-24
+- name: 2009/11/19/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000042-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/8/9/49HansD_20091119_00000042-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2009-11-24
+- name: 2009/11/19/D/004_Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000677-Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/6/a/49HansD_20091119_00000677-Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Whanganui Iwi (Wanganui (Kaitoke) Prison and Northern Part of Wanganui Forest) On-account Settlement Bill \xE2\x80\x94 First Reading"
+  download_date: 2009-11-24
+- name: 2009/11/19/D/005_Taxation-Consequential-Rate-Alignment-and.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000808-Taxation-Consequential-Rate-Alignment-and.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/8/b/49HansD_20091119_00000808-Taxation-Consequential-Rate-Alignment-and.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Taxation (Consequential Rate Alignment and Remedial Matters) Bill \xE2\x80\x94 Second Reading"
+  download_date: 2009-11-24
+- name: 2009/11/19/D/006_Biosecurity-Amendment-Bill-Third-Reading.htm
+  file_name: 2009/11/19/advance/49HansD_20091119_00000905-Biosecurity-Amendment-Bill-Third-Reading.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/d/2/49HansD_20091119_00000905-Biosecurity-Amendment-Bill-Third-Reading.htm
+  debate_date: 2009-11-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Biosecurity Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2009-11-24
