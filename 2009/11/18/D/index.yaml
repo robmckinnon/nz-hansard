@@ -1,8 +1,8 @@
 --- 
 - name: 2009/11/18/D/001_Business-of-the-House.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00000001-Business-of-the-House.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00000001-Business-of-the-House.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 1
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/2/e/49HansD_20091118_00000001-Business-of-the-House.htm
   debate_date: 2009-11-18
@@ -10,11 +10,11 @@
   persisted_date: 
   persisted: false
   parliament_name: Business of the House
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 2
   parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/c/e/49HansD_20091118_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
   debate_date: 2009-11-18
@@ -22,88 +22,88 @@
   persisted_date: 
   persisted: false
   parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/003_General-Debate.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00000735-General-Debate.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00000845-General-Debate.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 3
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/f/3/49HansD_20091118_00000735-General-Debate.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/4/2/49HansD_20091118_00000845-General-Debate.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: General Debate
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/004_Palmerston-North-Showgrounds-Act-Repeal.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00000888-Palmerston-North-Showgrounds-Act-Repeal.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00000998-Palmerston-North-Showgrounds-Act-Repeal.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 4
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/e/4/49HansD_20091118_00000888-Palmerston-North-Showgrounds-Act-Repeal.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/c/e/49HansD_20091118_00000998-Palmerston-North-Showgrounds-Act-Repeal.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Palmerston North Showgrounds Act Repeal Bill \xE2\x80\x94 Third Reading"
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/005_Methodist-Church-of-New-Zealand-Trusts-Bill.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00000968-Methodist-Church-of-New-Zealand-Trusts-Bill.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00001078-Methodist-Church-of-New-Zealand-Trusts-Bill.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 5
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/4/e/49HansD_20091118_00000968-Methodist-Church-of-New-Zealand-Trusts-Bill.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/c/a/49HansD_20091118_00001078-Methodist-Church-of-New-Zealand-Trusts-Bill.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Methodist Church of New Zealand Trusts Bill \xE2\x80\x94 Second Reading"
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/006_Customs-and-Excise-Sustainable-Forestry.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00001004-Customs-and-Excise-Sustainable-Forestry.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00001114-Customs-and-Excise-Sustainable-Forestry.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 6
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/5/1/49HansD_20091118_00001004-Customs-and-Excise-Sustainable-Forestry.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/9/8/49HansD_20091118_00001114-Customs-and-Excise-Sustainable-Forestry.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Customs and Excise (Sustainable Forestry) Amendment Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-11-23
+  download_date: 2009-12-10
 - name: 2009/11/18/D/007_Climate-Change-Government-Vehicle-Procurement.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00001085-Climate-Change-Government-Vehicle-Procurement.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00001195-Climate-Change-Government-Vehicle-Procurement.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 7
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/7/4/49HansD_20091118_00001085-Climate-Change-Government-Vehicle-Procurement.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/0/6/49HansD_20091118_00001195-Climate-Change-Government-Vehicle-Procurement.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
   parliament_name: "Climate Change (Government Vehicle Procurement) Bill \xE2\x80\x94 First Reading"
-  download_date: 2009-11-23
-- name: 2009/11/18/D/008_REPORTS-Consideration-of-Report-of-Commerce.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00001182-REPORTS-Consideration-of-Report-of-Commerce.htm
+  download_date: 2009-12-10
+- name: 2009/11/18/D/008_REPORTS-Briefing-on-Finance-Company-Failures.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00001292-REPORTS-Briefing-on-Finance-Company-Failures.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 8
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/9/d/49HansD_20091118_00001182-REPORTS-Consideration-of-Report-of-Commerce.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/8/e/49HansD_20091118_00001292-REPORTS-Briefing-on-Finance-Company-Failures.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "REPORTS \xE2\x80\x94 Consideration of Report of Commerce Committee\xE2\x80\x94Briefing on Finance Company Failures, Consideration of Interim Report of Regulations Review Committee\xE2\x80\x94Complaint Regarding SR 2008/319 Marine Safety Charges Amendment Regulations 2008, Consideration o"
-  download_date: 2009-11-23
-- name: 2009/11/18/D/009_INQUIRIES-Consideration-of-Report-of-Justice.htm
-  file_name: 2009/11/18/advance/49HansD_20091118_00001233-INQUIRIES-Consideration-of-Report-of-Justice.htm
+  parliament_name: "REPORTS \xE2\x80\x94 Briefing on Finance Company Failures\xE2\x80\x94Consideration of Report of Commerce Committee, Complaint Regarding SR 2008/319 Marine Safety Charges Amendment Regulations 2008\xE2\x80\x94Consideration of Interim Report of Regulations Review Committee, Review of the E"
+  download_date: 2009-12-10
+- name: 2009/11/18/D/009_INQUIRIES-Inquiry-into-the-2008-General.htm
+  file_name: 2009/11/18/final/49HansD_20091118_00001343-INQUIRIES-Inquiry-into-the-2008-General.htm
   oral_answer: false
-  publication_status: A
+  publication_status: F
   index_on_date: 9
-  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/4/9/49HansD_20091118_00001233-INQUIRIES-Consideration-of-Report-of-Justice.htm
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/b/0/49HansD_20091118_00001343-INQUIRIES-Inquiry-into-the-2008-General.htm
   debate_date: 2009-11-18
   downloaded: true
   persisted_date: 
   persisted: false
-  parliament_name: "INQUIRIES \xE2\x80\x94 Consideration of Report of Justice and Electoral Committee\xE2\x80\x94Inquiry into the 2008 General Election; Sittings of the House"
-  download_date: 2009-11-23
+  parliament_name: "INQUIRIES \xE2\x80\x94 Inquiry into the 2008 General Election\xE2\x80\x94Consideration of Report of Justice and Electoral Committee; Sittings of the House"
+  download_date: 2009-12-10
