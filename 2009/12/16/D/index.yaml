@@ -1,0 +1,49 @@
+--- 
+- name: 2009/12/16/D/001_Business-of-the-House.htm
+  file_name: 2009/12/16/final/49HansD_20091216_00000001-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/4/0/49HansD_20091216_00000001-Business-of-the-House.htm
+  debate_date: 2009-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2010-01-18
+- name: 2009/12/16/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2009/12/16/final/49HansD_20091216_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/b/1/49HansD_20091216_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2009-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2010-01-18
+- name: 2009/12/16/D/003_Education-Polytechnics-Amendment-Bill-Third.htm
+  file_name: 2009/12/16/final/49HansD_20091216_00000661-Education-Polytechnics-Amendment-Bill-Third.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/1/7/49HansD_20091216_00000661-Education-Polytechnics-Amendment-Bill-Third.htm
+  debate_date: 2009-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Education (Polytechnics) Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2010-01-18
+- name: 2009/12/16/D/004_Adjournment-Sittings-of-the-House.htm
+  file_name: 2009/12/16/final/49HansD_20091216_00000815-Adjournment-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/6/6/49HansD_20091216_00000815-Adjournment-Sittings-of-the-House.htm
+  debate_date: 2009-12-16
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Adjournment \xE2\x80\x94 Sittings of the House"
+  download_date: 2010-01-18
