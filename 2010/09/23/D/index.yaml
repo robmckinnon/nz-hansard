@@ -1,0 +1,61 @@
+--- 
+- name: 2010/09/23/D/001_Business-Statement.htm
+  file_name: 2010/09/23/final/49HansD_20100923_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/c/a/49HansD_20100923_00000001-Business-Statement.htm
+  debate_date: 2010-09-23
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/09/23/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/09/23/final/49HansD_20100923_00000024-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/2/f/49HansD_20100923_00000024-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-09-23
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/09/23/D/003_Electricity-Industry-Bill-Third-Reading.htm
+  file_name: 2010/09/23/final/49HansD_20100923_00000805-Electricity-Industry-Bill-Third-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/9/1/49HansD_20100923_00000805-Electricity-Industry-Bill-Third-Reading.htm
+  debate_date: 2010-09-23
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Electricity Industry Bill \xE2\x80\x94 Third Reading"
+  download_date: 2011-04-29
+- name: 2010/09/23/D/004_Financial-Markets-Regulators-and-KiwiSaver.htm
+  file_name: 2010/09/23/final/49HansD_20100923_00000890-Financial-Markets-Regulators-and-KiwiSaver.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/4/5/49HansD_20100923_00000890-Financial-Markets-Regulators-and-KiwiSaver.htm
+  debate_date: 2010-09-23
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Financial Markets (Regulators and KiwiSaver) Bill, Auditor Regulation and External Reporting Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/09/23/D/005_Taxation-Income-sharing-Tax-Credit-Bill.htm
+  file_name: 2010/09/23/final/49HansD_20100923_00000997-Taxation-Income-sharing-Tax-Credit-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/d/6/49HansD_20100923_00000997-Taxation-Income-sharing-Tax-Credit-Bill.htm
+  debate_date: 2010-09-23
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Taxation (Income-sharing Tax Credit) Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

@@ -1,0 +1,109 @@
+--- 
+- name: 2010/05/19/D/001_Business-of-Select-Committees-Reporting.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00000001-Business-of-Select-Committees-Reporting.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/7/e/49HansD_20100519_00000001-Business-of-Select-Committees-Reporting.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Business of Select Committees \xE2\x80\x94 Reporting Dates"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/002_Points-of-Order-Budget-Lock-up-Access-for.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00000014-Points-of-Order-Budget-Lock-up-Access-for.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/9/9/49HansD_20100519_00000014-Points-of-Order-Budget-Lock-up-Access-for.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Points of Order \xE2\x80\x94 Budget Lock-up\xE2\x80\x94Access for Parliamentary Library"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00000033-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/a/0/49HansD_20100519_00000033-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/004_Points-of-Order-Chamber-Lobbies-and-Galleries.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00000891-Points-of-Order-Chamber-Lobbies-and-Galleries.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/a/6/49HansD_20100519_00000891-Points-of-Order-Chamber-Lobbies-and-Galleries.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Points of Order \xE2\x80\x94 Chamber, Lobbies, and Galleries\xE2\x80\x94Audio System"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/005_General-Debate.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00000922-General-Debate.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/e/8/49HansD_20100519_00000922-General-Debate.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: General Debate
+  download_date: 2011-04-29
+- name: 2010/05/19/D/006_Courts-and-Criminal-Matters-Bill-First-Reading.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00001054-Courts-and-Criminal-Matters-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/1/3/49HansD_20100519_00001054-Courts-and-Criminal-Matters-Bill-First-Reading.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Courts and Criminal Matters Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/007_Electoral-Administration-Amendment-Bill.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00001192-Electoral-Administration-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/d/9/49HansD_20100519_00001192-Electoral-Administration-Amendment-Bill.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Electoral (Administration) Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/008_New-Zealand-Public-Health-and-Disability.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00001309-New-Zealand-Public-Health-and-Disability.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/9/5/49HansD_20100519_00001309-New-Zealand-Public-Health-and-Disability.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "New Zealand Public Health and Disability Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/05/19/D/009_Carter-Observatory-Act-Repeal-Bill-Second.htm
+  file_name: 2010/05/19/final/49HansD_20100519_00001445-Carter-Observatory-Act-Repeal-Bill-Second.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/f/a/49HansD_20100519_00001445-Carter-Observatory-Act-Repeal-Bill-Second.htm
+  debate_date: 2010-05-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Carter Observatory Act Repeal Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29

@@ -1,0 +1,85 @@
+--- 
+- name: 2010/06/17/D/001_Business-Statement.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/1/b/49HansD_20100617_00000001-Business-Statement.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/06/17/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000032-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/e/6/49HansD_20100617_00000032-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/06/17/D/003_Offices-Of-Parliament-Appointment-of-Auditors.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000760-Offices-Of-Parliament-Appointment-of-Auditors.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/f/4/49HansD_20100617_00000760-Offices-Of-Parliament-Appointment-of-Auditors.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Offices Of Parliament \xE2\x80\x94 Appointment of Auditors\xE2\x80\x94Office of the Ombudsmen and Parliamentary Commissioner for the Environment"
+  download_date: 2011-04-29
+- name: 2010/06/17/D/004_Appointments-Deputy-Controller-and-Auditor.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000784-Appointments-Deputy-Controller-and-Auditor.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/a/b/49HansD_20100617_00000784-Appointments-Deputy-Controller-and-Auditor.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Appointments \xE2\x80\x94 Deputy Controller and Auditor-General"
+  download_date: 2011-04-29
+- name: 2010/06/17/D/005_Animal-Welfare-Amendment-Bill-Procedure.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000805-Animal-Welfare-Amendment-Bill-Procedure.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/f/e/49HansD_20100617_00000805-Animal-Welfare-Amendment-Bill-Procedure.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Animal Welfare Amendment Bill \xE2\x80\x94 Procedure, In Committee"
+  download_date: 2011-04-29
+- name: 2010/06/17/D/006_Ng-ti-Apa-North-Island-Claims-Settlement.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00000955-Ng-ti-Apa-North-Island-Claims-Settlement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/e/7/49HansD_20100617_00000955-Ng-ti-Apa-North-Island-Claims-Settlement.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Ng\xC4\x81ti Apa (North Island) Claims Settlement Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/06/17/D/007_Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  file_name: 2010/06/17/final/49HansD_20100617_00001052-Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/6/d/49HansD_20100617_00001052-Whanganui-Iwi-Wanganui-Kaitoke-Prison-and.htm
+  debate_date: 2010-06-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Whanganui Iwi (Wanganui (Kaitoke) Prison and Northern Part of Wanganui Forest) On-account Settlement Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29

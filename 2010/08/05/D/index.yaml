@@ -1,0 +1,61 @@
+--- 
+- name: 2010/08/05/D/001_Business-Statement.htm
+  file_name: 2010/08/05/final/49HansD_20100805_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/b/f/49HansD_20100805_00000001-Business-Statement.htm
+  debate_date: 2010-08-05
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/08/05/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/08/05/final/49HansD_20100805_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/1/9/49HansD_20100805_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-08-05
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/08/05/D/003_Social-Assistance-Future-Focus-Bill-Second.htm
+  file_name: 2010/08/05/final/49HansD_20100805_00000688-Social-Assistance-Future-Focus-Bill-Second.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/7/4/49HansD_20100805_00000688-Social-Assistance-Future-Focus-Bill-Second.htm
+  debate_date: 2010-08-05
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Social Assistance (Future Focus) Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/08/05/D/004_Appointments-Independent-Police-Conduct.htm
+  file_name: 2010/08/05/final/49HansD_20100805_00000838-Appointments-Independent-Police-Conduct.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/2/9/49HansD_20100805_00000838-Appointments-Independent-Police-Conduct.htm
+  debate_date: 2010-08-05
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Appointments \xE2\x80\x94 Independent Police Conduct Authority"
+  download_date: 2011-04-29
+- name: 2010/08/05/D/005_Arts-Council-of-New-Zealand-Toi-Aotearoa.htm
+  file_name: 2010/08/05/final/49HansD_20100805_00000893-Arts-Council-of-New-Zealand-Toi-Aotearoa.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/4/8/49HansD_20100805_00000893-Arts-Council-of-New-Zealand-Toi-Aotearoa.htm
+  debate_date: 2010-08-05
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Arts Council of New Zealand Toi Aotearoa Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

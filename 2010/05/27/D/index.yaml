@@ -1,0 +1,73 @@
+--- 
+- name: 2010/05/27/D/001_Business-Statement.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/e/3/49HansD_20100527_00000001-Business-Statement.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/05/27/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/0/0/49HansD_20100527_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/05/27/D/003_Budget-Debate.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00000700-Budget-Debate.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/f/6/49HansD_20100527_00000700-Budget-Debate.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Budget Debate
+  download_date: 2011-04-29
+- name: 2010/05/27/D/004_Local-Government-Auckland-Law-Reform-Bill.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00000752-Local-Government-Auckland-Law-Reform-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/a/4/49HansD_20100527_00000752-Local-Government-Auckland-Law-Reform-Bill.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Local Government (Auckland Law Reform) Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/05/27/D/005_Animal-Welfare-Amendment-Bill-Second-Reading.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00000963-Animal-Welfare-Amendment-Bill-Second-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/3/8/49HansD_20100527_00000963-Animal-Welfare-Amendment-Bill-Second-Reading.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Animal Welfare Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/05/27/D/006_Motor-Vehicle-Sales-Amendment-Bill-Second.htm
+  file_name: 2010/05/27/final/49HansD_20100527_00001019-Motor-Vehicle-Sales-Amendment-Bill-Second.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/3/b/49HansD_20100527_00001019-Motor-Vehicle-Sales-Amendment-Bill-Second.htm
+  debate_date: 2010-05-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Motor Vehicle Sales Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29

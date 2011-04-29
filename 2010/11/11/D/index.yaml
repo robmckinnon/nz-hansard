@@ -1,0 +1,61 @@
+--- 
+- name: 2010/11/11/D/001_Business-Statement.htm
+  file_name: 2010/11/11/final/49HansD_20101111_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/5/a/49HansD_20101111_00000001-Business-Statement.htm
+  debate_date: 2010-11-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/11/11/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/11/11/final/49HansD_20101111_00000029-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/1/0/49HansD_20101111_00000029-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-11-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/11/11/D/003_Urgent-Debates-Declined-National-Institute.htm
+  file_name: 2010/11/11/final/49HansD_20101111_00000693-Urgent-Debates-Declined-National-Institute.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/c/0/49HansD_20101111_00000693-Urgent-Debates-Declined-National-Institute.htm
+  debate_date: 2010-11-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Urgent Debates Declined \xE2\x80\x94 National Institute of Water and Atmospheric Research\xE2\x80\x94Water-quality Report"
+  download_date: 2011-04-29
+- name: 2010/11/11/D/004_Alcohol-Reform-Bill-First-Reading.htm
+  file_name: 2010/11/11/final/49HansD_20101111_00000704-Alcohol-Reform-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/9/d/49HansD_20101111_00000704-Alcohol-Reform-Bill-First-Reading.htm
+  debate_date: 2010-11-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Alcohol Reform Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/11/11/D/005_Employment-Relations-Amendment-Bill-No-2.htm
+  file_name: 2010/11/11/final/49HansD_20101111_00000929-Employment-Relations-Amendment-Bill-No-2.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/6/9/49HansD_20101111_00000929-Employment-Relations-Amendment-Bill-No-2.htm
+  debate_date: 2010-11-11
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Employment Relations Amendment Bill (No 2) \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29

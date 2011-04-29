@@ -1,0 +1,61 @@
+--- 
+- name: 2011/03/10/D/001_Business-Statement.htm
+  file_name: 2011/03/10/final/49HansD_20110310_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/d/c/49HansD_20110310_00000001-Business-Statement.htm
+  debate_date: 2011-03-10
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2011/03/10/D/002_Chamber-Lobbies-and-Galleries-Customs-Training.htm
+  file_name: 2011/03/10/final/49HansD_20110310_00000025-Chamber-Lobbies-and-Galleries-Customs-Training.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/f/c/49HansD_20110310_00000025-Chamber-Lobbies-and-Galleries-Customs-Training.htm
+  debate_date: 2011-03-10
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Chamber, Lobbies, and Galleries \xE2\x80\x94 Customs Training Programme\xE2\x80\x94Graduates"
+  download_date: 2011-04-29
+- name: 2011/03/10/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2011/03/10/final/49HansD_20110310_00000037-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/7/9/49HansD_20110310_00000037-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2011-03-10
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2011/03/10/D/004_Canterbury-Earthquake-Commemoration-Day.htm
+  file_name: 2011/03/10/final/49HansD_20110310_00000666-Canterbury-Earthquake-Commemoration-Day.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/d/f/49HansD_20110310_00000666-Canterbury-Earthquake-Commemoration-Day.htm
+  debate_date: 2011-03-10
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Canterbury Earthquake Commemoration Day Bill \xE2\x80\x94 Procedure, First Reading, Second Reading, Procedure, Third Reading"
+  download_date: 2011-04-29
+- name: 2011/03/10/D/005_Sittings-of-the-House.htm
+  file_name: 2011/03/10/final/49HansD_20110310_00000904-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/9/4/49HansD_20110310_00000904-Sittings-of-the-House.htm
+  debate_date: 2011-03-10
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Sittings of the House
+  download_date: 2011-04-29

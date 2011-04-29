@@ -1,0 +1,49 @@
+--- 
+- name: 2010/10/21/D/001_Business-Statement.htm
+  file_name: 2010/10/21/final/49HansD_20101021_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/b/f/49HansD_20101021_00000001-Business-Statement.htm
+  debate_date: 2010-10-21
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/10/21/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/10/21/final/49HansD_20101021_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/1/5/49HansD_20101021_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-10-21
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers, Questions to Members"
+  download_date: 2011-04-29
+- name: 2010/10/21/D/003_Ngati-Tuwharetoa-Raukawa-and-Te-Arawa-River.htm
+  file_name: 2010/10/21/final/49HansD_20101021_00000804-Ngati-Tuwharetoa-Raukawa-and-Te-Arawa-River.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/b/e/49HansD_20101021_00000804-Ngati-Tuwharetoa-Raukawa-and-Te-Arawa-River.htm
+  debate_date: 2010-10-21
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Ngati Tuwharetoa, Raukawa, and Te Arawa River Iwi Waikato River Bill \xE2\x80\x94 Third Reading"
+  download_date: 2011-04-29
+- name: 2010/10/21/D/004_Child-and-Family-Protection-Bill-In-Committee.htm
+  file_name: 2010/10/21/final/49HansD_20101021_00000899-Child-and-Family-Protection-Bill-In-Committee.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/b/3/49HansD_20101021_00000899-Child-and-Family-Protection-Bill-In-Committee.htm
+  debate_date: 2010-10-21
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Child and Family Protection Bill \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29

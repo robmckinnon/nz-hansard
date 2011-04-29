@@ -1,0 +1,85 @@
+--- 
+- name: 2010/03/17/D/001_Sittings-of-the-House.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00000001-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/a/3/49HansD_20100317_00000001-Sittings-of-the-House.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Sittings of the House
+  download_date: 2011-04-29
+- name: 2010/03/17/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/3/d/49HansD_20100317_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/03/17/D/003_Debate-on-Budget-Policy-Statement.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00000737-Debate-on-Budget-Policy-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/b/6/49HansD_20100317_00000737-Debate-on-Budget-Policy-Statement.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Debate on Budget Policy Statement
+  download_date: 2011-04-29
+- name: 2010/03/17/D/004_Christ-s-College-Canterbury-Amendment-Bill.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00000968-Christ-s-College-Canterbury-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/b/6/49HansD_20100317_00000968-Christ-s-College-Canterbury-Amendment-Bill.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Christ\xE2\x80\x99s College (Canterbury) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/03/17/D/005_Mental-Health-Compulsory-Assessment-and.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00001136-Mental-Health-Compulsory-Assessment-and.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/0/3/49HansD_20100317_00001136-Mental-Health-Compulsory-Assessment-and.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Mental Health (Compulsory Assessment and Treatment) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/03/17/D/006_Resource-Management-Requiring-Authorities.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00001245-Resource-Management-Requiring-Authorities.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/3/0/49HansD_20100317_00001245-Resource-Management-Requiring-Authorities.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Resource Management (Requiring Authorities) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/03/17/D/007_Electoral-Disqualification-of-Convicted.htm
+  file_name: 2010/03/17/final/49HansD_20100317_00001341-Electoral-Disqualification-of-Convicted.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/d/1/49HansD_20100317_00001341-Electoral-Disqualification-of-Convicted.htm
+  debate_date: 2010-03-17
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Electoral (Disqualification of Convicted Prisoners) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

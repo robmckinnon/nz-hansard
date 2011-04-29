@@ -1,0 +1,61 @@
+--- 
+- name: 2010/07/22/D/001_Business-Statement.htm
+  file_name: 2010/07/22/final/49HansD_20100722_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/5/6/49HansD_20100722_00000001-Business-Statement.htm
+  debate_date: 2010-07-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/07/22/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/07/22/final/49HansD_20100722_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/3/1/49HansD_20100722_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-07-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/07/22/D/003_Food-Bill-First-Reading.htm
+  file_name: 2010/07/22/final/49HansD_20100722_00000652-Food-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/0/9/49HansD_20100722_00000652-Food-Bill-First-Reading.htm
+  debate_date: 2010-07-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Food Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/07/22/D/004_New-Zealand-Productivity-Commission-Bill.htm
+  file_name: 2010/07/22/final/49HansD_20100722_00000764-New-Zealand-Productivity-Commission-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/e/9/49HansD_20100722_00000764-New-Zealand-Productivity-Commission-Bill.htm
+  debate_date: 2010-07-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "New Zealand Productivity Commission Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/07/22/D/005_Infrastructure-Bill-In-Committee.htm
+  file_name: 2010/07/22/final/49HansD_20100722_00000897-Infrastructure-Bill-In-Committee.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/8/6/49HansD_20100722_00000897-Infrastructure-Bill-In-Committee.htm
+  debate_date: 2010-07-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Infrastructure Bill \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29

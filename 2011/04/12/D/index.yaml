@@ -1,0 +1,169 @@
+--- 
+- name: 2011/04/12/D/001_List-Member-Vacancy.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000001-List-Member-Vacancy.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/b/4/49HansD_20110412_00000001-List-Member-Vacancy.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: List Member Vacancy
+  download_date: 2011-04-29
+- name: 2011/04/12/D/002_Members-Sworn.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000009-Members-Sworn.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/9/d/49HansD_20110412_00000009-Members-Sworn.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Members Sworn
+  download_date: 2011-04-29
+- name: 2011/04/12/D/003_Voting-Correction-Appointments.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000013-Voting-Correction-Appointments.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/7/9/49HansD_20110412_00000013-Voting-Correction-Appointments.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Voting \xE2\x80\x94 Correction\xE2\x80\x94Appointments"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/004_Ministerial-Statements-Earthquake-Christchurch.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000024-Ministerial-Statements-Earthquake-Christchurch.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/1/9/49HansD_20110412_00000024-Ministerial-Statements-Earthquake-Christchurch.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Ministerial Statements \xE2\x80\x94 Earthquake, Christchurch\xE2\x80\x94Extension of State of National Emergency"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/005_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000051-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/7/7/49HansD_20110412_00000051-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/006_Appointments-Assistant-Speaker.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000656-Appointments-Assistant-Speaker.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/8/1/49HansD_20110412_00000656-Appointments-Assistant-Speaker.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Appointments \xE2\x80\x94 Assistant Speaker"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/007_Environmental-Protection-Authority-Bill.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000688-Environmental-Protection-Authority-Bill.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/d/f/49HansD_20110412_00000688-Environmental-Protection-Authority-Bill.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Environmental Protection Authority Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/008_Urgency.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000735-Urgency.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/c/b/49HansD_20110412_00000735-Urgency.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Urgency
+  download_date: 2011-04-29
+- name: 2011/04/12/D/009_Business-of-the-House.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000748-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/5/6/49HansD_20110412_00000748-Business-of-the-House.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2011-04-29
+- name: 2011/04/12/D/010_Business-of-Select-Committees.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000758-Business-of-Select-Committees.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 10
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/2/d/49HansD_20110412_00000758-Business-of-Select-Committees.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of Select Committees
+  download_date: 2011-04-29
+- name: 2011/04/12/D/011_Canterbury-Earthquake-Recovery-Bill-First.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000769-Canterbury-Earthquake-Recovery-Bill-First.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 11
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/3/5/49HansD_20110412_00000769-Canterbury-Earthquake-Recovery-Bill-First.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Canterbury Earthquake Recovery Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/012_Housing-Corporation-Amendment-Bill-First.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00000883-Housing-Corporation-Amendment-Bill-First.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 12
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/1/b/49HansD_20110412_00000883-Housing-Corporation-Amendment-Bill-First.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Housing Corporation Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/013_Education-Amendment-Bill-No-4-First-Reading.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00001001-Education-Amendment-Bill-No-4-First-Reading.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 13
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/1/d/49HansD_20110412_00001001-Education-Amendment-Bill-No-4-First-Reading.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Education Amendment Bill (No 4) \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2011/04/12/D/014_Sentencing-Aggravating-Factors-Amendment.htm
+  file_name: 2011/04/12/advance/49HansD_20110412_00001105-Sentencing-Aggravating-Factors-Amendment.htm
+  oral_answer: false
+  publication_status: A
+  index_on_date: 14
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/b/c/49HansD_20110412_00001105-Sentencing-Aggravating-Factors-Amendment.htm
+  debate_date: 2011-04-12
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Sentencing (Aggravating Factors) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

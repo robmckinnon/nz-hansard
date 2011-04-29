@@ -1,0 +1,109 @@
+--- 
+- name: 2010/09/22/D/001_Business-of-the-House.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00000001-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/e/9/49HansD_20100922_00000001-Business-of-the-House.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2011-04-29
+- name: 2010/09/22/D/002_Speaker-s-Rulings-Prime-Ministerial-Responsibility.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00000011-Speaker-s-Rulings-Prime-Ministerial-Responsibility.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/4/2/49HansD_20100922_00000011-Speaker-s-Rulings-Prime-Ministerial-Responsibility.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Speaker\xE2\x80\x99s Rulings \xE2\x80\x94 Prime Ministerial Responsibility\xE2\x80\x94Confidence in Ministers with Party Roles"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00000022-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/e/e/49HansD_20100922_00000022-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/004_General-Debate.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00000742-General-Debate.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/e/4/49HansD_20100922_00000742-General-Debate.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: General Debate
+  download_date: 2011-04-29
+- name: 2010/09/22/D/005_Christ-s-College-Canterbury-Amendment-Bill.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00000889-Christ-s-College-Canterbury-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/a/4/49HansD_20100922_00000889-Christ-s-College-Canterbury-Amendment-Bill.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Christ\xE2\x80\x99s College (Canterbury) Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/006_Franklin-District-Council-Contribution-to.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00001003-Franklin-District-Council-Contribution-to.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/c/e/49HansD_20100922_00001003-Franklin-District-Council-Contribution-to.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Franklin District Council (Contribution to Funding of Museums) Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/007_Royal-Society-of-New-Zealand-Amendment-Bill.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00001089-Royal-Society-of-New-Zealand-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/0/a/49HansD_20100922_00001089-Royal-Society-of-New-Zealand-Amendment-Bill.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Royal Society of New Zealand Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/008_Sale-of-Liquor-Objections-to-Applications.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00001197-Sale-of-Liquor-Objections-to-Applications.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/5/f/49HansD_20100922_00001197-Sale-of-Liquor-Objections-to-Applications.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Sale of Liquor (Objections to Applications) Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/09/22/D/009_Sittings-of-the-House.htm
+  file_name: 2010/09/22/final/49HansD_20100922_00001325-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/3/c/49HansD_20100922_00001325-Sittings-of-the-House.htm
+  debate_date: 2010-09-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Sittings of the House
+  download_date: 2011-04-29

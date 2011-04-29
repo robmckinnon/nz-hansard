@@ -1,0 +1,61 @@
+--- 
+- name: 2010/08/19/D/001_Business-Statement.htm
+  file_name: 2010/08/19/final/49HansD_20100819_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/7/6/49HansD_20100819_00000001-Business-Statement.htm
+  debate_date: 2010-08-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/08/19/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/08/19/final/49HansD_20100819_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/6/f/49HansD_20100819_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-08-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/08/19/D/003_Employment-Relations-Amendment-Bill-No-2.htm
+  file_name: 2010/08/19/final/49HansD_20100819_00000806-Employment-Relations-Amendment-Bill-No-2.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/4/b/49HansD_20100819_00000806-Employment-Relations-Amendment-Bill-No-2.htm
+  debate_date: 2010-08-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Employment Relations Amendment Bill (No 2) \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/08/19/D/004_Taxation-GST-and-Remedial-Matters-Bill-First.htm
+  file_name: 2010/08/19/final/49HansD_20100819_00001022-Taxation-GST-and-Remedial-Matters-Bill-First.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/f/6/49HansD_20100819_00001022-Taxation-GST-and-Remedial-Matters-Bill-First.htm
+  debate_date: 2010-08-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Taxation (GST and Remedial Matters) Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/08/19/D/005_Holidays-Amendment-Bill-First-Reading.htm
+  file_name: 2010/08/19/final/49HansD_20100819_00001160-Holidays-Amendment-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/a/0/49HansD_20100819_00001160-Holidays-Amendment-Bill-First-Reading.htm
+  debate_date: 2010-08-19
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Holidays Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

@@ -1,0 +1,61 @@
+--- 
+- name: 2010/09/09/D/001_Business-Statement.htm
+  file_name: 2010/09/09/final/49HansD_20100909_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/a/3/49HansD_20100909_00000001-Business-Statement.htm
+  debate_date: 2010-09-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2010/09/09/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/09/09/final/49HansD_20100909_00000023-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/6/4/49HansD_20100909_00000023-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-09-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/09/09/D/003_Private-Security-Personnel-and-Private-Investigators.htm
+  file_name: 2010/09/09/final/49HansD_20100909_00000681-Private-Security-Personnel-and-Private-Investigators.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/5/1/49HansD_20100909_00000681-Private-Security-Personnel-and-Private-Investigators.htm
+  debate_date: 2010-09-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Private Security Personnel and Private Investigators Bill \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29
+- name: 2010/09/09/D/004_Child-and-Family-Protection-Bill-Second.htm
+  file_name: 2010/09/09/final/49HansD_20100909_00000900-Child-and-Family-Protection-Bill-Second.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/e/6/49HansD_20100909_00000900-Child-and-Family-Protection-Bill-Second.htm
+  debate_date: 2010-09-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Child and Family Protection Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/09/09/D/005_Identity-Information-Confirmation-Bill-First.htm
+  file_name: 2010/09/09/final/49HansD_20100909_00001020-Identity-Information-Confirmation-Bill-First.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/e/3/49HansD_20100909_00001020-Identity-Information-Confirmation-Bill-First.htm
+  debate_date: 2010-09-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Identity Information Confirmation Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

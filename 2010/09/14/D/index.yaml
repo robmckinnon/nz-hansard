@@ -1,0 +1,49 @@
+--- 
+- name: 2010/09/14/D/001_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/09/14/final/49HansD_20100914_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/5/1/49HansD_20100914_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-09-14
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers, Questions to Members"
+  download_date: 2011-04-29
+- name: 2010/09/14/D/002_Canterbury-Earthquake-Response-and-Recovery.htm
+  file_name: 2010/09/14/final/49HansD_20100914_00000689-Canterbury-Earthquake-Response-and-Recovery.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/6/2/49HansD_20100914_00000689-Canterbury-Earthquake-Response-and-Recovery.htm
+  debate_date: 2010-09-14
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Canterbury Earthquake Response and Recovery Bill \xE2\x80\x94 Procedure, First Reading, Second Reading"
+  download_date: 2011-04-29
+- name: 2010/09/14/D/003_Amended-Answers-to-Oral-Questions-Question.htm
+  file_name: 2010/09/14/final/49HansD_20100914_00000886-Amended-Answers-to-Oral-Questions-Question.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/7/6/49HansD_20100914_00000886-Amended-Answers-to-Oral-Questions-Question.htm
+  debate_date: 2010-09-14
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Amended Answers to Oral Questions \xE2\x80\x94 Question No. 8 to Minister"
+  download_date: 2011-04-29
+- name: 2010/09/14/D/004_Canterbury-Earthquake-Response-and-Recovery.htm
+  file_name: 2010/09/14/final/49HansD_20100914_00000901-Canterbury-Earthquake-Response-and-Recovery.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/4/9/49HansD_20100914_00000901-Canterbury-Earthquake-Response-and-Recovery.htm
+  debate_date: 2010-09-14
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Canterbury Earthquake Response and Recovery Bill \xE2\x80\x94 Second Reading, In Committee, Third Reading"
+  download_date: 2011-04-29

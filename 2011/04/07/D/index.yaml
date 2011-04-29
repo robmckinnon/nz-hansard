@@ -1,0 +1,73 @@
+--- 
+- name: 2011/04/07/D/001_Business-Statement.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000001-Business-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/a/6/49HansD_20110407_00000001-Business-Statement.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business Statement
+  download_date: 2011-04-29
+- name: 2011/04/07/D/002_Ministerial-Statements-AMI-Insurance-Financial.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000025-Ministerial-Statements-AMI-Insurance-Financial.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/3/2/49HansD_20110407_00000025-Ministerial-Statements-AMI-Insurance-Financial.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Ministerial Statements \xE2\x80\x94 AMI Insurance\xE2\x80\x94Financial Support Package"
+  download_date: 2011-04-29
+- name: 2011/04/07/D/003_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000084-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/c/9/49HansD_20110407_00000084-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2011/04/07/D/004_Appointments-Abortion-Supervisory-Committee.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000672-Appointments-Abortion-Supervisory-Committee.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/5/e/49HansD_20110407_00000672-Appointments-Abortion-Supervisory-Committee.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Appointments \xE2\x80\x94 Abortion Supervisory Committee"
+  download_date: 2011-04-29
+- name: 2011/04/07/D/005_Third-Readings.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000733-Third-Readings.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/c/b/49HansD_20110407_00000733-Third-Readings.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Third Readings
+  download_date: 2011-04-29
+- name: 2011/04/07/D/006_Environmental-Protection-Authority-Bill.htm
+  file_name: 2011/04/07/final/49HansD_20110407_00000833-Environmental-Protection-Authority-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/4/0/49HansD_20110407_00000833-Environmental-Protection-Authority-Bill.htm
+  debate_date: 2011-04-07
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Environmental Protection Authority Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29

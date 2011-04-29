@@ -1,0 +1,85 @@
+--- 
+- name: 2010/05/04/D/001_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/e/4/49HansD_20100504_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/05/04/D/002_Motions-Misuse-of-Drugs-Classification-of.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00000743-Motions-Misuse-of-Drugs-Classification-of.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/e/5/49HansD_20100504_00000743-Motions-Misuse-of-Drugs-Classification-of.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Motions \xE2\x80\x94 Misuse of Drugs (Classification of Ketamine) Order 2009 and the Misuse of Drugs (Presumption of Supply\xE2\x80\x94Ketamine) Order 2009\xE2\x80\x94Approval"
+  download_date: 2011-04-29
+- name: 2010/05/04/D/003_Sentencing-and-Parole-Reform-Bill-Second.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00000789-Sentencing-and-Parole-Reform-Bill-Second.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/6/b/49HansD_20100504_00000789-Sentencing-and-Parole-Reform-Bill-Second.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Sentencing and Parole Reform Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/05/04/D/004_Local-Government-Act-2002-Amendment-Bill.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00000914-Local-Government-Act-2002-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/8/8/49HansD_20100504_00000914-Local-Government-Act-2002-Amendment-Bill.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Local Government Act 2002 Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/05/04/D/005_Business-of-the-House.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00001000-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/e/a/d/49HansD_20100504_00001000-Business-of-the-House.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2011-04-29
+- name: 2010/05/04/D/006_Local-Government-Act-2002-Amendment-Bill.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00001010-Local-Government-Act-2002-Amendment-Bill.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/7/b/6/49HansD_20100504_00001010-Local-Government-Act-2002-Amendment-Bill.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Local Government Act 2002 Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/05/04/D/007_Electoral-Finance-Reform-and-Advance-Voting.htm
+  file_name: 2010/05/04/final/49HansD_20100504_00001074-Electoral-Finance-Reform-and-Advance-Voting.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/3/b/49HansD_20100504_00001074-Electoral-Finance-Reform-and-Advance-Voting.htm
+  debate_date: 2010-05-04
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Electoral (Finance Reform and Advance Voting) Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

@@ -1,0 +1,37 @@
+--- 
+- name: 2011/02/22/D/001_Visitors-United-States-of-America-Congressional.htm
+  file_name: 2011/02/22/final/49HansD_20110222_00000001-Visitors-United-States-of-America-Congressional.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/b/c/49HansD_20110222_00000001-Visitors-United-States-of-America-Congressional.htm
+  debate_date: 2011-02-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Visitors \xE2\x80\x94 United States of America\xE2\x80\x94Congressional Delegation, Norway\xE2\x80\x94Standing Committee on Transport and Communications"
+  download_date: 2011-04-29
+- name: 2011/02/22/D/002_Ministerial-Statements-Earthquake-Christchurch.htm
+  file_name: 2011/02/22/final/49HansD_20110222_00000020-Ministerial-Statements-Earthquake-Christchurch.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/6/0/49HansD_20110222_00000020-Ministerial-Statements-Earthquake-Christchurch.htm
+  debate_date: 2011-02-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Ministerial Statements \xE2\x80\x94 Earthquake\xE2\x80\x94Christchurch"
+  download_date: 2011-04-29
+- name: 2011/02/22/D/003_Sittings-of-the-House.htm
+  file_name: 2011/02/22/final/49HansD_20110222_00000087-Sittings-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/9/a/4/49HansD_20110222_00000087-Sittings-of-the-House.htm
+  debate_date: 2011-02-22
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Sittings of the House
+  download_date: 2011-04-29

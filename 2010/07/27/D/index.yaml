@@ -1,0 +1,37 @@
+--- 
+- name: 2010/07/27/D/001_Amended-Answers-to-Oral-Questions-Question.htm
+  file_name: 2010/07/27/final/49HansD_20100727_00000001-Amended-Answers-to-Oral-Questions-Question.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/6/6/1/49HansD_20100727_00000001-Amended-Answers-to-Oral-Questions-Question.htm
+  debate_date: 2010-07-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Amended Answers to Oral Questions \xE2\x80\x94 Question No. 12 to Minister, 22 July"
+  download_date: 2011-04-29
+- name: 2010/07/27/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/07/27/final/49HansD_20100727_00000016-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/7/3/49HansD_20100727_00000016-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-07-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/07/27/D/003_Estimates-Debate-In-Committee.htm
+  file_name: 2010/07/27/final/49HansD_20100727_00000693-Estimates-Debate-In-Committee.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/6/9/49HansD_20100727_00000693-Estimates-Debate-In-Committee.htm
+  debate_date: 2010-07-27
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Estimates Debate \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29

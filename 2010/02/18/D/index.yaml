@@ -1,0 +1,49 @@
+--- 
+- name: 2010/02/18/D/001_Business-of-the-House.htm
+  file_name: 2010/02/18/final/49HansD_20100218_00000001-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/7/9/49HansD_20100218_00000001-Business-of-the-House.htm
+  debate_date: 2010-02-18
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2011-04-29
+- name: 2010/02/18/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/02/18/final/49HansD_20100218_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/0/8/49HansD_20100218_00000025-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-02-18
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/02/18/D/003_Injury-Prevention-Rehabilitation-and-Compensation.htm
+  file_name: 2010/02/18/final/49HansD_20100218_00000829-Injury-Prevention-Rehabilitation-and-Compensation.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/7/8/49HansD_20100218_00000829-Injury-Prevention-Rehabilitation-and-Compensation.htm
+  debate_date: 2010-02-18
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Injury Prevention, Rehabilitation, and Compensation Amendment Bill \xE2\x80\x94 Second Reading"
+  download_date: 2011-04-29
+- name: 2010/02/18/D/004_Animal-Welfare-Amendment-Bill-First-Reading.htm
+  file_name: 2010/02/18/final/49HansD_20100218_00000962-Animal-Welfare-Amendment-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/5/e/49HansD_20100218_00000962-Animal-Welfare-Amendment-Bill-First-Reading.htm
+  debate_date: 2010-02-18
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Animal Welfare Amendment Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29

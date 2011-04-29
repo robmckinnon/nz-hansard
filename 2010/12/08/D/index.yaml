@@ -1,0 +1,109 @@
+--- 
+- name: 2010/12/08/D/001_By-Election-Mana.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00000001-By-Election-Mana.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/1/2/49HansD_20101208_00000001-By-Election-Mana.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "By-Election \xE2\x80\x94 Mana"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/002_Members-Sworn.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00000011-Members-Sworn.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/0/b/49HansD_20101208_00000011-Members-Sworn.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Members Sworn
+  download_date: 2011-04-29
+- name: 2010/12/08/D/003_Motions-Death-of-New-Zealand-Soldier-in.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00000015-Motions-Death-of-New-Zealand-Soldier-in.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/0/6/a/49HansD_20101208_00000015-Motions-Death-of-New-Zealand-Soldier-in.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Motions \xE2\x80\x94 Death of New Zealand Soldier in Afghanistan\xE2\x80\x94Private John (Jack) Howard, British Army"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/004_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00000033-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/f/7/9/49HansD_20101208_00000033-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/005_General-Debate.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00000827-General-Debate.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/d/5/49HansD_20101208_00000827-General-Debate.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: General Debate
+  download_date: 2011-04-29
+- name: 2010/12/08/D/006_Westpac-New-Zealand-Bill-First-Reading.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00001011-Westpac-New-Zealand-Bill-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 6
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/5/3/49HansD_20101208_00001011-Westpac-New-Zealand-Bill-First-Reading.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Westpac New Zealand Bill \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/007_Inquiries-Inquiry-into-the-Tobacco-Industry.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00001114-Inquiries-Inquiry-into-the-Tobacco-Industry.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 7
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/8/d/1/49HansD_20101208_00001114-Inquiries-Inquiry-into-the-Tobacco-Industry.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Inquiries \xE2\x80\x94 Inquiry into the Tobacco Industry in Aotearoa and the Consequences of Tobacco Use for M\xC4\x81ori \xE2\x80\x94Report of M\xC4\x81ori Affairs Committee"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/008_Electoral-Disqualification-of-Sentenced.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00001199-Electoral-Disqualification-of-Sentenced.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 8
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/1/e/d/49HansD_20101208_00001199-Electoral-Disqualification-of-Sentenced.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Electoral (Disqualification of Sentenced Prisoners) Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2011-04-29
+- name: 2010/12/08/D/009_Education-Freedom-of-Association-Amendment.htm
+  file_name: 2010/12/08/final/49HansD_20101208_00001385-Education-Freedom-of-Association-Amendment.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 9
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/7/c/49HansD_20101208_00001385-Education-Freedom-of-Association-Amendment.htm
+  debate_date: 2010-12-08
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Education (Freedom of Association) Amendment Bill \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29

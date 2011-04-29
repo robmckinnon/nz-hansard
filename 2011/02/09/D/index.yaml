@@ -1,0 +1,37 @@
+--- 
+- name: 2011/02/09/D/001_Business-of-the-House.htm
+  file_name: 2011/02/09/final/49HansD_20110209_00000001-Business-of-the-House.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/d/3/7/49HansD_20110209_00000001-Business-of-the-House.htm
+  debate_date: 2011-02-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: Business of the House
+  download_date: 2011-04-29
+- name: 2011/02/09/D/002_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2011/02/09/final/49HansD_20110209_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/4/0/6/49HansD_20110209_00000011-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2011-02-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers, Questions to Members"
+  download_date: 2011-04-29
+- name: 2011/02/09/D/003_Debate-on-Prime-Minister-s-Statement.htm
+  file_name: 2011/02/09/final/49HansD_20110209_00000703-Debate-on-Prime-Minister-s-Statement.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/b/6/3/49HansD_20110209_00000703-Debate-on-Prime-Minister-s-Statement.htm
+  debate_date: 2011-02-09
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Debate on Prime Minister\xE2\x80\x99s Statement"
+  download_date: 2011-04-29

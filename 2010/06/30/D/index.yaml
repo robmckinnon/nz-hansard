@@ -1,0 +1,61 @@
+--- 
+- name: 2010/06/30/D/001_Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  file_name: 2010/06/30/final/49HansD_20100630_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 1
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/3/2/b/49HansD_20100630_00000001-Questions-for-Oral-Answer-Questions-to-Ministers.htm
+  debate_date: 2010-06-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Questions for Oral Answer \xE2\x80\x94 Questions to Ministers"
+  download_date: 2011-04-29
+- name: 2010/06/30/D/002_General-Debate.htm
+  file_name: 2010/06/30/final/49HansD_20100630_00000768-General-Debate.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 2
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/a/2/9/49HansD_20100630_00000768-General-Debate.htm
+  debate_date: 2010-06-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: General Debate
+  download_date: 2011-04-29
+- name: 2010/06/30/D/003_Education-Amendment-Bill-No-2-First-Reading.htm
+  file_name: 2010/06/30/final/49HansD_20100630_00000905-Education-Amendment-Bill-No-2-First-Reading.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 3
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/5/5/4/49HansD_20100630_00000905-Education-Amendment-Bill-No-2-First-Reading.htm
+  debate_date: 2010-06-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Education Amendment Bill (No 2) \xE2\x80\x94 First Reading"
+  download_date: 2011-04-29
+- name: 2010/06/30/D/004_Courts-Remote-Participation-Bill-In-Committee.htm
+  file_name: 2010/06/30/final/49HansD_20100630_00001105-Courts-Remote-Participation-Bill-In-Committee.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 4
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/2/d/3/49HansD_20100630_00001105-Courts-Remote-Participation-Bill-In-Committee.htm
+  debate_date: 2010-06-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Courts (Remote Participation) Bill \xE2\x80\x94 In Committee"
+  download_date: 2011-04-29
+- name: 2010/06/30/D/005_Residential-Tenancies-Amendment-Bill-Third.htm
+  file_name: 2010/06/30/final/49HansD_20100630_00001382-Residential-Tenancies-Amendment-Bill-Third.htm
+  oral_answer: false
+  publication_status: F
+  index_on_date: 5
+  parliament_url: http://www.parliament.nz/en-NZ/PB/Debates/Debates/c/2/9/49HansD_20100630_00001382-Residential-Tenancies-Amendment-Bill-Third.htm
+  debate_date: 2010-06-30
+  downloaded: true
+  persisted_date: 
+  persisted: false
+  parliament_name: "Residential Tenancies Amendment Bill \xE2\x80\x94 Third Reading"
+  download_date: 2011-04-29
